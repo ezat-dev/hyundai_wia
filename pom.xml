@@ -286,12 +286,21 @@
 	    <groupId>org.apache.poi</groupId>
 	    <artifactId>poi-ooxml</artifactId>
 	    <version>5.0.0</version>
-	</dependency>	
+	</dependency>
 	<!-- qr코드 -->
 	<dependency>
 	    <groupId>com.google.zxing</groupId>
 	    <artifactId>core</artifactId>
 	    <version>3.4.1</version>
+	</dependency>
+
+	<!-- 트렌드 차트 PNG 생성 (서버 사이드). 마이브 저장소가 아닌 webapp/WEB-INF/lib에 jar를 직접 번들 (오프라인 현장 PC 빌드 대응) -->
+	<dependency>
+	    <groupId>org.jfree</groupId>
+	    <artifactId>jfreechart</artifactId>
+	    <version>1.5.4</version>
+	    <scope>system</scope>
+	    <systemPath>${project.basedir}/webapp/WEB-INF/lib/jfreechart-1.5.4.jar</systemPath>
 	</dependency>
 	
 	<dependency>

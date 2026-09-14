@@ -2,6 +2,8 @@ package com.wia.controller;
 
 import java.util.concurrent.ExecutionException;
 
+import javax.servlet.http.HttpSession;
+
 import org.eclipse.milo.opcua.sdk.client.OpcUaClient;
 import org.eclipse.milo.opcua.stack.core.UaException;
 import org.springframework.stereotype.Controller;
@@ -29,9 +31,11 @@ public class MainController {
     
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home() {
-		
-		return "/overviewCm/overviewCm.jsp";
+	public String home(HttpSession session) {
+		if (session.getAttribute("user") != null) {
+			return "redirect:/main";
+		}
+		return "redirect:/login";
 	}
 	
 

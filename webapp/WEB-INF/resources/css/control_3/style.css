@@ -29,8 +29,13 @@
   background: #ffb341;
   border-radius: 5px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 263px;
   height: 104px;
   position: absolute;
@@ -57,8 +62,13 @@
 .diffing-hit-off {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -77,8 +87,13 @@
 .diffing-hit-on {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -98,8 +113,13 @@
   background: #ffb341;
   border-radius: 5px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 263px;
   height: 105px;
   position: absolute;
@@ -126,8 +146,13 @@
 .rins-hit-off {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -146,8 +171,13 @@
 .rins-hit-on {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -167,8 +197,13 @@
   background: #ffb341;
   border-radius: 5px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 263px;
   height: 104px;
   position: absolute;
@@ -195,8 +230,13 @@
 .tem-1-off {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -215,8 +255,13 @@
 .tem-1-on {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -236,8 +281,13 @@
   background: #ffb341;
   border-radius: 5px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 263px;
   height: 105px;
   position: absolute;
@@ -264,8 +314,13 @@
 .tem-2-off {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -284,8 +339,13 @@
 .tem-2-on {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -305,8 +365,13 @@
   background: #ffb341;
   border-radius: 5px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 263px;
   height: 104px;
   position: absolute;
@@ -333,8 +398,13 @@
 .tem-3-off {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -353,8 +423,13 @@
 .tem-3-on {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -374,8 +449,13 @@
   background: #2bccef;
   border-radius: 5px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 263px;
   height: 104px;
   position: absolute;
@@ -402,8 +482,13 @@
 .tem-1-pen-off {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -422,8 +507,13 @@
 .tem-1-pen-on {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -443,8 +533,13 @@
   background: #2bccef;
   border-radius: 5px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 263px;
   height: 105px;
   position: absolute;
@@ -471,8 +566,13 @@
 .tem-2-pen-off {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -491,8 +591,13 @@
 .tem-2-pen-on {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -512,8 +617,13 @@
   background: #2bccef;
   border-radius: 5px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 263px;
   height: 104px;
   position: absolute;
@@ -540,8 +650,13 @@
 .tem-3-pen-off {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -560,8 +675,13 @@
 .tem-3-pen-on {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -581,8 +701,13 @@
   background: #2bccef;
   border-radius: 5px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 263px;
   height: 143px;
   position: absolute;
@@ -609,8 +734,13 @@
 .diffing-oil-manual {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -629,8 +759,13 @@
 .diffing-oil-auto {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -649,8 +784,13 @@
 .diffing-oil-off {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -670,8 +810,13 @@
   background: #2bccef;
   border-radius: 5px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 263px;
   height: 143px;
   position: absolute;
@@ -698,8 +843,13 @@
 .rins-oil-manual {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -718,8 +868,13 @@
 .rins-oil-auto {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -738,8 +893,13 @@
 .rins-oil-off {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;

@@ -35,6 +35,7 @@
        background: none;
    
        -webkit-font-smoothing: antialiased;
+font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
    }
    
    menu, ol, ul {
@@ -42,6 +43,9 @@
        margin: 0;
        padding: 0;
    }
+   html, body { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #f1f5f9; }
+   .wia-fit-stage-outer { width: 100%; height: 100%; overflow: hidden; position: relative; }
+   .wia-fit-stage { width: 1918px; height: 900px; position: absolute; left: 0; top: 0; transform-origin: 0 0; }
    </style>
   <title>Document</title>
 </head>
@@ -49,13 +53,13 @@
 
 
 <body>
+  <%@ include file="/WEB-INF/views/layout/common_style.jsp" %>
+  <div class="wia-fit-stage-outer">
+  <div class="wia-fit-stage" id="wiaFitStage">
   <div class="overview-1">
-    
-      <div class="header"><%@ include file="/WEB-INF/resources/header/index.jsp" %></div>
-
-       <div id="ft">  <%@ include file="/WEB-INF/resources/footer/index.jsp" %></div>
       <div class="main">
-       
+
+    <div class="wia-mirror-wrap" style="position:absolute;left:0;top:0;width:1918px;height:900px;transform:scaleX(-1);">
     <img class="ccf" src="/DHT/image/overview_1/ccf0.png" />
     <div class="ccf-floor"></div>
     <div class="ccf-floor-box"></div>
@@ -65,27 +69,27 @@
     <div class="ccf-tray-3"></div>
     <div class="ccf-tray-32"></div>
     <div class="clutchon-box-1">
-	    <div class="clutchon-text-1">
+	    <div class="clutchon-text-1" style="transform:scaleX(-1);">
 	      CLUTCH
 	      <br />
 	      ON
 	    </div>
     </div>
     <div class="clutchon-box-2">
-	    <div class="clutchon-text-2">
+	    <div class="clutchon-text-2" style="transform:scaleX(-1);">
 	      CLUTCH
 	      <br />
 	      ON
 	    </div>
     </div>
     <div class="down-box-1"></div>
-    <div class="down-text-1">하강</div>
+    <div class="down-text-1" style="transform:scaleX(-1);">하강</div>
     <div class="up-box-1"></div>
-    <div class="up-text-1">상승</div>
+    <div class="up-text-1" style="transform:scaleX(-1);">상승</div>
     <div class="down-box-2"></div>
-    <div class="down-text-2">하강</div>
+    <div class="down-text-2" style="transform:scaleX(-1);">하강</div>
     <div class="down-box-3"></div>
-    <div class="down-text-3">하강</div>
+    <div class="down-text-3" style="transform:scaleX(-1);">하강</div>
     <img class="short-1" src="/DHT/image/overview_1/short-10.png" />
     <img class="tempering-lifter" src="/DHT/image/overview_1/tempering-lifter0.png" />
     <img class="short-3" src="/DHT/image/overview_1/short-30.png" />
@@ -248,6 +252,7 @@
     <img class="sensor-green-11" src="/DHT/image/overview_1/sensor-green-110.png" />
     <img class="sensor-red-12" src="/DHT/image/overview_1/sensor-red-120.png" />
     <img class="sensor-green-12" src="/DHT/image/overview_1/sensor-green-120.png" />
+    </div>
     <div class="cycle-box"></div>
     <div class="cycle-text-box"></div>
     <div class="cycle-text">싸이클 변경 대기시간</div>
@@ -376,6 +381,7 @@
     <div class="exit-loading-tray-2-text">트레이2</div>
     <div class="exit-loading-tray-1-value"></div>
     <div class="exit-loading-tray-2-value"></div>
+    <div class="wia-mirror-wrap" style="position:absolute;left:0;top:0;width:1918px;height:900px;transform:scaleX(-1);">
     <img class="pre-mini-bar-1" src="/DHT/image/overview_1/pre-mini-bar-10.png" />
     <img class="pre-mini-bar-2" src="/DHT/image/overview_1/pre-mini-bar-20.png" />
     <img class="pre-mini-bar-3" src="/DHT/image/overview_1/pre-mini-bar-30.png" />
@@ -474,9 +480,24 @@
     <img class="tong-26" src="/DHT/image/overview_1/tong-260.png" />
     <img class="tong-27" src="/DHT/image/overview_1/tong-270.png" />
     <img class="tong-28" src="/DHT/image/overview_1/tong-280.png" />
+    </div>
     <div class="frame-1"></div>
   </div>
 </div>
+  </div>
+  </div>
+<script>
+
+//전역변수(화면 맞춤)
+function wiaFitStageResize(){
+	var stage = document.getElementById('wiaFitStage');
+	if(!stage) return;
+	var scale = Math.min(window.innerWidth/1918, window.innerHeight/900);
+	stage.style.transform = "scale(" + scale + ")";
+}
+window.addEventListener('resize', wiaFitStageResize);
+wiaFitStageResize();
+</script>
 <script>
 
 //전역변수

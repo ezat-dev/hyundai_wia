@@ -728,8 +728,10 @@
 .door-yellow-1 {
   background: #fff500;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 10px;
   height: 108px;
   position: absolute;
@@ -741,8 +743,10 @@
 .door-yellow-2 {
   background: #fff500;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 10px;
   height: 108px;
   position: absolute;
@@ -754,8 +758,10 @@
 .door-yellow-3 {
   background: #fff500;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 10px;
   height: 98px;
   position: absolute;
@@ -767,8 +773,10 @@
 .door-yellow-4 {
   background: #fff500;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 10px;
   height: 98px;
   position: absolute;
@@ -780,8 +788,10 @@
 .door-yellow-5 {
   background: #fff500;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 10px;
   height: 98px;
   position: absolute;
@@ -793,8 +803,10 @@
 .door-yellow-6 {
   background: #fff500;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 10px;
   height: 98px;
   position: absolute;
@@ -806,8 +818,10 @@
 .door-yellow-7 {
   background: #fff500;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 11px;
   height: 60px;
   position: absolute;
@@ -819,8 +833,10 @@
 .door-yellow-8 {
   background: #fff500;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 10px;
   height: 94px;
   position: absolute;
@@ -832,8 +848,10 @@
 .door-yellow-9 {
   background: #fff500;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 10px;
   height: 89px;
   position: absolute;
@@ -845,8 +863,10 @@
 .door-yellow-10 {
   background: #fff500;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 10px;
   height: 89px;
   position: absolute;
@@ -858,8 +878,10 @@
 .door-yellow-11 {
   background: #fff500;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 10px;
   height: 89px;
   position: absolute;
@@ -871,8 +893,10 @@
 .door-yellow-12 {
   background: #fff500;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 10px;
   height: 89px;
   position: absolute;
@@ -884,8 +908,10 @@
 .door-yellow-13 {
   background: #fff500;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 10px;
   height: 89px;
   position: absolute;
@@ -897,8 +923,10 @@
 .door-yellow-14 {
   background: #fff500;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 10px;
   height: 86px;
   position: absolute;
@@ -910,8 +938,10 @@
 .door-yellow-15 {
   background: #fff500;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 10px;
   height: 86px;
   position: absolute;
@@ -923,8 +953,10 @@
 .door-yellow-16 {
   background: #fff500;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 10px;
   height: 86px;
   position: absolute;
@@ -936,8 +968,10 @@
 .clutchon-box-1 {
   background: #1cbf0a;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 58px;
   height: 27px;
   position: absolute;
@@ -947,8 +981,8 @@
 .clutchon-text-1 {
   color: #000000;
   text-align: center;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 11px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 799px;
@@ -957,8 +991,10 @@
 .clutchon-box-2 {
   background: #1cbf0a;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 58px;
   height: 27px;
   position: absolute;
@@ -968,8 +1004,8 @@
 .clutchon-text-2 {
   color: #000000;
   text-align: center;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 11px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 528px;
@@ -980,6 +1016,8 @@
   border-style: solid;
   border-color: #cdcdcd;
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 39px;
   height: 16px;
   position: absolute;
@@ -989,9 +1027,9 @@
 .up-text-1 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 13px;
-  font-weight: 400;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
   position: absolute;
   left: 1139px;
   top: 339px;
@@ -1001,6 +1039,8 @@
   border-style: solid;
   border-color: #cdcdcd;
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 39px;
   height: 16px;
   position: absolute;
@@ -1010,9 +1050,9 @@
 .down-text-2 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 13px;
-  font-weight: 400;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
   position: absolute;
   left: 1249px;
   top: 339px;
@@ -1022,6 +1062,8 @@
   border-style: solid;
   border-color: #cdcdcd;
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 39px;
   height: 16px;
   position: absolute;
@@ -1031,9 +1073,9 @@
 .down-text-22 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 13px;
-  font-weight: 400;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
   position: absolute;
   left: 1047px;
   top: 339px;
@@ -1043,6 +1085,8 @@
   border-style: solid;
   border-color: #cdcdcd;
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 39px;
   height: 16px;
   position: absolute;
@@ -1052,9 +1096,9 @@
 .down-text-23 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 13px;
-  font-weight: 400;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
   position: absolute;
   left: 948px;
   top: 339px;
@@ -1064,6 +1108,8 @@
   border-style: solid;
   border-color: #cdcdcd;
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 39px;
   height: 16px;
   position: absolute;
@@ -1073,9 +1119,9 @@
 .down-text-24 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 13px;
-  font-weight: 400;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
   position: absolute;
   left: 1101px;
   top: 681px;
@@ -1197,8 +1243,10 @@
 .rectangle-1 {
   background: #666666;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 1334px;
   height: 100px;
   position: absolute;
@@ -1208,8 +1256,10 @@
 .rectangle-12 {
   background: #666666;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 743px;
   height: 101px;
   position: absolute;
@@ -1219,8 +1269,8 @@
 .process-data-text {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 14px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 55px;
@@ -1240,8 +1290,10 @@
   background: #123478;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 66px;
   height: 17px;
   position: absolute;
@@ -1252,8 +1304,10 @@
   background: #004ade;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 66px;
   height: 16px;
   position: absolute;
@@ -1263,8 +1317,8 @@
 .time-sp-text {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 10px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 12px;
   font-weight: 700;
   position: absolute;
   left: 73px;
@@ -1275,8 +1329,8 @@
 .time-pv-text {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 10px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 12px;
   font-weight: 700;
   position: absolute;
   left: 73px;
@@ -1288,8 +1342,10 @@
   background: #123478;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 89px;
   height: 64px;
   position: absolute;
@@ -1299,8 +1355,8 @@
 .pre-text {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 13px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 148px;
@@ -1312,8 +1368,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -1324,8 +1382,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -1336,8 +1396,10 @@
   background: #123478;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 89px;
   height: 64px;
   position: absolute;
@@ -1347,8 +1409,8 @@
 .pre-text2 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 13px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 243px;
@@ -1360,8 +1422,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -1372,8 +1436,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -1384,8 +1450,10 @@
   background: #123478;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 89px;
   height: 64px;
   position: absolute;
@@ -1395,8 +1463,8 @@
 .pre-text3 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 13px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 335px;
@@ -1408,8 +1476,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -1420,8 +1490,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -1432,8 +1504,10 @@
   background: #123478;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 89px;
   height: 64px;
   position: absolute;
@@ -1443,8 +1517,8 @@
 .pre-text4 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 13px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 429px;
@@ -1456,8 +1530,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -1468,8 +1544,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -1480,8 +1558,10 @@
   background: #123478;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 90px;
   height: 64px;
   position: absolute;
@@ -1491,8 +1571,8 @@
 .pre-text5 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 13px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 528px;
@@ -1504,8 +1584,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 80px;
   height: 20px;
   position: absolute;
@@ -1516,8 +1598,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 80px;
   height: 20px;
   position: absolute;
@@ -1528,8 +1612,10 @@
   background: #123478;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 89px;
   height: 64px;
   position: absolute;
@@ -1539,8 +1625,8 @@
 .pre-text6 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 13px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 619px;
@@ -1552,8 +1638,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -1564,8 +1652,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -1576,8 +1666,10 @@
   background: #123478;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 89px;
   height: 64px;
   position: absolute;
@@ -1587,8 +1679,8 @@
 .pre-text7 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 13px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 712px;
@@ -1600,8 +1692,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -1612,8 +1706,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -1624,8 +1720,10 @@
   background: #123478;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 90px;
   height: 64px;
   position: absolute;
@@ -1635,8 +1733,8 @@
 .pre-text8 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 13px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 817px;
@@ -1648,8 +1746,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 80px;
   height: 20px;
   position: absolute;
@@ -1660,8 +1760,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 80px;
   height: 20px;
   position: absolute;
@@ -1672,8 +1774,10 @@
   background: #123478;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 89px;
   height: 64px;
   position: absolute;
@@ -1683,8 +1787,8 @@
 .pre-text9 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 13px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 906px;
@@ -1696,8 +1800,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -1708,8 +1814,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -1719,8 +1827,8 @@
 .process-data-text2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 14px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 54px;
@@ -1741,8 +1849,10 @@
   background: #123478;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 65px;
   height: 17px;
   position: absolute;
@@ -1753,8 +1863,10 @@
   background: #004ade;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 65px;
   height: 17px;
   position: absolute;
@@ -1764,8 +1876,8 @@
 .time-sp-text2 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 10px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 12px;
   font-weight: 700;
   position: absolute;
   left: 71px;
@@ -1776,8 +1888,8 @@
 .time-pv-text2 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 10px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 12px;
   font-weight: 700;
   position: absolute;
   left: 71px;
@@ -1789,8 +1901,10 @@
   background: #123478;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 89px;
   height: 64px;
   position: absolute;
@@ -1800,8 +1914,8 @@
 .pre-text10 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 13px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 146px;
@@ -1813,8 +1927,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -1825,8 +1941,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -1837,8 +1955,10 @@
   background: #123478;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 90px;
   height: 64px;
   position: absolute;
@@ -1848,8 +1968,8 @@
 .pre-text11 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 13px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 234px;
@@ -1861,8 +1981,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -1873,8 +1995,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -1885,8 +2009,10 @@
   background: #123478;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 89px;
   height: 64px;
   position: absolute;
@@ -1896,8 +2022,8 @@
 .pre-text12 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 13px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 329px;
@@ -1909,8 +2035,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -1921,8 +2049,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -1933,8 +2063,10 @@
   background: #123478;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 89px;
   height: 64px;
   position: absolute;
@@ -1944,8 +2076,8 @@
 .pre-text13 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 13px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 430px;
@@ -1957,8 +2089,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -1969,8 +2103,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -1981,8 +2117,10 @@
   background: #123478;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 89px;
   height: 64px;
   position: absolute;
@@ -1992,8 +2130,8 @@
 .pre-text14 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 13px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 505px;
@@ -2005,8 +2143,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -2017,8 +2157,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -2029,8 +2171,10 @@
   background: #123478;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 90px;
   height: 64px;
   position: absolute;
@@ -2040,8 +2184,8 @@
 .pre-text15 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 13px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 606px;
@@ -2053,8 +2197,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -2065,8 +2211,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -2077,8 +2225,10 @@
   background: #123478;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 89px;
   height: 64px;
   position: absolute;
@@ -2088,8 +2238,8 @@
 .pre-text16 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 13px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 707px;
@@ -2101,8 +2251,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -2113,8 +2265,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -2124,8 +2278,8 @@
 .process-data-text3 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 14px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 1021px;
@@ -2146,8 +2300,10 @@
   background: #123478;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 66px;
   height: 17px;
   position: absolute;
@@ -2158,8 +2314,10 @@
   background: #004ade;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 66px;
   height: 17px;
   position: absolute;
@@ -2169,8 +2327,8 @@
 .time-sp-text3 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 10px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 12px;
   font-weight: 700;
   position: absolute;
   left: 1039px;
@@ -2181,8 +2339,8 @@
 .time-pv-text3 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 10px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 12px;
   font-weight: 700;
   position: absolute;
   left: 1039px;
@@ -2194,8 +2352,10 @@
   background: #123478;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 89px;
   height: 64px;
   position: absolute;
@@ -2205,8 +2365,8 @@
 .pre-text17 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 13px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 1114px;
@@ -2218,8 +2378,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -2230,8 +2392,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -2242,8 +2406,10 @@
   background: #123478;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 89px;
   height: 64px;
   position: absolute;
@@ -2253,8 +2419,8 @@
 .pre-text18 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 13px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 1210px;
@@ -2266,8 +2432,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -2278,8 +2446,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -2290,8 +2460,10 @@
   background: #123478;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 89px;
   height: 64px;
   position: absolute;
@@ -2301,8 +2473,8 @@
 .pre-text19 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 13px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 1310px;
@@ -2314,8 +2486,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -2326,8 +2500,10 @@
   background: #ffffff;
   border-radius: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   width: 81px;
   height: 20px;
   position: absolute;
@@ -2682,8 +2858,8 @@
 .process-data-text4 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 1121px;
@@ -2693,8 +2869,8 @@
 .process-data-text5 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 1149px;
@@ -2704,8 +2880,8 @@
 .process-data-text6 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 1148px;
@@ -2750,8 +2926,8 @@
 .process-data-text7 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 938px;
@@ -2761,8 +2937,8 @@
 .process-data-text8 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 966px;
@@ -2772,8 +2948,8 @@
 .process-data-text9 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 965px;
@@ -2818,8 +2994,8 @@
 .process-data-text10 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 781px;
@@ -2829,8 +3005,8 @@
 .process-data-text11 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 781px;
@@ -2840,8 +3016,8 @@
 .process-data-text12 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 809px;
@@ -2851,8 +3027,8 @@
 .process-data-text13 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 808px;
@@ -2897,8 +3073,8 @@
 .process-data-text14 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 645px;
@@ -2933,8 +3109,8 @@
 .process-data-text15 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 513px;
@@ -2944,8 +3120,8 @@
 .process-data-text16 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 513px;
@@ -2955,8 +3131,8 @@
 .process-data-text17 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 541px;
@@ -2966,8 +3142,8 @@
 .process-data-text18 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 540px;
@@ -3020,8 +3196,8 @@
 .process-data-text19 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 415px;
@@ -3031,8 +3207,8 @@
 .process-data-text20 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 443px;
@@ -3042,8 +3218,8 @@
 .process-data-text21 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 442px;
@@ -3088,8 +3264,8 @@
 .process-data-text22 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 317px;
@@ -3099,8 +3275,8 @@
 .process-data-text23 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 317px;
@@ -3110,8 +3286,8 @@
 .process-data-text24 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 345px;
@@ -3121,8 +3297,8 @@
 .process-data-text25 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 15px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   position: absolute;
   left: 344px;
@@ -3167,8 +3343,8 @@
 .process-data-text26 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 10px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 12px;
   font-weight: 700;
   position: absolute;
   left: 228px;
@@ -3197,8 +3373,8 @@
 .process-data-text27 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 10px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 12px;
   font-weight: 700;
   position: absolute;
   left: 316px;

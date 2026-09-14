@@ -52,8 +52,13 @@ html, body {
 
 .pen-inv-box {
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 1688px;
   height: 433px;
   position: absolute;
@@ -71,9 +76,9 @@ html, body {
 .pen-inv-text {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 134px;
   top: 113px;
@@ -94,7 +99,7 @@ html, body {
 .pre-pen-sp-text {
   color: #08941e;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -112,7 +117,7 @@ html, body {
 .hz {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -120,9 +125,9 @@ html, body {
   top: 234px;
 }
 .pre-pen-pv-text {
-  color: #c775e3;
+  color: #9333ea;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -140,7 +145,7 @@ html, body {
 .hz2 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -148,9 +153,9 @@ html, body {
   top: 255px;
 }
 .pre-pen-out-a-text {
-  color: #ffd600;
+  color: #ca8a04;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -168,7 +173,7 @@ html, body {
 .a {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -178,7 +183,7 @@ html, body {
 .pre-pen-out-v-text {
   color: #b76e00;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -196,7 +201,7 @@ html, body {
 .v {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -214,7 +219,7 @@ html, body {
 .pre-pen-text {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -237,7 +242,7 @@ html, body {
 .hit-pen-sp-text {
   color: #08941e;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -255,7 +260,7 @@ html, body {
 .hz3 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -263,9 +268,9 @@ html, body {
   top: 235px;
 }
 .hit-pen-pv-text {
-  color: #c775e3;
+  color: #9333ea;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -283,7 +288,7 @@ html, body {
 .hz4 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -291,9 +296,9 @@ html, body {
   top: 256px;
 }
 .hit-pen-out-a-text {
-  color: #ffd600;
+  color: #ca8a04;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -311,7 +316,7 @@ html, body {
 .a2 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -321,7 +326,7 @@ html, body {
 .hit-pen-out-v-text {
   color: #b76e00;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -339,7 +344,7 @@ html, body {
 .v2 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -357,7 +362,7 @@ html, body {
 .hit-pen-text {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -380,7 +385,7 @@ html, body {
 .chim-pen-sp-text-1 {
   color: #08941e;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -398,7 +403,7 @@ html, body {
 .hz5 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -406,9 +411,9 @@ html, body {
   top: 235px;
 }
 .chim-pen-pv-text-1 {
-  color: #c775e3;
+  color: #9333ea;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -426,7 +431,7 @@ html, body {
 .hz6 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -434,9 +439,9 @@ html, body {
   top: 256px;
 }
 .chim-pen-out-a-text-1 {
-  color: #ffd600;
+  color: #ca8a04;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -454,7 +459,7 @@ html, body {
 .a3 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -464,7 +469,7 @@ html, body {
 .chim-pen-out-v-text-1 {
   color: #b76e00;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -482,7 +487,7 @@ html, body {
 .v3 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -500,7 +505,7 @@ html, body {
 .chim-pen-inv-text-1 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -523,7 +528,7 @@ html, body {
 .chim-pen-sp-text-2 {
   color: #08941e;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -541,7 +546,7 @@ html, body {
 .hz7 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -549,9 +554,9 @@ html, body {
   top: 235px;
 }
 .chim-pen-pv-text-2 {
-  color: #c775e3;
+  color: #9333ea;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -569,7 +574,7 @@ html, body {
 .hz8 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -577,9 +582,9 @@ html, body {
   top: 256px;
 }
 .chim-pen-out-a-text-2 {
-  color: #ffd600;
+  color: #ca8a04;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -597,7 +602,7 @@ html, body {
 .a4 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -607,7 +612,7 @@ html, body {
 .chim-pen-out-v-text-2 {
   color: #b76e00;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -625,7 +630,7 @@ html, body {
 .v4 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -643,7 +648,7 @@ html, body {
 .chim-pen-inv-text-2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -666,7 +671,7 @@ html, body {
 .diff-pen-sp-text {
   color: #08941e;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -684,7 +689,7 @@ html, body {
 .hz9 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -692,9 +697,9 @@ html, body {
   top: 235px;
 }
 .diff-pen-pv-text {
-  color: #c775e3;
+  color: #9333ea;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -712,7 +717,7 @@ html, body {
 .hz10 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -720,9 +725,9 @@ html, body {
   top: 256px;
 }
 .diff-pen-out-a-text {
-  color: #ffd600;
+  color: #ca8a04;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -740,7 +745,7 @@ html, body {
 .a5 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -750,7 +755,7 @@ html, body {
 .diff-pen-out-v-text {
   color: #b76e00;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -768,7 +773,7 @@ html, body {
 .v5 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -786,7 +791,7 @@ html, body {
 .diff-pen-inv-text {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -809,7 +814,7 @@ html, body {
 .crack-pen-sp-text-1 {
   color: #08941e;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -827,7 +832,7 @@ html, body {
 .hz11 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -835,9 +840,9 @@ html, body {
   top: 235px;
 }
 .crack-pen-pv-text-1 {
-  color: #c775e3;
+  color: #9333ea;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -855,7 +860,7 @@ html, body {
 .hz12 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -863,9 +868,9 @@ html, body {
   top: 256px;
 }
 .crack-pen-out-a-text-1 {
-  color: #ffd600;
+  color: #ca8a04;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -883,7 +888,7 @@ html, body {
 .a6 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -893,7 +898,7 @@ html, body {
 .crack-pen-out-v-text-1 {
   color: #b76e00;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -911,7 +916,7 @@ html, body {
 .v6 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -929,7 +934,7 @@ html, body {
 .crack-pen-inv-text-1 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -952,7 +957,7 @@ html, body {
 .crack-pen-sp-text-2 {
   color: #08941e;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -970,7 +975,7 @@ html, body {
 .hz13 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -978,9 +983,9 @@ html, body {
   top: 432px;
 }
 .crack-pen-pv-text-2 {
-  color: #c775e3;
+  color: #9333ea;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -998,7 +1003,7 @@ html, body {
 .hz14 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1006,9 +1011,9 @@ html, body {
   top: 453px;
 }
 .crack-pen-out-a-text-2 {
-  color: #ffd600;
+  color: #ca8a04;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1026,7 +1031,7 @@ html, body {
 .a7 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1036,7 +1041,7 @@ html, body {
 .crack-pen-out-v-text-2 {
   color: #b76e00;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1054,7 +1059,7 @@ html, body {
 .v7 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1072,7 +1077,7 @@ html, body {
 .crack-pen-inv-text-2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -1095,7 +1100,7 @@ html, body {
 .oil-agi-pen-sp-text {
   color: #08941e;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1113,7 +1118,7 @@ html, body {
 .hz15 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1121,9 +1126,9 @@ html, body {
   top: 432px;
 }
 .oil-agi-pen-pv-text {
-  color: #c775e3;
+  color: #9333ea;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1141,7 +1146,7 @@ html, body {
 .hz16 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1149,9 +1154,9 @@ html, body {
   top: 453px;
 }
 .oil-agi-pen-out-a-text {
-  color: #ffd600;
+  color: #ca8a04;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1169,7 +1174,7 @@ html, body {
 .a8 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1179,7 +1184,7 @@ html, body {
 .oil-agi-pen-out-v-text {
   color: #b76e00;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1197,7 +1202,7 @@ html, body {
 .v8 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1215,7 +1220,7 @@ html, body {
 .oil-agi-inv-text {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -1224,8 +1229,13 @@ html, body {
 }
 .roll-inv-box {
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 1688px;
   height: 241px;
   position: absolute;
@@ -1243,9 +1253,9 @@ html, body {
 .roll-inv-text {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 124px;
   top: 576px;
@@ -1266,7 +1276,7 @@ html, body {
 .pre-roll-inv-sp-text {
   color: #08941e;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1284,7 +1294,7 @@ html, body {
 .hz17 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1292,9 +1302,9 @@ html, body {
   top: 703px;
 }
 .pre-roll-inv-pv-text {
-  color: #c775e3;
+  color: #9333ea;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1312,7 +1322,7 @@ html, body {
 .hz18 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1320,9 +1330,9 @@ html, body {
   top: 724px;
 }
 .pre-roll-inv-out-a-text {
-  color: #ffd600;
+  color: #ca8a04;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1340,7 +1350,7 @@ html, body {
 .a9 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1350,7 +1360,7 @@ html, body {
 .pre-roll-inv-out-v-text {
   color: #b76e00;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1368,7 +1378,7 @@ html, body {
 .v9 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1386,7 +1396,7 @@ html, body {
 .pre-roll-inv-text {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -1409,7 +1419,7 @@ html, body {
 .hit-roll-inv-sp-text {
   color: #08941e;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1427,7 +1437,7 @@ html, body {
 .hz19 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1435,9 +1445,9 @@ html, body {
   top: 704px;
 }
 .hit-roll-inv-pv-text {
-  color: #c775e3;
+  color: #9333ea;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1455,7 +1465,7 @@ html, body {
 .hz20 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1463,9 +1473,9 @@ html, body {
   top: 725px;
 }
 .hit-roll-inv-out-a-text {
-  color: #ffd600;
+  color: #ca8a04;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1483,7 +1493,7 @@ html, body {
 .a10 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1493,7 +1503,7 @@ html, body {
 .hit-roll-inv-out-v-text {
   color: #b76e00;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1511,7 +1521,7 @@ html, body {
 .v10 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1529,7 +1539,7 @@ html, body {
 .hit-roll-inv-text {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -1552,7 +1562,7 @@ html, body {
 .chim-roll-inv-sp-text {
   color: #08941e;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1570,7 +1580,7 @@ html, body {
 .hz21 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1578,9 +1588,9 @@ html, body {
   top: 704px;
 }
 .chim-roll-inv-pv-text {
-  color: #c775e3;
+  color: #9333ea;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1598,7 +1608,7 @@ html, body {
 .hz22 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1606,9 +1616,9 @@ html, body {
   top: 725px;
 }
 .chim-roll-inv-out-a-text {
-  color: #ffd600;
+  color: #ca8a04;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1626,7 +1636,7 @@ html, body {
 .a11 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1636,7 +1646,7 @@ html, body {
 .chim-roll-inv-out-v-text {
   color: #b76e00;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1654,7 +1664,7 @@ html, body {
 .v11 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1672,7 +1682,7 @@ html, body {
 .chin-roll-inv-text {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -1695,7 +1705,7 @@ html, body {
 .diff-roll-inv-sp-text {
   color: #08941e;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1713,7 +1723,7 @@ html, body {
 .hz23 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1721,9 +1731,9 @@ html, body {
   top: 704px;
 }
 .diff-roll-inv-pv-text {
-  color: #c775e3;
+  color: #9333ea;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1741,7 +1751,7 @@ html, body {
 .hz24 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1749,9 +1759,9 @@ html, body {
   top: 725px;
 }
 .diff-roll-inv-out-a-text {
-  color: #ffd600;
+  color: #ca8a04;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1769,7 +1779,7 @@ html, body {
 .a12 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1779,7 +1789,7 @@ html, body {
 .diff-roll-inv-out-v-text {
   color: #b76e00;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1797,7 +1807,7 @@ html, body {
 .v12 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1815,7 +1825,7 @@ html, body {
 .diff-roll-inv-text {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -1838,7 +1848,7 @@ html, body {
 .crack-roll-inv-sp-text-1 {
   color: #08941e;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1856,7 +1866,7 @@ html, body {
 .hz25 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1864,9 +1874,9 @@ html, body {
   top: 704px;
 }
 .crack-roll-inv-pv-text-1 {
-  color: #c775e3;
+  color: #9333ea;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1884,7 +1894,7 @@ html, body {
 .hz26 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1892,9 +1902,9 @@ html, body {
   top: 725px;
 }
 .crack-roll-inv-out-a-text-1 {
-  color: #ffd600;
+  color: #ca8a04;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1912,7 +1922,7 @@ html, body {
 .a13 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1922,7 +1932,7 @@ html, body {
 .crack-roll-inv-out-v-text-1 {
   color: #b76e00;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1940,7 +1950,7 @@ html, body {
 .v13 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -1958,7 +1968,7 @@ html, body {
 .crack-roll-inv-text-1 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -1981,7 +1991,7 @@ html, body {
 .crack-roll-inv-sp-text-2 {
   color: #08941e;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -1999,7 +2009,7 @@ html, body {
 .hz27 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -2007,9 +2017,9 @@ html, body {
   top: 704px;
 }
 .crack-roll-inv-pv-text-2 {
-  color: #c775e3;
+  color: #9333ea;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -2027,7 +2037,7 @@ html, body {
 .hz28 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -2035,9 +2045,9 @@ html, body {
   top: 725px;
 }
 .crack-roll-inv-out-a-text-2 {
-  color: #ffd600;
+  color: #ca8a04;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -2055,7 +2065,7 @@ html, body {
 .a14 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -2065,7 +2075,7 @@ html, body {
 .crack-roll-inv-out-v-text-2 {
   color: #b76e00;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 15px;
   font-weight: 600;
   position: absolute;
@@ -2083,7 +2093,7 @@ html, body {
 .v14 {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-SemiBold", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 9px;
   font-weight: 600;
   position: absolute;
@@ -2101,7 +2111,7 @@ html, body {
 .crack-roll-inv-text-2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
   font-size: 20px;
   font-weight: 400;
   position: absolute;

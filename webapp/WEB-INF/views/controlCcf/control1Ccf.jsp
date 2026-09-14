@@ -28,6 +28,7 @@
        background: none;
    
        -webkit-font-smoothing: antialiased;
+font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
    }
    
    menu, ol, ul {
@@ -42,15 +43,9 @@
   <title>Document</title>
 </head>
 <body>
-       <div class="header">
-       <%@ include file="/WEB-INF/resources/header/index.jsp" %>
-      </div>
-
-  
+  <%@ include file="/WEB-INF/views/layout/common_style.jsp" %>
   <div class="group-4">
     <div class="group-3">
-
-       <div id="ft">  <%@ include file="/WEB-INF/resources/footer/index.jsp" %></div>
       <div class="main"></div>
    
     </div>

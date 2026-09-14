@@ -18,20 +18,21 @@
 
 	<task:annotation-driven executor="executor" scheduler="scheduler" proxy-target-class="false"/>
 	<bean id="commProcessor" class="com.wia.async.CommProcessor"/>
+	<bean id="trendExportScheduler" class="com.wia.controller.TrendExportScheduler"/>
 	<task:scheduler id="scheduler" pool-size="4" />
 	<task:executor id="executor" keep-alive="10" pool-size="10-20"
 		queue-capacity="10" rejection-policy="ABORT" />
 
-	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close"> 
-		<property name="driverClassName" value="org.mariadb.jdbc.Driver" /> 
-		<property name="url" value="jdbc:mariadb://192.168.1.191:3306/wia" /> 
-		<property name="username" value="root" /> 
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="org.mariadb.jdbc.Driver" />
+		<property name="url" value="jdbc:mariadb://192.168.0.3:3306/wia" />
+		<property name="username" value="root" />
 		<property name="password" value="ezat6695"/>
 	</bean>
 
 	<bean id="dataSourceSQLite" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close"> 
 		<property name="driverClassName" value="org.sqlite.JDBC" /> 
-		<property name="url" value="jdbc:sqlite:D:\WIA_AlarmData.db" />
+		<property name="url" value="jdbc:sqlite:D:\AutonicsProject\WIA\Data\Alarm\WIA_AlarmData.db" />
 	</bean>
 
 	<tx:annotation-driven/>

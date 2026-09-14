@@ -27,6 +27,8 @@
        background: none;
    
        -webkit-font-smoothing: antialiased;
+font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+letter-spacing: .2px;
    }
    .footer{
   	 margin-top:85px;
@@ -40,11 +42,9 @@
   <title>Document</title>
 </head>
 <body>
+  <%@ include file="/WEB-INF/views/layout/common_style.jsp" %>
   <div class="group-2">
     <div class="wrapper">
-       <div class="header"><%@ include file="/WEB-INF/resources/header/index.jsp" %></div>
-
-       <div id="ft">  <%@ include file="/WEB-INF/resources/footer/index.jsp" %></div>
       <div class="main"></div>
          </div>
   
@@ -52,11 +52,11 @@
   <div class="rins-zone-big-box"></div>
   <div class="tem-zone-big-box"></div>
   <div class="diff-zone-box"></div>
-  <div class="diff-zone-text">디핑존</div>
+    <div class="diff-zone-text">디핑존</div>
   <div class="rins-zone-box"></div>
-  <div class="rins-zone-text">린스존</div>
+    <div class="rins-zone-text">린스존</div>
   <div class="tem-zone-box"></div>
-  <div class="tem-zone-text">소려로</div>
+    <div class="tem-zone-text">소려로</div>
   <div class="drain"></div>
   <div class="drain-sp-box"></div>
   <div class="div">설정값</div>

@@ -10,9 +10,9 @@ public class TrendCcf {
     private int crack1_pv;
     private int crack2_pv;
     private int oil_pv;
-    private int qf_cp_pv;
-    private int diff_cp_pv;
-    private int crack_cp_pv;
+    private float qf_cp_pv;
+    private float diff_cp_pv;
+    private float crack_cp_pv;
     private int pre_sp;
     private int heat_sp;
     private int qf1_sp;
@@ -24,6 +24,12 @@ public class TrendCcf {
     private int qf_cp_sp;
     private int diff_cp_sp;
     private int crack_cp_sp;
+    // 분위기(Enrich) 트렌드 페이지용 컬럼 (현장 v_trend_ccf 뷰에 추가된 필드, 로컬 컴파일 검증용)
+    private float heat_enrich_pv;
+    private float qf_enrich_pv;
+    private float diff_enrich_pv;
+    private float crack1_enrich_pv;
+    private float crack2_enrich_pv;
     private String startDate;
     private String endDate;
     
@@ -82,22 +88,22 @@ public class TrendCcf {
     public void setOil_pv(int oil_pv) {
         this.oil_pv = oil_pv;
     }
-    public int getQf_cp_pv() {
+    public float getQf_cp_pv() {
         return qf_cp_pv;
     }
-    public void setQf_cp_pv(int qf_cp_pv) {
+    public void setQf_cp_pv(float qf_cp_pv) {
         this.qf_cp_pv = qf_cp_pv;
     }
-    public int getDiff_cp_pv() {
+    public float getDiff_cp_pv() {
         return diff_cp_pv;
     }
-    public void setDiff_cp_pv(int diff_cp_pv) {
+    public void setDiff_cp_pv(float diff_cp_pv) {
         this.diff_cp_pv = diff_cp_pv;
     }
-    public int getCrack_cp_pv() {
+    public float getCrack_cp_pv() {
         return crack_cp_pv;
     }
-    public void setCrack_cp_pv(int crack_cp_pv) {
+    public void setCrack_cp_pv(float crack_cp_pv) {
         this.crack_cp_pv = crack_cp_pv;
     }
     public int getPre_sp() {
@@ -165,6 +171,36 @@ public class TrendCcf {
     }
     public void setCrack_cp_sp(int crack_cp_sp) {
         this.crack_cp_sp = crack_cp_sp;
+    }
+    public float getHeat_enrich_pv() {
+        return heat_enrich_pv;
+    }
+    public void setHeat_enrich_pv(float heat_enrich_pv) {
+        this.heat_enrich_pv = heat_enrich_pv;
+    }
+    public float getQf_enrich_pv() {
+        return qf_enrich_pv;
+    }
+    public void setQf_enrich_pv(float qf_enrich_pv) {
+        this.qf_enrich_pv = qf_enrich_pv;
+    }
+    public float getDiff_enrich_pv() {
+        return diff_enrich_pv;
+    }
+    public void setDiff_enrich_pv(float diff_enrich_pv) {
+        this.diff_enrich_pv = diff_enrich_pv;
+    }
+    public float getCrack1_enrich_pv() {
+        return crack1_enrich_pv;
+    }
+    public void setCrack1_enrich_pv(float crack1_enrich_pv) {
+        this.crack1_enrich_pv = crack1_enrich_pv;
+    }
+    public float getCrack2_enrich_pv() {
+        return crack2_enrich_pv;
+    }
+    public void setCrack2_enrich_pv(float crack2_enrich_pv) {
+        this.crack2_enrich_pv = crack2_enrich_pv;
     }
     public String getStartDate() {
         return startDate;

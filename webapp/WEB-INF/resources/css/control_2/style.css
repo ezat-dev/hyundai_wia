@@ -30,8 +30,13 @@
   background: #f0a8dc;
   border-radius: 5px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 263px;
   height: 104px;
   position: absolute;
@@ -58,8 +63,13 @@
 .main-con-off {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -78,8 +88,13 @@
 .main-con-on {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -99,8 +114,13 @@
   background: #f0a8dc;
   border-radius: 5px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 263px;
   height: 143px;
   position: absolute;
@@ -127,8 +147,13 @@
 .rx-gas-manual {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -147,8 +172,13 @@
 .rx-gas-auto {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -167,8 +197,13 @@
 .rx-gas-off {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -188,8 +223,13 @@
   background: #f0a8dc;
   border-radius: 5px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 263px;
   height: 143px;
   position: absolute;
@@ -216,8 +256,13 @@
 .n-gas-main-manual {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -236,8 +281,13 @@
 .n-gas-main-auto {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -256,8 +306,13 @@
 .n-gas-main-off {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -277,8 +332,13 @@
   background: #f0a8dc;
   border-radius: 5px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 263px;
   height: 143px;
   position: absolute;
@@ -305,8 +365,13 @@
 .n-main-manual {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -325,8 +390,13 @@
 .n-main-auto {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -345,8 +415,13 @@
 .n-main-off {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -366,8 +441,13 @@
   background: #f0a8dc;
   border-radius: 5px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 263px;
   height: 143px;
   position: absolute;
@@ -394,8 +474,13 @@
 .hit-n-gas-manual {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -414,8 +499,13 @@
 .hit-n-gas-auto {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -434,8 +524,13 @@
 .hit-n-gas-off {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -455,8 +550,13 @@
   background: #f0a8dc;
   border-radius: 5px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 263px;
   height: 143px;
   position: absolute;
@@ -483,8 +583,13 @@
 .crack-1-n-gas-manual {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -503,8 +608,13 @@
 .crack-1-n-gas-auto {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -523,8 +633,13 @@
 .crack-1-n-gas-off {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -544,8 +659,13 @@
   background: #f0a8dc;
   border-radius: 5px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 263px;
   height: 143px;
   position: absolute;
@@ -572,8 +692,13 @@
 .oil-n-gas-manual {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -592,8 +717,13 @@
 .oil-n-gas-auto {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -612,8 +742,13 @@
 .oil-n-gas-off {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -633,8 +768,13 @@
   background: #fcfe9a;
   border-radius: 5px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 263px;
   height: 143px;
   position: absolute;
@@ -661,8 +801,13 @@
 .chim-burn-manual-1 {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -681,8 +826,13 @@
 .chim-burn-auto-1 {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -701,8 +851,13 @@
 .chim-burn-off-1 {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -722,8 +877,13 @@
   background: #fcfe9a;
   border-radius: 5px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 263px;
   height: 143px;
   position: absolute;
@@ -750,8 +910,13 @@
 .chim-burn-manual-2 {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -761,8 +926,13 @@
 .chim-burn-auto-2 {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -772,8 +942,13 @@
 .chim-burn-off-2 {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -811,8 +986,13 @@
   background: #fcfe9a;
   border-radius: 5px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 263px;
   height: 143px;
   position: absolute;
@@ -839,8 +1019,13 @@
 .oil-burn-manual-1 {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -859,8 +1044,13 @@
 .oil-burn-auto-1 {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -879,8 +1069,13 @@
 .oil-burn-off-1 {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -900,8 +1095,13 @@
   background: #fcfe9a;
   border-radius: 5px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 263px;
   height: 143px;
   position: absolute;
@@ -928,8 +1128,13 @@
 .oil-burn-manual-2 {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -948,8 +1153,13 @@
 .oil-burn-auto-2 {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;
@@ -968,8 +1178,13 @@
 .oil-burn-off-2 {
   background: #f9f4f4;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 104px;
   height: 41px;
   position: absolute;

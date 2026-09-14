@@ -39,14 +39,15 @@
   color: #000000;
   text-align: left;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 823px;
   top: 106px;
 }
 .data-text-box-1 {
   background: #e900fd;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 102px;
   height: 53px;
   position: absolute;
@@ -57,7 +58,8 @@
   background: linear-gradient(to left, #fda700, #fda700),
     linear-gradient(to left, #fda700, #fda700),
     linear-gradient(to left, #fda700, #fda700);
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 102px;
   height: 53px;
   position: absolute;
@@ -68,7 +70,8 @@
   background: linear-gradient(to left, #fda700, #fda700),
     linear-gradient(to left, #fda700, #fda700),
     linear-gradient(to left, #fda700, #fda700);
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 102px;
   height: 53px;
   position: absolute;
@@ -79,7 +82,8 @@
   background: linear-gradient(to left, #fda700, #fda700),
     linear-gradient(to left, #fda700, #fda700),
     linear-gradient(to left, #fda700, #fda700);
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 102px;
   height: 53px;
   position: absolute;
@@ -90,7 +94,8 @@
   background: linear-gradient(to left, #fda700, #fda700),
     linear-gradient(to left, #fda700, #fda700),
     linear-gradient(to left, #fda700, #fda700);
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 102px;
   height: 53px;
   position: absolute;
@@ -101,7 +106,8 @@
   background: linear-gradient(to left, #fda700, #fda700),
     linear-gradient(to left, #fda700, #fda700),
     linear-gradient(to left, #fda700, #fda700);
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 102px;
   height: 53px;
   position: absolute;
@@ -112,7 +118,8 @@
   background: linear-gradient(to left, #fda700, #fda700),
     linear-gradient(to left, #fda700, #fda700),
     linear-gradient(to left, #fda700, #fda700);
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 102px;
   height: 53px;
   position: absolute;
@@ -123,7 +130,7 @@
   color: #ffffff;
   text-align: center;
   font-size: 17px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 384px;
   top: 152px;
@@ -132,7 +139,7 @@
   color: #ffffff;
   text-align: left;
   font-size: 19px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 407px;
   top: 216px;
@@ -141,7 +148,7 @@
   color: #ffffff;
   text-align: left;
   font-size: 19px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 406px;
   top: 271px;
@@ -150,7 +157,7 @@
   color: #ffffff;
   text-align: left;
   font-size: 19px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 402px;
   top: 326px;
@@ -159,7 +166,7 @@
   color: #ffffff;
   text-align: left;
   font-size: 19px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 401px;
   top: 381px;
@@ -168,7 +175,7 @@
   color: #ffffff;
   text-align: left;
   font-size: 19px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 396px;
   top: 436px;
@@ -177,14 +184,15 @@
   color: #ffffff;
   text-align: left;
   font-size: 19px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 387px;
   top: 491px;
 }
 .no-1-cycle {
   background: #6c69ff;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -195,14 +203,15 @@
   color: #ffffff;
   text-align: left;
   font-size: 23px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 512px;
   top: 159px;
 }
 .pre-1 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -211,7 +220,8 @@
 }
 .hit-1 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -220,7 +230,8 @@
 }
 .crack-1-1 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -229,7 +240,8 @@
 }
 .crack-2-1 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -238,7 +250,8 @@
 }
 .oil-q-1 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -247,7 +260,8 @@
 }
 .oil-drain-1 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -256,7 +270,8 @@
 }
 .no-2-cycle {
   background: #6c69ff;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -267,14 +282,15 @@
   color: #ffffff;
   text-align: left;
   font-size: 23px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 664px;
   top: 159px;
 }
 .pre-2 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -283,7 +299,8 @@
 }
 .hit-2 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -292,7 +309,8 @@
 }
 .crack-1-2 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -301,7 +319,8 @@
 }
 .crack-2-2 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -310,7 +329,8 @@
 }
 .oil-q-2 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -319,7 +339,8 @@
 }
 .oil-drain-2 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -328,7 +349,8 @@
 }
 .no-3-cycle {
   background: #6c69ff;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -339,14 +361,15 @@
   color: #ffffff;
   text-align: left;
   font-size: 23px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 818px;
   top: 159px;
 }
 .pre-3 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -355,7 +378,8 @@
 }
 .hit-3 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -364,7 +388,8 @@
 }
 .crack-1-3 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -373,7 +398,8 @@
 }
 .crack-2-3 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -382,7 +408,8 @@
 }
 .oil-q-3 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -391,7 +418,8 @@
 }
 .oil-drain-3 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -400,7 +428,8 @@
 }
 .no-4-cycle {
   background: #6c69ff;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -411,14 +440,15 @@
   color: #ffffff;
   text-align: left;
   font-size: 23px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 972px;
   top: 158px;
 }
 .pre-4 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -427,7 +457,8 @@
 }
 .hit-4 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -436,7 +467,8 @@
 }
 .crack-1-4 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -445,7 +477,8 @@
 }
 .crack-2-4 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -454,7 +487,8 @@
 }
 .oil-q-4 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -463,7 +497,8 @@
 }
 .oil-drain-4 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -472,7 +507,8 @@
 }
 .no-5-cycle {
   background: #6c69ff;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -483,14 +519,15 @@
   color: #ffffff;
   text-align: left;
   font-size: 23px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1127px;
   top: 158px;
 }
 .pre-5 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -499,7 +536,8 @@
 }
 .hit-5 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -508,7 +546,8 @@
 }
 .crack-1-5 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -517,7 +556,8 @@
 }
 .crack-2-5 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -526,7 +566,8 @@
 }
 .oil-q-5 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -535,7 +576,8 @@
 }
 .oil-drain-5 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -544,7 +586,8 @@
 }
 .no-6-cycle {
   background: #6c69ff;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -555,14 +598,15 @@
   color: #ffffff;
   text-align: left;
   font-size: 23px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1281px;
   top: 158px;
 }
 .pre-6 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -571,7 +615,8 @@
 }
 .hit-6 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -580,7 +625,8 @@
 }
 .crack-1-6 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -589,7 +635,8 @@
 }
 .crack-2-6 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -598,7 +645,8 @@
 }
 .oil-q-6 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -607,7 +655,8 @@
 }
 .oil-drain-6 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -616,7 +665,8 @@
 }
 .no-7-cycle {
   background: #6c69ff;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -627,14 +677,15 @@
   color: #ffffff;
   text-align: left;
   font-size: 23px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1437px;
   top: 158px;
 }
 .pre-7 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -643,7 +694,8 @@
 }
 .hit-7 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -652,7 +704,8 @@
 }
 .crack-1-7 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -661,7 +714,8 @@
 }
 .crack-2-7 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -670,7 +724,8 @@
 }
 .oil-q-7 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -679,7 +734,8 @@
 }
 .oil-drain-7 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -690,7 +746,7 @@
   color: #000000;
   text-align: left;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 823px;
   top: 542px;
@@ -741,7 +797,7 @@
   color: #ffffff;
   text-align: center;
   font-size: 17px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 384px;
   top: 594px;
@@ -750,7 +806,7 @@
   color: #ffffff;
   text-align: left;
   font-size: 19px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 407px;
   top: 659px;
@@ -759,7 +815,7 @@
   color: #ffffff;
   text-align: left;
   font-size: 19px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 407px;
   top: 714px;
@@ -768,14 +824,15 @@
   color: #ffffff;
   text-align: center;
   font-size: 19px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 389px;
   top: 758px;
 }
 .no-1-cycle-2 {
   background: #6c69ff;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -786,14 +843,15 @@
   color: #ffffff;
   text-align: left;
   font-size: 23px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 512px;
   top: 602px;
 }
 .chim-1 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -802,7 +860,8 @@
 }
 .diff-1 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -811,7 +870,8 @@
 }
 .agi-1 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -820,7 +880,8 @@
 }
 .no-2-cycle-2 {
   background: #6c69ff;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -831,14 +892,15 @@
   color: #ffffff;
   text-align: left;
   font-size: 23px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 664px;
   top: 601px;
 }
 .chim-2 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -847,7 +909,8 @@
 }
 .diff-2 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -856,7 +919,8 @@
 }
 .agi-2 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -865,7 +929,8 @@
 }
 .no-3-cycle-2 {
   background: #6c69ff;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -876,14 +941,15 @@
   color: #ffffff;
   text-align: left;
   font-size: 23px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 818px;
   top: 601px;
 }
 .chim-3 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -892,7 +958,8 @@
 }
 .diff-3 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -901,7 +968,8 @@
 }
 .agi-3 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -910,7 +978,8 @@
 }
 .no-4-cycle-2 {
   background: #6c69ff;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -921,14 +990,15 @@
   color: #ffffff;
   text-align: left;
   font-size: 23px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 972px;
   top: 602px;
 }
 .chim-4 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -937,7 +1007,8 @@
 }
 .diff-4 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -946,7 +1017,8 @@
 }
 .agi-4 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -955,7 +1027,8 @@
 }
 .no-5-cycle-2 {
   background: #6c69ff;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -966,14 +1039,15 @@
   color: #ffffff;
   text-align: left;
   font-size: 23px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1127px;
   top: 601px;
 }
 .chim-5 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -982,7 +1056,8 @@
 }
 .diff-5 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -991,7 +1066,8 @@
 }
 .agi-5 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -1000,7 +1076,8 @@
 }
 .no-6-cycle-2 {
   background: #6c69ff;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -1011,14 +1088,15 @@
   color: #ffffff;
   text-align: left;
   font-size: 23px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1281px;
   top: 602px;
 }
 .chim-6 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -1027,7 +1105,8 @@
 }
 .diff-6 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -1036,7 +1115,8 @@
 }
 .agi-6 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -1045,7 +1125,8 @@
 }
 .no-7-cycle-2 {
   background: #6c69ff;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -1056,14 +1137,15 @@
   color: #ffffff;
   text-align: left;
   font-size: 23px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1437px;
   top: 602px;
 }
 .chim-7 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -1072,7 +1154,8 @@
 }
 .diff-7 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;
@@ -1081,7 +1164,8 @@
 }
 .agi-7 {
   background: #c0c0c0;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 134px;
   height: 53px;
   position: absolute;

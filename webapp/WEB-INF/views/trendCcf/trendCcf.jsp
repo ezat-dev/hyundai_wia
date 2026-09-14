@@ -67,6 +67,7 @@
   <title>Trend Chart</title>
 </head>
 <body>
+  <%@ include file="/WEB-INF/views/layout/common_style.jsp" %>
   <div class="container">
     <div class="content">
       <div class="date-container">
@@ -77,8 +78,6 @@
       <div id="container"></div>
     </div>
   </div>
-  <div class="header"><%@ include file="/WEB-INF/resources/header/index.jsp" %></div>
-  <div id="ft"><%@ include file="/WEB-INF/resources/footer/index.jsp" %></div>
 <script>
 /*
 //SP값 포함

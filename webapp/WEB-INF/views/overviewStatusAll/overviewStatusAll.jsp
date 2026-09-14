@@ -25,8 +25,9 @@
        border: none;
        text-decoration: none;
        background: none;
-   
+
        -webkit-font-smoothing: antialiased;
+       font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
    }
         .footer{
   	 margin-top:85px;
@@ -40,10 +41,9 @@
   <title>Document</title>
 </head>
 <body>
+  <%@ include file="/WEB-INF/views/layout/common_style.jsp" %>
   <div class="overview-2">
     <div class="group-1">
-      <div class="header"><%@ include file="/WEB-INF/resources/header/index.jsp" %></div>
-	  <div id="ft">  <%@ include file="/WEB-INF/resources/footer/index.jsp" %></div>
       <div class="main"></div>
        </div>
     <img class="ccf-1" src="/DHT/image/overview_status/ccf-10.png" />
@@ -132,14 +132,12 @@
     <div class="door-yellow-15"></div>
     <div class="door-yellow-16"></div>
     <div class="clutchon-box-1"></div>
-    <div class="clutchon-text-1">
-      CLUTCH
+    <div class="clutchon-text-1">CLUTCH
       <br />
       ON
     </div>
     <div class="clutchon-box-2"></div>
-    <div class="clutchon-text-2">
-      CLUTCH
+    <div class="clutchon-text-2">CLUTCH
       <br />
       ON
     </div>

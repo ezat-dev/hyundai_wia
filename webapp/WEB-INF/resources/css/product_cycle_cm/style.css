@@ -33,8 +33,10 @@
 .diff-zone-big-box {
   background: #d3d3d3;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 1256px;
   height: 232px;
   position: absolute;
@@ -44,8 +46,10 @@
 .rins-zone-big-box {
   background: #d3d3d3;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 1256px;
   height: 232px;
   position: absolute;
@@ -55,8 +59,10 @@
 .tem-zone-big-box {
   background: #d3d3d3;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 1256px;
   height: 232px;
   position: absolute;
@@ -117,8 +123,10 @@
 .drain {
   background: #123478;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 222px;
   height: 43px;
   position: absolute;
@@ -128,8 +136,10 @@
 .drain-sp-box {
   background: #f0eeee;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 222px;
   height: 72px;
   position: absolute;
@@ -140,7 +150,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 745px;
   top: 198px;
@@ -148,8 +158,10 @@
 .drain-sp {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 115px;
   height: 39px;
   position: absolute;
@@ -160,7 +172,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 928px;
   top: 198px;
@@ -168,8 +180,10 @@
 .drain-pv-box {
   background: #f0eeee;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 222px;
   height: 72px;
   position: absolute;
@@ -180,7 +194,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 745px;
   top: 270px;
@@ -188,8 +202,10 @@
 .drain-pv {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 115px;
   height: 39px;
   position: absolute;
@@ -200,7 +216,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 928px;
   top: 270px;
@@ -208,8 +224,10 @@
 .difiing {
   background: #123478;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 222px;
   height: 43px;
   position: absolute;
@@ -219,8 +237,10 @@
 .diffing-sp-box {
   background: #f0eeee;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 222px;
   height: 72px;
   position: absolute;
@@ -231,7 +251,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1113px;
   top: 198px;
@@ -239,8 +259,10 @@
 .diffing-sp {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 115px;
   height: 39px;
   position: absolute;
@@ -251,7 +273,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1296px;
   top: 198px;
@@ -259,8 +281,10 @@
 .diffing-pv-box {
   background: #f0eeee;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 222px;
   height: 72px;
   position: absolute;
@@ -271,7 +295,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1113px;
   top: 270px;
@@ -279,8 +303,10 @@
 .diffing-pv {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 115px;
   height: 39px;
   position: absolute;
@@ -291,7 +317,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1296px;
   top: 270px;
@@ -299,8 +325,10 @@
 .air-spray {
   background: #123478;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 222px;
   height: 43px;
   position: absolute;
@@ -310,8 +338,10 @@
 .air-spray-sp-box {
   background: #f0eeee;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 222px;
   height: 72px;
   position: absolute;
@@ -322,7 +352,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 676px;
   top: 443px;
@@ -330,8 +360,10 @@
 .air-spray-sp {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 115px;
   height: 39px;
   position: absolute;
@@ -342,7 +374,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 859px;
   top: 443px;
@@ -350,8 +382,10 @@
 .air-spray-pv-box {
   background: #f0eeee;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 222px;
   height: 72px;
   position: absolute;
@@ -362,7 +396,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 676px;
   top: 515px;
@@ -370,8 +404,10 @@
 .air-spray-pv {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 115px;
   height: 39px;
   position: absolute;
@@ -382,7 +418,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 859px;
   top: 515px;
@@ -390,8 +426,10 @@
 .rins {
   background: #123478;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 222px;
   height: 43px;
   position: absolute;
@@ -401,8 +439,10 @@
 .rins-sp-box {
   background: #f0eeee;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 222px;
   height: 72px;
   position: absolute;
@@ -413,7 +453,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 932px;
   top: 443px;
@@ -421,8 +461,10 @@
 .rins-sp {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 115px;
   height: 39px;
   position: absolute;
@@ -433,7 +475,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1115px;
   top: 443px;
@@ -441,8 +483,10 @@
 .rins-pv-box {
   background: #f0eeee;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 222px;
   height: 72px;
   position: absolute;
@@ -453,7 +497,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 932px;
   top: 515px;
@@ -461,8 +505,10 @@
 .rins-pv {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 115px;
   height: 39px;
   position: absolute;
@@ -473,7 +519,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1115px;
   top: 515px;
@@ -481,8 +527,10 @@
 .spary {
   background: #123478;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 222px;
   height: 43px;
   position: absolute;
@@ -492,8 +540,10 @@
 .spary-sp-box {
   background: #f0eeee;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 222px;
   height: 72px;
   position: absolute;
@@ -504,7 +554,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1188px;
   top: 443px;
@@ -512,8 +562,10 @@
 .spary-sp {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 115px;
   height: 39px;
   position: absolute;
@@ -524,7 +576,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1371px;
   top: 443px;
@@ -532,8 +584,10 @@
 .spary-pv-box {
   background: #f0eeee;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 222px;
   height: 72px;
   position: absolute;
@@ -544,7 +598,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1188px;
   top: 515px;
@@ -552,8 +606,10 @@
 .spary-pv {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 115px;
   height: 39px;
   position: absolute;
@@ -564,7 +620,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1371px;
   top: 515px;
@@ -572,8 +628,10 @@
 .cooling {
   background: #123478;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 222px;
   height: 43px;
   position: absolute;
@@ -583,8 +641,10 @@
 .cooling-sp-box {
   background: #f0eeee;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 222px;
   height: 72px;
   position: absolute;
@@ -595,7 +655,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 744px;
   top: 688px;
@@ -603,8 +663,10 @@
 .cooling-sp {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 115px;
   height: 39px;
   position: absolute;
@@ -615,7 +677,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 927px;
   top: 688px;
@@ -623,8 +685,10 @@
 .cooling-pv-box {
   background: #f0eeee;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 222px;
   height: 72px;
   position: absolute;
@@ -635,7 +699,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 744px;
   top: 760px;
@@ -643,8 +707,10 @@
 .cooling-pv {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 115px;
   height: 39px;
   position: absolute;
@@ -655,7 +721,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 927px;
   top: 760px;
@@ -663,8 +729,10 @@
 .tempering {
   background: #123478;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 222px;
   height: 43px;
   position: absolute;
@@ -674,8 +742,10 @@
 .tempering-sp-box {
   background: #f0eeee;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 222px;
   height: 72px;
   position: absolute;
@@ -686,7 +756,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1112px;
   top: 688px;
@@ -694,8 +764,10 @@
 .tempering-sp {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 115px;
   height: 39px;
   position: absolute;
@@ -706,7 +778,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1295px;
   top: 688px;
@@ -714,8 +786,10 @@
 .tempering-pv-box {
   background: #f0eeee;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 222px;
   height: 72px;
   position: absolute;
@@ -726,7 +800,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1112px;
   top: 760px;
@@ -734,8 +808,10 @@
 .tempering-pv {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 115px;
   height: 39px;
   position: absolute;
@@ -746,7 +822,7 @@
   color: #000000;
   text-align: center;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1295px;
   top: 760px;
@@ -755,7 +831,7 @@
   color: #ffffff;
   text-align: center;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 816px;
   top: 133px;
@@ -764,7 +840,7 @@
   color: #ffffff;
   text-align: center;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1184px;
   top: 133px;
@@ -773,7 +849,7 @@
   color: #ffffff;
   text-align: center;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 733px;
   top: 379px;
@@ -782,7 +858,7 @@
   color: #ffffff;
   text-align: center;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1003px;
   top: 379px;
@@ -791,7 +867,7 @@
   color: #ffffff;
   text-align: center;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1259px;
   top: 379px;
@@ -800,7 +876,7 @@
   color: #ffffff;
   text-align: center;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 823px;
   top: 625px;
@@ -809,7 +885,7 @@
   color: #ffffff;
   text-align: center;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1191px;
   top: 634px;

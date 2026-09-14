@@ -28,8 +28,10 @@
 .auto-big-box-1 {
   background: #f1f1f1;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 423px;
   height: 564px;
   position: absolute;
@@ -39,8 +41,10 @@
 .sag-0 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 404px;
   height: 52px;
   position: absolute;
@@ -50,8 +54,10 @@
 .auto-0 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -61,8 +67,10 @@
 .data-0 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -72,8 +80,10 @@
 .auto-1 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -83,8 +93,10 @@
 .data-1 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -94,8 +106,10 @@
 .auto-2 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -105,8 +119,10 @@
 .data-2 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -116,8 +132,10 @@
 .auto-3 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -127,8 +145,10 @@
 .data-3 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -138,8 +158,10 @@
 .auto-4 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -149,8 +171,10 @@
 .data-4 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -160,8 +184,10 @@
 .auto-5 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -171,8 +197,10 @@
 .data-5 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -182,8 +210,10 @@
 .auto-6 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -193,8 +223,10 @@
 .data-6 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -204,8 +236,10 @@
 .auto-7 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -215,8 +249,10 @@
 .data-7 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -226,8 +262,10 @@
 .auto-8 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -237,8 +275,10 @@
 .data-8 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -248,8 +288,10 @@
 .auto-9 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -259,8 +301,10 @@
 .data-9 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -270,8 +314,10 @@
 .auto-big-box-2 {
   background: #f1f1f1;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 423px;
   height: 564px;
   position: absolute;
@@ -281,8 +327,10 @@
 .sag-1 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 404px;
   height: 52px;
   position: absolute;
@@ -292,8 +340,10 @@
 .auto-10 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -303,8 +353,10 @@
 .data-10 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -314,8 +366,10 @@
 .auto-11 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -325,8 +379,10 @@
 .data-11 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -336,8 +392,10 @@
 .auto-12 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -347,8 +405,10 @@
 .data-12 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -358,8 +418,10 @@
 .auto-13 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -369,8 +431,10 @@
 .data-13 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -380,8 +444,10 @@
 .auto-14 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -391,8 +457,10 @@
 .data-14 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -402,8 +470,10 @@
 .auto-15 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -413,8 +483,10 @@
 .data-15 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -424,8 +496,10 @@
 .auto-16 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -435,8 +509,10 @@
 .data-16 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -446,8 +522,10 @@
 .auto-17 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -457,8 +535,10 @@
 .data-17 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -468,8 +548,10 @@
 .auto-18 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -479,8 +561,10 @@
 .data-18 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -490,8 +574,10 @@
 .auto-19 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -501,8 +587,10 @@
 .data-19 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -512,8 +600,10 @@
 .auto-big-box-3 {
   background: #f1f1f1;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 423px;
   height: 564px;
   position: absolute;
@@ -523,8 +613,10 @@
 .sag-2 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 404px;
   height: 52px;
   position: absolute;
@@ -534,8 +626,10 @@
 .auto-20 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -545,8 +639,10 @@
 .data-20 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -556,8 +652,10 @@
 .auto-21 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -567,8 +665,10 @@
 .data-21 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -578,8 +678,10 @@
 .auto-22 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -589,8 +691,10 @@
 .data-22 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -600,8 +704,10 @@
 .auto-23 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -611,8 +717,10 @@
 .data-23 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -622,8 +730,10 @@
 .auto-big-box-4 {
   background: #f1f1f1;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 423px;
   height: 564px;
   position: absolute;
@@ -633,8 +743,10 @@
 .sag-3 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 404px;
   height: 52px;
   position: absolute;
@@ -644,8 +756,10 @@
 .auto-24 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -655,8 +769,10 @@
 .data-24 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -666,8 +782,10 @@
 .auto-25 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -677,8 +795,10 @@
 .data-25 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -688,8 +808,10 @@
 .auto-26 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -699,8 +821,10 @@
 .data-26 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -710,8 +834,10 @@
 .auto-27 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -721,8 +847,10 @@
 .data-27 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -732,8 +860,10 @@
 .auto-28 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -743,8 +873,10 @@
 .data-28 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;
@@ -754,8 +886,10 @@
 .auto-29 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
   position: absolute;
@@ -765,8 +899,10 @@
 .data-29 {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
   position: absolute;

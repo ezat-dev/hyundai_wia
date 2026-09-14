@@ -32,6 +32,7 @@
        background: none;
    
        -webkit-font-smoothing: antialiased;
+font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
    }
         .footer{
   	 margin-top:85px;
@@ -45,10 +46,9 @@
   <title>Document</title>
 </head>
 <body>
+  <%@ include file="/WEB-INF/views/layout/common_style.jsp" %>
   <div class="overview-2">
     <div class="group-1">
-      <div class="header"><%@ include file="/WEB-INF/resources/header/index.jsp" %></div>
-	  <div id="ft">  <%@ include file="/WEB-INF/resources/footer/index.jsp" %></div>
       <div class="footer"></div>
       <div class="main"></div>
        </div>
@@ -157,11 +157,11 @@
     <img class="sensor-red-4" src="/DHT/image/overview_2/sensor-red-40.png" />
     <img class="sensor-green-4" src="/DHT/image/overview_2/sensor-green-40.png" />
     <div class="process-data-box"></div>
-  <div class="process-data-text">공정 데이터</div>
+    <div class="process-data-text">공정 데이터</div>
   <div class="process-time-box"></div>
-  <div class="process-time-text">공정 시간(분)</div>
+    <div class="process-time-text">공정 시간(분)</div>
   <div class="temperature-box"></div>
-  <div class="temperature-text">온도(℃)</div>
+    <div class="temperature-text">온도(℃)</div>
   <div class="process-time-sp-text"></div>
   <div class="process-time-pv-text"></div>
   <div class="temperature-sp-text"></div>
@@ -202,43 +202,38 @@
   <div class="tem-sp-text">설정값</div>
   <div class="tem-pv-text">현재값</div>
   <div class="hit-mini-box"></div>
-  <div class="hit-mini-text">
-    템퍼링로
+    <div class="hit-mini-text">템퍼링로
     <br />
     냉각존
   </div>
   <div class="hit-mini-box2"></div>
-  <div class="hit-mini-text2">
-    템퍼링로
+    <div class="hit-mini-text2">템퍼링로
     <br />
     3존
   </div>
   <div class="hit-mini-box3"></div>
-  <div class="hit-mini-text3">
-    템퍼링로
+    <div class="hit-mini-text3">템퍼링로
     <br />
     2존
   </div>
   <div class="hit-mini-box4"></div>
-  <div class="hit-mini-text4">
-    템퍼링로
+    <div class="hit-mini-text4">템퍼링로
     <br />
     1존
   </div>
   <div class="hit-mini-box5"></div>
-  <div class="hit-mini-text5">
-    에어
+    <div class="hit-mini-text5">에어
     <br />
     스프레이
   </div>
   <div class="hit-mini-box6"></div>
-  <div class="hit-mini-text6">린스</div>
+    <div class="hit-mini-text6">린스</div>
   <div class="hit-mini-box7"></div>
-  <div class="hit-mini-text7">스프레이</div>
+    <div class="hit-mini-text7">스프레이</div>
   <div class="hit-mini-box8"></div>
-  <div class="hit-mini-text8">드레인</div>
+    <div class="hit-mini-text8">드레인</div>
   <div class="hit-mini-box9"></div>
-  <div class="hit-mini-text9">디핑</div>
+    <div class="hit-mini-text9">디핑</div>
   <div class="pre-text">템퍼링로</div>
   <div class="pre-text2">후세정기</div>
   <div class="frame-1"></div>

@@ -34,6 +34,7 @@
        background: none;
    
        -webkit-font-smoothing: antialiased;
+font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
    }
    
    menu, ol, ul {
@@ -48,11 +49,9 @@
   <title>Document</title>
 </head>
 <body>
+  <%@ include file="/WEB-INF/views/layout/common_style.jsp" %>
   <div class="overview-2-1">
     <div class="group-3">
-     <div class="header"><%@ include file="/WEB-INF/resources/header/index.jsp" %></div>
-
-      <div id="ft">  <%@ include file="/WEB-INF/resources/footer/index.jsp" %></div>
       <div class="main"></div>
        </div>
     <div class="product-data"></div>
@@ -208,6 +207,7 @@
   <div class="pro-number-2"></div>
   <div class="pro-number-1"></div>
   <div class="pro-number-0"></div>
+    <div class="wia-mirror-wrap" style="position:absolute;left:0;top:0;width:1918px;height:900px;transform:scaleX(-1);">
     <img class="cm-2-1-1" src="/DHT/image/overview_2_1/cm-2-1-10.png" />
     <img class="elevator-1" src="/DHT/image/overview_2_1/elevator-10.png" />
     <img class="elevator-2" src="/DHT/image/overview_2_1/elevator-20.png" />
@@ -295,6 +295,7 @@
     <img class="sensor-red-4" src="/DHT/image/overview_2_1/sensor-red-40.png" />
     <img class="sensor-green-4" src="/DHT/image/overview_2_1/sensor-green-40.png" />
     <div class="rectangle-1"></div>
+    </div>
     <div class="q-time-27"></div>
     <div class="q-time-26"></div>
     <div class="q-time-25"></div>
@@ -351,26 +352,28 @@
     <div class="pro-data-text-25">25</div>
     <div class="pro-data-text-26">26</div>
     <div class="pro-data-text-27">27</div>
-    <div class="tong-0">0
+    <div class="wia-mirror-wrap" style="position:absolute;left:0;top:0;width:1918px;height:900px;transform:scaleX(-1);">
+    <div class="tong-0" style="transform:scaleX(-1);">0
 <!--     	<div class="tong-text-0">0</div> -->
     </div>
-    <div class="tong-1">1</div>
-    <div class="tong-2">2</div>
-    <div class="tong-3">3</div>
-    <div class="tong-5">4</div>
-    <div class="tong-6">5</div>
-    <div class="tong-7">6</div>
+    <div class="tong-1" style="transform:scaleX(-1);">1</div>
+    <div class="tong-2" style="transform:scaleX(-1);">2</div>
+    <div class="tong-3" style="transform:scaleX(-1);">3</div>
+    <div class="tong-5" style="transform:scaleX(-1);">4</div>
+    <div class="tong-6" style="transform:scaleX(-1);">5</div>
+    <div class="tong-7" style="transform:scaleX(-1);">6</div>
     <!-- <div class="tong-8"></div> -->
-    <div class="tong-9">7</div>
-    <div class="tong-10">8</div>
-    <div class="tong-11">9</div>
-    <div class="tong-12">10</div>
-    <div class="tong-13">11</div>
-    <div class="tong-14">12</div>
-    <div class="tong-15">13</div>
-    <div class="tong-16">14</div>
-    <div class="tong-17">15</div>
-    <div class="tong-18">16</div>
+    <div class="tong-9" style="transform:scaleX(-1);">7</div>
+    <div class="tong-10" style="transform:scaleX(-1);">8</div>
+    <div class="tong-11" style="transform:scaleX(-1);">9</div>
+    <div class="tong-12" style="transform:scaleX(-1);">10</div>
+    <div class="tong-13" style="transform:scaleX(-1);">11</div>
+    <div class="tong-14" style="transform:scaleX(-1);">12</div>
+    <div class="tong-15" style="transform:scaleX(-1);">13</div>
+    <div class="tong-16" style="transform:scaleX(-1);">14</div>
+    <div class="tong-17" style="transform:scaleX(-1);">15</div>
+    <div class="tong-18" style="transform:scaleX(-1);">16</div>
+    </div>
 <!--     
     <div class="tong-text-1">1</div>
     <div class="tong-text-2">2</div>

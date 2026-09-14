@@ -5,124 +5,42 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/DHT/css/tic/vars.css">
-  <link rel="stylesheet" href="/DHT/css/tic/style.css">
 <jsp:include page="../include/pluginpage.jsp"/>
   <style>
-    a,
-    button,
-    input,
-    select,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      border: none;
-      text-decoration: none;
-      background: none;
-      -webkit-font-smoothing: antialiased;
-    }
-    
-    menu, ol, ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-    
-    .footer {
-      margin-top: 85px;
-    }
-
-	.main {
-	  display: flex;
-	  justify-content: center;
-	  align-items: center;
-	  height: 885px; 
-	  background-color: #f0f0f0;
-	  padding: 32px; 
-	}
-	
-	.content {
-	  background-color: #FFFFFF;
-	  padding: 20px;
-	  border-radius: 8px;
-	  text-align: left;
-	  width: 1580px; 
-	  height: 700px;
-	  margin-bottom: 55px;
-	  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-	  overflow-y: hidden;
-	  overflow-x: hidden;
-	}
-	#ft {
-	  background-color: #123478;
-	  height: 72.43px;
-	  width: 100%;
-	  position: fixed;
-	  bottom: 0;
-	  left: 0;
-	  z-index: 10; /* 필요시 조정, 다른 요소들보다 위에 표시되도록 */
-	}
-    .date-container {
-      display: flex;
-      justify-content: right;
-      margin-bottom: 20px;
-      margin-right: 20px;
-    }
-    .date-container input {
-      margin: 0 10px;
-      padding: 12px;
-      border: 1px solid #ced4da;
-      border-radius: 5px;
-      font-size: 16px;
-      width: 250px;
-    }
-    button {
-      padding: 10px 20px;
-      background-color: #007bff;
-      color: white;
-      border-radius: 5px;
-      cursor: pointer;
-      border: none;
-      font-size: 16px;
-      text-align: center;
-      width: 130px;
-      margin-left: 20px;
-    }
-    button:hover {
-      background-color: #0056b3;
-    }
-
-	.row_select{
-		background-color:#9ABCEA !important;
-	}	
+    * { box-sizing: border-box; }
+    .wia-tabulator-wrap .tabulator { border: none; font-family: inherit; font-size: 13px; }
+    .wia-tabulator-wrap .tabulator-header { background: #f8fafc; border-bottom: 2px solid #e5e7eb; }
+    .wia-tabulator-wrap .tabulator-col { background: #f8fafc; border-right: 1px solid #eef0f2; }
+    .wia-tabulator-wrap .tabulator-col-title { color: #4b5563; font-weight: 700; }
+    .wia-tabulator-wrap .tabulator-row { border-bottom: 1px solid #eef0f2; }
+    .wia-tabulator-wrap .tabulator-row.tabulator-row-even { background: #fafbfc; }
+    .wia-tabulator-wrap .tabulator-row:hover { background: #eff6ff !important; }
+    .wia-tabulator-wrap .tabulator-row.wia-row-resolved { background: #f0fdf4; box-shadow: inset 3px 0 0 #16a34a; }
+    .wia-tabulator-wrap .tabulator-row.tabulator-selected,
+    .wia-tabulator-wrap .tabulator-row.row_select { background: #dbeafe !important; }
   </style>
 
-  <title>Document</title>
+  <title>알람 랭킹</title>
 </head>
 <body>
-  <div class="group-2">
-    <div class="wrapper">
-      <div class="header">
-        <%@ include file="/WEB-INF/resources/header/index.jsp" %>
-         <div id="ft">  <%@ include file="/WEB-INF/resources/footer/index.jsp" %></div>
+  <%@ include file="/WEB-INF/views/layout/common_style.jsp" %>
+  <div class="wia-page wia-page-wrap">
+    <div class="wia-page-header">
+      <div>
+        <div class="wia-page-title">알람 랭킹</div>
+        <div class="wia-page-sub">연속로(CCF) 알람 발생 빈도 순위</div>
       </div>
-      <div class="main">    
-			<div class="content">
-		      <div class="date-container">
-		        <input type="date" id="startDate" placeholder="시작 날짜">
-		        <input type="date" id="endDate" placeholder="종료 날짜">
-		        <button onclick="alarmRankingCcf()">조회</button>
-		      </div>        
-			<div id="alarmRankingList"></div>
-        </div>
+    </div>
+    <div class="wia-card">
+      <div class="wia-toolbar">
+        <input type="date" id="startDate" placeholder="시작 날짜">
+        <span>~</span>
+        <input type="date" id="endDate" placeholder="종료 날짜">
+        <button class="wia-btn" onclick="alarmRankingCcf()">조회</button>
       </div>
-      
+      <div class="wia-tabulator-wrap">
+        <div id="alarmRankingList"></div>
+      </div>
     </div>
   </div>
 <script>
@@ -137,15 +55,15 @@ $(function(){
 	var date = checkDate(now.getDate());
 
 	$("#endDate").val(year+"-"+month+"-"+date);
-	
-	
+
+
 	var before = new Date();
 	before.setFullYear(before.getFullYear(), before.getMonth(), before.getDate()-1);
 
 	var b_year = before.getFullYear();
 	var b_month = checkDate(before.getMonth()+1);
 	var b_date = checkDate(before.getDate());
-	
+
 	$("#startDate").val(b_year+"-"+b_month+"-"+b_date);
 
 	alarmRankingCcf();
@@ -164,13 +82,13 @@ $(function(){
 	}
 
 function alarmRankingCcf(){
-	
+
 	var sdate = $("#startDate").val();
 	var edate = $("#endDate").val();
-	
+
 	var sdateTime = sdate+" 00:00:00";
 	var edateTime = edate+" 23:59:59";
-	
+
 	alarmRanking = new Tabulator("#alarmRankingList", {
 		    height:"550px",
 		    layout:"fitColumns",
@@ -182,7 +100,7 @@ function alarmRankingCcf(){
 		    ajaxConfig:"POST",
 		    ajaxLoader:false,
 		    ajaxURL:"/DHT/alarmRankingCcf/list",
-		    ajaxProgressiveLoad:"scroll",			    			    
+		    ajaxProgressiveLoad:"scroll",
 		    ajaxParams:{
 		    	"sdateTime":sdateTime,
 		    	"edateTime":edateTime
@@ -207,24 +125,24 @@ function alarmRankingCcf(){
 		    ],
 		    rowFormatter:function(row){
 			    var data = row.getData();
-			    
+
 			    row.getElement().style.fontWeight = "700";
 			    if(data.success_chk == "N" || data.success_chk == "" || data.success_chk == null){
-				 	row.getElement().style.backgroundColor = "#F6F6F6";
+				 	row.getElement().classList.remove("wia-row-resolved");
 				}else{
-					row.getElement().style.backgroundColor = "#E4F7BA";
+					row.getElement().classList.add("wia-row-resolved");
 				}
 			},
 			rowClick:function(e, row){
 
 				$("#alarmRankingList .tabulator-tableHolder > .tabulator-table > .tabulator-row").each(function(index, item){
-					
-					if($(this).hasClass("row_select")){							
+
+					if($(this).hasClass("row_select")){
 						$(this).removeClass('row_select');
 						row.getElement().className += " row_select";
 					}else{
 						$("#alarmRankingList div.row_select").removeClass("row_select");
-						row.getElement().className += " row_select";	
+						row.getElement().className += " row_select";
 
 
 					}

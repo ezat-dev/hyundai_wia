@@ -30,8 +30,10 @@
 .tic-line {
   border-radius: 15px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 3px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 1669px;
   height: 244px;
   position: absolute;
@@ -41,8 +43,10 @@
 .cp-line {
   border-radius: 15px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 3px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 1460px;
   height: 226px;
   position: absolute;
@@ -52,8 +56,10 @@
 .tic-text-box {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 142px;
   height: 44px;
   position: absolute;
@@ -64,7 +70,7 @@
   color: #000000;
   text-align: left;
    font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 171px;
   top: 78px;
@@ -72,8 +78,10 @@
 .cp-text-box {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 142px;
   height: 44px;
   position: absolute;
@@ -84,7 +92,7 @@
   color: #000000;
   text-align: left;
    font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 177px;
   top: 623px;
@@ -117,10 +125,10 @@
   object-fit: cover;
 }
 .div {
-  color: #05ff00;
+  color: #16a34a;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 180px;
   top: 184px;
@@ -128,10 +136,10 @@
   height: 22px;
 }
 .div2 {
-  color: #ffa800;
+  color: #d97706;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 180px;
   top: 228px;
@@ -182,10 +190,10 @@
   object-fit: cover;
 }
 .div3 {
-  color: #05ff00;
+  color: #16a34a;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 386px;
   top: 184px;
@@ -193,10 +201,10 @@
   height: 22px;
 }
 .div4 {
-  color: #ffa800;
+  color: #d97706;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 386px;
   top: 228px;
@@ -247,10 +255,10 @@
   object-fit: cover;
 }
 .div5 {
-  color: #05ff00;
+  color: #16a34a;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 592px;
   top: 184px;
@@ -258,10 +266,10 @@
   height: 22px;
 }
 .div6 {
-  color: #ffa800;
+  color: #d97706;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 592px;
   top: 228px;
@@ -312,10 +320,10 @@
   object-fit: cover;
 }
 .div7 {
-  color: #05ff00;
+  color: #16a34a;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 795px;
   top: 184px;
@@ -323,10 +331,10 @@
   height: 22px;
 }
 .div8 {
-  color: #ffa800;
+  color: #d97706;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 795px;
   top: 228px;
@@ -377,10 +385,10 @@
   object-fit: cover;
 }
 .div9 {
-  color: #05ff00;
+  color: #16a34a;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 998px;
   top: 184px;
@@ -388,10 +396,10 @@
   height: 22px;
 }
 .div10 {
-  color: #ffa800;
+  color: #d97706;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 998px;
   top: 228px;
@@ -442,10 +450,10 @@
   object-fit: cover;
 }
 .div11 {
-  color: #05ff00;
+  color: #16a34a;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1201px;
   top: 184px;
@@ -453,10 +461,10 @@
   height: 22px;
 }
 .div12 {
-  color: #ffa800;
+  color: #d97706;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1201px;
   top: 228px;
@@ -507,10 +515,10 @@
   object-fit: cover;
 }
 .div13 {
-  color: #05ff00;
+  color: #16a34a;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1404px;
   top: 184px;
@@ -518,10 +526,10 @@
   height: 22px;
 }
 .div14 {
-  color: #ffa800;
+  color: #d97706;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1404px;
   top: 228px;
@@ -572,10 +580,10 @@
   object-fit: cover;
 }
 .div15 {
-  color: #05ff00;
+  color: #16a34a;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1607px;
   top: 184px;
@@ -583,10 +591,10 @@
   height: 22px;
 }
 .div16 {
-  color: #ffa800;
+  color: #d97706;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1607px;
   top: 228px;
@@ -612,8 +620,10 @@
 .alarm-line {
   border-radius: 15px;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 3px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 1460px;
   height: 244px;
   position: absolute;
@@ -623,8 +633,10 @@
 .alarm-text-box {
   background: #d9d9d9;
   border-style: solid;
-  border-color: #000000;
+  border-color: rgba(15,23,42,.15);
   border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 142px;
   height: 44px;
   position: absolute;
@@ -635,7 +647,7 @@
   color: #000000;
   text-align: left;
    font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 171px;
   top: 349px;
@@ -668,10 +680,10 @@
   object-fit: cover;
 }
 .div17 {
-  color: #05ff00;
+  color: #16a34a;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 180px;
   top: 454px;
@@ -679,10 +691,10 @@
   height: 22px;
 }
 .div18 {
-  color: #ffa800;
+  color: #d97706;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 180px;
   top: 498px;
@@ -733,10 +745,10 @@
   object-fit: cover;
 }
 .div19 {
-  color: #05ff00;
+  color: #16a34a;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 386px;
   top: 454px;
@@ -744,10 +756,10 @@
   height: 22px;
 }
 .div20 {
-  color: #ffa800;
+  color: #d97706;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 386px;
   top: 498px;
@@ -798,10 +810,10 @@
   object-fit: cover;
 }
 .div21 {
-  color: #05ff00;
+  color: #16a34a;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 592px;
   top: 454px;
@@ -809,10 +821,10 @@
   height: 22px;
 }
 .div22 {
-  color: #ffa800;
+  color: #d97706;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 592px;
   top: 498px;
@@ -863,10 +875,10 @@
   object-fit: cover;
 }
 .div23 {
-  color: #05ff00;
+  color: #16a34a;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 795px;
   top: 454px;
@@ -874,10 +886,10 @@
   height: 22px;
 }
 .div24 {
-  color: #ffa800;
+  color: #d97706;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 795px;
   top: 498px;
@@ -928,10 +940,10 @@
   object-fit: cover;
 }
 .div25 {
-  color: #05ff00;
+  color: #16a34a;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 998px;
   top: 454px;
@@ -939,10 +951,10 @@
   height: 22px;
 }
 .div26 {
-  color: #ffa800;
+  color: #d97706;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 998px;
   top: 498px;
@@ -993,10 +1005,10 @@
   object-fit: cover;
 }
 .div27 {
-  color: #05ff00;
+  color: #16a34a;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1201px;
   top: 454px;
@@ -1004,10 +1016,10 @@
   height: 22px;
 }
 .div28 {
-  color: #ffa800;
+  color: #d97706;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1201px;
   top: 498px;
@@ -1058,10 +1070,10 @@
   object-fit: cover;
 }
 .div29 {
-  color: #05ff00;
+  color: #16a34a;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1404px;
   top: 454px;
@@ -1069,10 +1081,10 @@
   height: 22px;
 }
 .div30 {
-  color: #ffa800;
+  color: #d97706;
   text-align: left;
    font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1404px;
   top: 498px;
@@ -1123,10 +1135,10 @@
   height: 19px;
 }
 .div31 {
-  color: #05ff00;
+  color: #16a34a;
   text-align: left;
    font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 594px;
   top: 713px;
@@ -1134,10 +1146,10 @@
   height: 22px;
 }
 .div32 {
-  color: #ffa800;
+  color: #d97706;
   text-align: left;
    font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 594px;
   top: 747px;
@@ -1188,10 +1200,10 @@
   height: 19px;
 }
 .div33 {
-  color: #05ff00;
+  color: #16a34a;
   text-align: left;
    font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1003px;
   top: 713px;
@@ -1199,10 +1211,10 @@
   height: 22px;
 }
 .div34 {
-  color: #ffa800;
+  color: #d97706;
   text-align: left;
    font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1003px;
   top: 747px;
@@ -1253,10 +1265,10 @@
   height: 19px;
 }
 .div35 {
-  color: #05ff00;
+  color: #16a34a;
   text-align: left;
    font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1414px;
   top: 713px;
@@ -1264,10 +1276,10 @@
   height: 22px;
 }
 .div36 {
-  color: #ffa800;
+  color: #d97706;
   text-align: left;
    font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   left: 1414px;
   top: 747px;

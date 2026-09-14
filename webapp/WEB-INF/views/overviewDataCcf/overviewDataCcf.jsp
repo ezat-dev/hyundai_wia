@@ -33,6 +33,7 @@
        background: none;
    
        -webkit-font-smoothing: antialiased;
+font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
    }
         .footer{
   	 margin-top:85px;
@@ -46,13 +47,12 @@
   <title>Document</title>
 </head>
 <body>
+  <%@ include file="/WEB-INF/views/layout/common_style.jsp" %>
   <div class="overview-1-1">
     <div class="group-1">
-     <div class="header"><%@ include file="/WEB-INF/resources/header/index.jsp" %></div>
-
-       <div id="ft">  <%@ include file="/WEB-INF/resources/footer/index.jsp" %></div>
       <div class="main"></div>
       </div>
+    <div class="wia-mirror-wrap" style="position:absolute;left:0;top:0;width:1918px;height:900px;transform:scaleX(-1);">
     <img class="ccf" src="/DHT/image/overview_1_1/ccf0.png" />
     <div class="ccf-floor"></div>
     <div class="ccf-floor-box"></div>
@@ -61,34 +61,24 @@
     <div class="ccf-tray-2"></div>
     <div class="ccf-tray-3"></div>
     <div class="ccf-tray-32"></div>
-    <div class="clutchon-box-1">
+    <div class="clutchon-box-1" style="transform:scaleX(-1);">
       CLUTCH
       <br />
-      ON    
+      ON
     </div>
-    <!-- 
-    <div class="clutchon-text-1">
-
-    </div>
-     -->
-    <div class="clutchon-box-2">
+    <div class="clutchon-box-2" style="transform:scaleX(-1);">
       CLUTCH
       <br />
-      ON    
+      ON
     </div>
-    <!-- 
-    <div class="clutchon-text-2">
-
-    </div>
-     -->
     <div class="down-box-1"></div>
-    <div class="down-text-1">하강</div>
+    <div class="down-text-1" style="transform:scaleX(-1);">하강</div>
     <div class="up-box-1"></div>
-    <div class="up-text-1">상승</div>
+    <div class="up-text-1" style="transform:scaleX(-1);">상승</div>
     <div class="down-box-2"></div>
-    <div class="down-text-2">하강</div>
+    <div class="down-text-2" style="transform:scaleX(-1);">하강</div>
     <div class="down-box-3"></div>
-    <div class="down-text-3">하강</div>
+    <div class="down-text-3" style="transform:scaleX(-1);">하강</div>
     <img class="short-1" src="/DHT/image/overview_1_1/short-10.png" />
     <img class="tempering-lifter" src="/DHT/image/overview_1_1/tempering-lifter0.png" />
     <img class="short-3" src="/DHT/image/overview_1_1/short-30.png" />
@@ -250,18 +240,18 @@
     <img class="sensor-green-12" src="/DHT/image/overview_1_1/sensor-green-120.png" />
     <div class="middle-value-1"></div>
     <div class="middle-value-2"></div>
-    <div class="middle-value-text-1">설정값</div>
-    <div class="middle-value-text-12">현재값</div>
-    <div class="middle-value-1-sp"></div>
-    <div class="middle-value-1-pv"></div>
-    <div class="middle-value-text-2">설정값</div>
-    <div class="middle-value-text-22">현재값</div>
-    <div class="middle-value-2-sp"></div>
-    <div class="middle-value-2-pv"></div>
-    <div class="oil-cool-text-1">유조 냉각펌프 1번</div>
-    <div class="oil-cool-text-2">유조 냉각펌프 2번</div>
-    <div class="pq-door-text">PQ 문</div>
-    <div class="pq-lifter-text">PQ 리프터</div>
+    <div class="middle-value-text-1" style="transform:scaleX(-1);">설정값</div>
+    <div class="middle-value-text-12" style="transform:scaleX(-1);">현재값</div>
+    <div class="middle-value-1-sp" style="transform:scaleX(-1);"></div>
+    <div class="middle-value-1-pv" style="transform:scaleX(-1);"></div>
+    <div class="middle-value-text-2" style="transform:scaleX(-1);">설정값</div>
+    <div class="middle-value-text-22" style="transform:scaleX(-1);">현재값</div>
+    <div class="middle-value-2-sp" style="transform:scaleX(-1);"></div>
+    <div class="middle-value-2-pv" style="transform:scaleX(-1);"></div>
+    <div class="oil-cool-text-1" style="transform:scaleX(-1);">유조 냉각펌프 1번</div>
+    <div class="oil-cool-text-2" style="transform:scaleX(-1);">유조 냉각펌프 2번</div>
+    <div class="pq-door-text" style="transform:scaleX(-1);">PQ 문</div>
+    <div class="pq-lifter-text" style="transform:scaleX(-1);">PQ 리프터</div>
     <img class="pre-mini-bar-1" src="/DHT/image/overview_1_1/pre-mini-bar-10.png" />
     <img class="pre-mini-bar-2" src="/DHT/image/overview_1_1/pre-mini-bar-20.png" />
     <img class="pre-mini-bar-3" src="/DHT/image/overview_1_1/pre-mini-bar-30.png" />
@@ -332,35 +322,36 @@
     <img class="green-down-8" src="/DHT/image/overview_1_1/green-down-80.png" />
     <img class="green-up-9" src="/DHT/image/overview_1_1/green-up-90.png" />
     <img class="green-down-9" src="/DHT/image/overview_1_1/green-down-90.png" />
-    <div class="tong-0">0</div>
-    <div class="tong-1">1</div>
-    <div class="tong-2">2</div>
-    <div class="tong-3">3</div>
-    <div class="tong-4">4</div>
-    <div class="tong-5">5</div>
-    <div class="tong-6">6</div>
-    <div class="tong-7">7</div>
-    <div class="tong-8">8</div>
-    <div class="tong-9">9</div>
-    <div class="tong-10">10</div>
-    <div class="tong-11">11</div>
-    <div class="tong-12">12</div>
-    <div class="tong-13">13</div>
-    <div class="tong-14">14</div>
-    <div class="tong-15">15</div>
-    <div class="tong-16">16</div>
-    <div class="tong-17">17</div>
-    <div class="tong-18">18</div>
-    <div class="tong-19">19</div>
-    <div class="tong-20">20</div>
-    <div class="tong-21">21</div>
-    <div class="tong-22">22</div>
-    <div class="tong-23">23</div>
-    <div class="tong-24">24</div>
-    <div class="tong-25">25</div>
-    <div class="tong-26">26</div>
-    <div class="tong-27">27</div>
-<!--     
+    <div class="tong-0" style="transform:scaleX(-1);">0</div>
+    <div class="tong-1" style="transform:scaleX(-1);">1</div>
+    <div class="tong-2" style="transform:scaleX(-1);">2</div>
+    <div class="tong-3" style="transform:scaleX(-1);">3</div>
+    <div class="tong-4" style="transform:scaleX(-1);">4</div>
+    <div class="tong-5" style="transform:scaleX(-1);">5</div>
+    <div class="tong-6" style="transform:scaleX(-1);">6</div>
+    <div class="tong-7" style="transform:scaleX(-1);">7</div>
+    <div class="tong-8" style="transform:scaleX(-1);">8</div>
+    <div class="tong-9" style="transform:scaleX(-1);">9</div>
+    <div class="tong-10" style="transform:scaleX(-1);">10</div>
+    <div class="tong-11" style="transform:scaleX(-1);">11</div>
+    <div class="tong-12" style="transform:scaleX(-1);">12</div>
+    <div class="tong-13" style="transform:scaleX(-1);">13</div>
+    <div class="tong-14" style="transform:scaleX(-1);">14</div>
+    <div class="tong-15" style="transform:scaleX(-1);">15</div>
+    <div class="tong-16" style="transform:scaleX(-1);">16</div>
+    <div class="tong-17" style="transform:scaleX(-1);">17</div>
+    <div class="tong-18" style="transform:scaleX(-1);">18</div>
+    <div class="tong-19" style="transform:scaleX(-1);">19</div>
+    <div class="tong-20" style="transform:scaleX(-1);">20</div>
+    <div class="tong-21" style="transform:scaleX(-1);">21</div>
+    <div class="tong-22" style="transform:scaleX(-1);">22</div>
+    <div class="tong-23" style="transform:scaleX(-1);">23</div>
+    <div class="tong-24" style="transform:scaleX(-1);">24</div>
+    <div class="tong-25" style="transform:scaleX(-1);">25</div>
+    <div class="tong-26" style="transform:scaleX(-1);">26</div>
+    <div class="tong-27" style="transform:scaleX(-1);">27</div>
+    </div>
+<!--
     <div class="tong-text-0">0</div>
     <div class="tong-text-1">1</div>
     <div class="tong-text-2">2</div>
