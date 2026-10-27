@@ -1,0 +1,8 @@
+# 빌드 산출물
+target/
+
+# 서버 로그 (용량이 매우 커서 GitHub 업로드 불가)
+server_log*.txt
+
+# 작업용 백업 폴더
+webapp/WEB-INF/resources/image/overview_1_gt2_original_backup/
