@@ -1,4 +1,4 @@
-<%@ page contentType="text/html; charset=UTF-8" language="java" %>
+﻿<%@ page contentType="text/html; charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,126 +17,127 @@
     <div class="wia-page-header">
       <div>
         <div class="wia-page-title">알람</div>
-        <div class="wia-page-sub">연속로(CCF) 실시간 알람 현황 · 2 / 2 페이지</div>
+        <div class="wia-page-sub">연속로(CCF) 실시간 알람 현황 · 2 / 3 페이지</div>
       </div>
       <div class="wia-toolbar">
-        <button class="wia-btn-outline" onclick="goToIndex1()">← 1 페이지</button>
+        <button class="wia-btn-outline" onclick="goToIndex(1)">← 이전 페이지</button>
+        <button class="wia-btn-outline" onclick="goToIndex(3)">다음 페이지 →</button>
       </div>
     </div>
     <div class="wia-card">
       <div class="wia-alarm-grid">
-        <div class="alarm-1 wia-alarm-chip"></div>
-        <div class="alarm-2 wia-alarm-chip"></div>
-        <div class="alarm-3 wia-alarm-chip"></div>
-        <div class="alarm-4 wia-alarm-chip">세정기 기기 마그네틱 스위치 동작이상</div>
-        <div class="alarm-5 wia-alarm-chip">소려로 기기 마그네틱 스위치 동작이상</div>
-        <div class="alarm-6 wia-alarm-chip">출구 스톡콘베어 기기 마그네틱 스위치 동작이상</div>
-        <div class="alarm-7 wia-alarm-chip"></div>
-        <div class="alarm-8 wia-alarm-chip">자동대차 비상정지</div>
-        <div class="alarm-9 wia-alarm-chip">자동대차 주행터 인버터 이상</div>
-        <div class="alarm-10 wia-alarm-chip">자동대차 롤러 이상</div>
-        <div class="alarm-11 wia-alarm-chip">자동대차 주행위치 오버런 (전진)</div>
-        <div class="alarm-12 wia-alarm-chip">자동대차 주행위치 오버런 (후진)</div>
-        <div class="alarm-13 wia-alarm-chip">자동대차 안전 범퍼센서 이상 (전진)</div>
-        <div class="alarm-14 wia-alarm-chip">자동대차 안전 범퍼센서 이상 (후진)</div>
-        <div class="alarm-15 wia-alarm-chip"></div>
-        <div class="alarm-16 wia-alarm-chip"></div>
-        <div class="alarm-17 wia-alarm-chip"></div>
-        <div class="alarm-18 wia-alarm-chip"></div>
-        <div class="alarm-19 wia-alarm-chip"></div>
-        <div class="alarm-20 wia-alarm-chip"></div>
-        <div class="alarm-21 wia-alarm-chip"></div>
-        <div class="alarm-22 wia-alarm-chip"></div>
-        <div class="alarm-23 wia-alarm-chip"></div>
-        <div class="alarm-24 wia-alarm-chip"></div>
-        <div class="alarm-25 wia-alarm-chip"></div>
-        <div class="alarm-26 wia-alarm-chip"></div>
-        <div class="alarm-27 wia-alarm-chip"></div>
-        <div class="alarm-28 wia-alarm-chip"></div>
-        <div class="alarm-29 wia-alarm-chip"></div>
-        <div class="alarm-30 wia-alarm-chip"></div>
-        <div class="alarm-31 wia-alarm-chip"></div>
-        <div class="alarm-32 wia-alarm-chip"></div>
-        <div class="alarm-33 wia-alarm-chip"></div>
-        <div class="alarm-34 wia-alarm-chip"></div>
-        <div class="alarm-35 wia-alarm-chip"></div>
-        <div class="alarm-36 wia-alarm-chip"></div>
-        <div class="alarm-37 wia-alarm-chip"></div>
-        <div class="alarm-38 wia-alarm-chip"></div>
-        <div class="alarm-39 wia-alarm-chip"></div>
-        <div class="alarm-40 wia-alarm-chip"></div>
-        <div class="alarm-41 wia-alarm-chip"></div>
-        <div class="alarm-42 wia-alarm-chip"></div>
-        <div class="alarm-43 wia-alarm-chip"></div>
-        <div class="alarm-44 wia-alarm-chip"></div>
-        <div class="alarm-45 wia-alarm-chip"></div>
-        <div class="alarm-46 wia-alarm-chip"></div>
-        <div class="alarm-47 wia-alarm-chip"></div>
-        <div class="alarm-48 wia-alarm-chip"></div>
-        <div class="alarm-49 wia-alarm-chip"></div>
-        <div class="alarm-50 wia-alarm-chip"></div>
-        <div class="alarm-51 wia-alarm-chip"></div>
-        <div class="alarm-52 wia-alarm-chip"></div>
-        <div class="alarm-53 wia-alarm-chip"></div>
-        <div class="alarm-54 wia-alarm-chip"></div>
-        <div class="alarm-55 wia-alarm-chip"></div>
-        <div class="alarm-56 wia-alarm-chip"></div>
-        <div class="alarm-57 wia-alarm-chip"></div>
-        <div class="alarm-58 wia-alarm-chip"></div>
-        <div class="alarm-59 wia-alarm-chip"></div>
-        <div class="alarm-60 wia-alarm-chip"></div>
-        <div class="alarm-61 wia-alarm-chip"></div>
-        <div class="alarm-62 wia-alarm-chip"></div>
-        <div class="alarm-63 wia-alarm-chip"></div>
-        <div class="alarm-64 wia-alarm-chip"></div>
-        <div class="alarm-65 wia-alarm-chip"></div>
-        <div class="alarm-66 wia-alarm-chip"></div>
-        <div class="alarm-67 wia-alarm-chip"></div>
-        <div class="alarm-68 wia-alarm-chip"></div>
-        <div class="alarm-69 wia-alarm-chip"></div>
-        <div class="alarm-70 wia-alarm-chip"></div>
-        <div class="alarm-71 wia-alarm-chip"></div>
-        <div class="alarm-72 wia-alarm-chip"></div>
-        <div class="alarm-73 wia-alarm-chip"></div>
-        <div class="alarm-74 wia-alarm-chip"></div>
-        <div class="alarm-75 wia-alarm-chip"></div>
-        <div class="alarm-76 wia-alarm-chip"></div>
-        <div class="alarm-77 wia-alarm-chip"></div>
-        <div class="alarm-78 wia-alarm-chip"></div>
-        <div class="alarm-79 wia-alarm-chip"></div>
-        <div class="alarm-80 wia-alarm-chip"></div>
-        <div class="alarm-81 wia-alarm-chip"></div>
-        <div class="alarm-82 wia-alarm-chip"></div>
-        <div class="alarm-83 wia-alarm-chip"></div>
-        <div class="alarm-84 wia-alarm-chip"></div>
-        <div class="alarm-85 wia-alarm-chip"></div>
-        <div class="alarm-86 wia-alarm-chip"></div>
-        <div class="alarm-87 wia-alarm-chip"></div>
-        <div class="alarm-88 wia-alarm-chip"></div>
-        <div class="alarm-89 wia-alarm-chip"></div>
-        <div class="alarm-90 wia-alarm-chip"></div>
-        <div class="alarm-91 wia-alarm-chip"></div>
-        <div class="alarm-92 wia-alarm-chip"></div>
-        <div class="alarm-93 wia-alarm-chip"></div>
-        <div class="alarm-94 wia-alarm-chip"></div>
-        <div class="alarm-95 wia-alarm-chip"></div>
-        <div class="alarm-96 wia-alarm-chip"></div>
-        <div class="alarm-97 wia-alarm-chip"></div>
-        <div class="alarm-98 wia-alarm-chip"></div>
-        <div class="alarm-99 wia-alarm-chip"></div>
-        <div class="alarm-100 wia-alarm-chip"></div>
-        <div class="alarm-101 wia-alarm-chip"></div>
-        <div class="alarm-102 wia-alarm-chip"></div>
-        <div class="alarm-103 wia-alarm-chip"></div>
-        <div class="alarm-104 wia-alarm-chip"></div>
-        <div class="alarm-105 wia-alarm-chip"></div>
+        <div class="B869 wia-alarm-chip"></div>
+        <div class="B86A wia-alarm-chip"></div>
+        <div class="B86B wia-alarm-chip"></div>
+        <div class="B86C wia-alarm-chip"></div>
+        <div class="B86D wia-alarm-chip"></div>
+        <div class="B86E wia-alarm-chip"></div>
+        <div class="B86F wia-alarm-chip"></div>
+        <div class="B870 wia-alarm-chip"></div>
+        <div class="B871 wia-alarm-chip"></div>
+        <div class="B872 wia-alarm-chip"></div>
+        <div class="B873 wia-alarm-chip"></div>
+        <div class="B874 wia-alarm-chip"></div>
+        <div class="B875 wia-alarm-chip"></div>
+        <div class="B876 wia-alarm-chip"></div>
+        <div class="B877 wia-alarm-chip"></div>
+        <div class="B878 wia-alarm-chip"></div>
+        <div class="B879 wia-alarm-chip"></div>
+        <div class="B87A wia-alarm-chip"></div>
+        <div class="B87B wia-alarm-chip"></div>
+        <div class="B87C wia-alarm-chip"></div>
+        <div class="B87D wia-alarm-chip"></div>
+        <div class="B87E wia-alarm-chip">예열로  제품장입요구 AL</div>
+        <div class="B87F wia-alarm-chip">본체출구제품추출요구 AL</div>
+        <div class="B880 wia-alarm-chip">장입스톡 장입롤러 과부하 Trip</div>
+        <div class="B881 wia-alarm-chip">장입스톡 리트리버 과부하 Trip</div>
+        <div class="B882 wia-alarm-chip">장입스톡 추출롤러 과부하 Trip</div>
+        <div class="B883 wia-alarm-chip">장입스톡 리프트롤러 과부하 Trip</div>
+        <div class="B884 wia-alarm-chip">예열로 입구1 롤러 과부하 Trip</div>
+        <div class="B885 wia-alarm-chip">예열로 입구2 롤러 과부하 Trip</div>
+        <div class="B886 wia-alarm-chip">가열존 장입 롤러 과부하 Trip</div>
+        <div class="B887 wia-alarm-chip">침탄존 장입 롤러 과부하 Trip</div>
+        <div class="B888 wia-alarm-chip">균열존 장입 롤러 과부하 Trip</div>
+        <div class="B889 wia-alarm-chip">유조 입구도어 모터 과부하 Trip</div>
+        <div class="B88A wia-alarm-chip">유조 체인롤러 과부하 Trip</div>
+        <div class="B88B wia-alarm-chip">유조 출구롤러 과부하 Trip</div>
+        <div class="B88C wia-alarm-chip">유조 열교환기-1 펌프 과부하 Trip</div>
+        <div class="B88D wia-alarm-chip">유조 열교환기-2 펌프 과부하 Trip</div>
+        <div class="B88E wia-alarm-chip"></div>
+        <div class="B88F wia-alarm-chip"></div>
+        <div class="B890 wia-alarm-chip">장입스톡 장입롤러 제품위치센서 이상</div>
+        <div class="B891 wia-alarm-chip">장입스톡 리트리버 위치센서 이상</div>
+        <div class="B892 wia-alarm-chip">장입스톡 추출롤러 제품위치센서 이상</div>
+        <div class="B893 wia-alarm-chip">장입스톡 리프트롤러 제품위치센서 이상</div>
+        <div class="B894 wia-alarm-chip">장입스톡 리프트 위치센서 이상</div>
+        <div class="B895 wia-alarm-chip">예열로 입구1 제품위치센서 이상</div>
+        <div class="B896 wia-alarm-chip">예열로 입구2 제품위치센서 이상</div>
+        <div class="B897 wia-alarm-chip">예열로 입구도어 위치센서 이상</div>
+        <div class="B898 wia-alarm-chip">예열로 로내롤러 제품위치센서 이상</div>
+        <div class="B899 wia-alarm-chip">예열로 로내롤러 회전센서 이상</div>
+        <div class="B89A wia-alarm-chip">예열로 출구도어 위치센서 이상</div>
+        <div class="B89B wia-alarm-chip">가열존 장입롤러 제품위치센서 이상</div>
+        <div class="B89C wia-alarm-chip">가열존 장입보조리프트 위치센서 이상</div>
+        <div class="B89D wia-alarm-chip">가열존 입구도어 위치센서 이상</div>
+        <div class="B89E wia-alarm-chip">가열존1-1 제품센서 이상</div>
+        <div class="B89F wia-alarm-chip">가열존1-1 로내롤러 회전센서 이상</div>
+        <div class="B8A0 wia-alarm-chip">가열존1-2 제품센서 이상</div>
+        <div class="B8A1 wia-alarm-chip">가열존1-2 로내롤러 회전센서 이상</div>
+        <div class="B8A2 wia-alarm-chip">침탄존 입구도어 위치센서 이상</div>
+        <div class="B8A3 wia-alarm-chip">침탄1 제품위치센서 이상</div>
+        <div class="B8A4 wia-alarm-chip">침탄 로내롤러 회전센서 이상</div>
+        <div class="B8A5 wia-alarm-chip">확산 로내롤러 회전센서 이상</div>
+        <div class="B8A6 wia-alarm-chip">균열1존 입구도어 위치센서 이상</div>
+        <div class="B8A7 wia-alarm-chip">균열1존 제품위치센서 이상</div>
+        <div class="B8A8 wia-alarm-chip">균열1존 로내롤러 회전센서 이상</div>
+        <div class="B8A9 wia-alarm-chip">균열2존 입구도어 위치센서 이상</div>
+        <div class="B8AA wia-alarm-chip">균열2존 제품위치센서 이상</div>
+        <div class="B8AB wia-alarm-chip">균열2존 로내롤러 회전센서 이상</div>
+        <div class="B8AC wia-alarm-chip">유조 입구도어 위치센서 이상</div>
+        <div class="B8AD wia-alarm-chip">유조 로내롤러 위치센서 이상</div>
+        <div class="B8AE wia-alarm-chip">유조 E/V 위치센서 이상</div>
+        <div class="B8AF wia-alarm-chip">유조 출구도어 위치센서 이상</div>
+        <div class="B8B0 wia-alarm-chip">유조출구 제품위치센서 이상</div>
+        <div class="B8B1 wia-alarm-chip">예열로 순환팬 회전감지 이상</div>
+        <div class="B8B2 wia-alarm-chip">가열존 순환팬 회전감지 이상</div>
+        <div class="B8B3 wia-alarm-chip">침탄존 순환팬 회전감지 이상</div>
+        <div class="B8B4 wia-alarm-chip">확산존 순환팬 회전감지 이상</div>
+        <div class="B8B5 wia-alarm-chip">균열1존 순환팬 회전감지 이상</div>
+        <div class="B8B6 wia-alarm-chip">균열2존 순환팬 회전감지 이상</div>
+        <div class="B8B7 wia-alarm-chip">유조 교반기-1 회전감지 이상</div>
+        <div class="B8B8 wia-alarm-chip">유조 교반기-2 회전감지 이상</div>
+        <div class="B8B9 wia-alarm-chip"></div>
+        <div class="B8BA wia-alarm-chip"></div>
+        <div class="B8BB wia-alarm-chip"></div>
+        <div class="B8BC wia-alarm-chip"></div>
+        <div class="B8BD wia-alarm-chip"></div>
+        <div class="B8BE wia-alarm-chip"></div>
+        <div class="B8BF wia-alarm-chip"></div>
+        <div class="B8C0 wia-alarm-chip">가열존 히터 차단기 OFF</div>
+        <div class="B8C1 wia-alarm-chip">침탄1존 히터 차단기 OFF</div>
+        <div class="B8C2 wia-alarm-chip">침탄2존 히터 차단기 OFF</div>
+        <div class="B8C3 wia-alarm-chip">확산존 히터 차단기 OFF</div>
+        <div class="B8C4 wia-alarm-chip">냉각존 히터 차단기 OFF</div>
+        <div class="B8C5 wia-alarm-chip">균열1존 히터 차단기 OFF</div>
+        <div class="B8C6 wia-alarm-chip">균열2존 히터 차단기 OFF</div>
+        <div class="B8C7 wia-alarm-chip">유조 히터 차단기 OFF</div>
+        <div class="B8C8 wia-alarm-chip">예열로 순환팬 차단기 OFF</div>
+        <div class="B8C9 wia-alarm-chip">가열존 순환팬 차단기 OFF</div>
+        <div class="B8CA wia-alarm-chip">침탄존 순환팬 차단기 OFF</div>
+        <div class="B8CB wia-alarm-chip">확산존 순환팬 차단기 OFF</div>
+        <div class="B8CC wia-alarm-chip">균열1존 순환팬 차단기 OFF</div>
+        <div class="B8CD wia-alarm-chip">균열2존 순환팬 차단기 OFF</div>
+        <div class="B8CE wia-alarm-chip">유조 교반기-1 차단기 OFF</div>
+        <div class="B8CF wia-alarm-chip">유조 교반기-2 차단기 OFF</div>
+        <div class="B8D0 wia-alarm-chip">예열로 로내롤러 차단기 OFF</div>
+        <div class="B8D1 wia-alarm-chip">가열존-1 로내롤러 차단기 OFF</div>
       </div>
     </div>
   </div>
 
 	<div class="wia-modal-backdrop" id="modal" style="display: none;">
         <div class="wia-modal">
-			<form action="/DHT/alarmListCcf1/upload" method="post"
+			<form action="/DHT/alarmListCcf2/upload" method="post"
 					enctype="multipart/form-data" id="alarmForm">
 				<div class="wia-modal-header">
 					<div class="wia-modal-header-title popup-beader"></div>
@@ -181,7 +182,7 @@
         </div>
     </div>
 
-  <script>
+<script>
 	//전역변수
 	var acTag = $(".frame-1").val();
 	var alarmInterval;
@@ -197,37 +198,62 @@
 		getAlarmText();
 		ccfAlarmListView();
 		alarmInterval = setInterval("ccfAlarmListView()", 1000);
+
+		pollAlarmBitTags(25, 1000);
 	});
 
-	//이벤트
+	//ez_scada foldertag API(BIT값) 폴링 - folderId: 25 = 알람(B800~B8FF)
+	//신호=1일 때 is-active 클래스 토글(빨간 배경+노란 폰트는 common_style.jsp CSS에서 처리)
+	function pollAlarmBitTags(folderId, intervalMs){
+		function tick(){
+			$.ajax({
+				url: "http://localhost:5050/api/foldertag/values?folderId=" + folderId,
+				type: "get",
+				dataType: "json",
+				timeout: 4000
+			}).done(function(result){
+				if(!result || !result.tags) return;
+				result.tags.forEach(function(tag){
+					if(!tag.name) return;
+					var on = (tag.value === 1 || tag.value === true);
+					c(tag.name, on);
+				});
+			}).always(function(){
+				setTimeout(tick, intervalMs);
+			});
+		}
+		tick();
+	}
+
+//이벤트
 
 	$("#fileInput").change(function(event){
-        const file = event.target.files[0]; // 선택된 파일 가져오기
+        const file = event.target.files[0];
         if(file){
-            const reader = new FileReader(); // FileReader 객체 생성
+            const reader = new FileReader();
             reader.onload = function(e) {
 
-            	$("#imagePreview").attr("src",e.target.result); // 미리보기 이미지 소스 업데이트
-            	$("#imagePreview").css("display","block");// 미리보기 보이게
+            	$("#imagePreview").attr("src",e.target.result);
+            	$("#imagePreview").css("display","block");
             	$("#imagePreviewEmpty").css("display","none");
             	uploadImgFileName = e.target.result;
             };
-            reader.readAsDataURL(file); // 파일을 데이터 URL로 읽기
+            reader.readAsDataURL(file);
         }
 	});
 
 	$("#pdfInput").change(function(event){
-        const file = event.target.files[0]; // 선택된 파일 가져오기
+        const file = event.target.files[0];
         if(file){
-            const reader = new FileReader(); // FileReader 객체 생성
+            const reader = new FileReader();
             reader.onload = function(e) {
 
-            	$("#pdfPreview").attr("src",e.target.result); // 미리보기 이미지 소스 업데이트
-            	$("#pdfPreview").css("display","block");// 미리보기 보이게
+            	$("#pdfPreview").attr("src",e.target.result);
+            	$("#pdfPreview").css("display","block");
             	$("#pdfPreviewEmpty").css("display","none");
             	uploadImgFileName = e.target.result;
             };
-            reader.readAsDataURL(file); // 파일을 데이터 URL로 읽기
+            reader.readAsDataURL(file);
         }
 	});
 
@@ -245,30 +271,21 @@
 		$("#pdfButton").addClass("active");
 	});
 
-	$('[class^="alarm-"]').on("click",function(ev){
+	$('.wia-alarm-chip').on("click",function(ev){
 		className = ev.currentTarget.className.replace("wia-alarm-chip","").trim();
-		var v_index = className.indexOf("-")+1;
-		var v_length = className.length;
-
-		var v_value = className.substring(v_index,v_length);
-
-		if(v_value <= 105){
-			modalOpen();
-			ccfALarmListPopup();
-		}
-
+		modalOpen();
+		ccfALarmListPopup();
 	});
 
-
-    function goToIndex1() {
-        window.location.href = '/DHT/alarmListCcf1';
+//함수
+    function goToIndex(page) {
+        window.location.href = '/DHT/alarmListCcf' + page;
     }
-
 
     //OPC값 알람 조회
     function ccfAlarmListView(){
 		$.ajax({
-			url:"/DHT/alarmListCcf1/view",
+			url:"/DHT/alarmListCcf2/view",
 			type:"post",
 			dataType:"json",
 			success:function(result){
@@ -313,7 +330,6 @@
 	            	if(data[key].ac_count > 0){
 	            		$("."+data[key].ai_webclass).append(div);
 	            	}
-
 	            }
 			}
 		});
@@ -345,14 +361,14 @@
 				$("#ac_comment").val(data.ac_comment);
 
 				if(data.ac_filename != null && data.ac_filename != ''){
-					$("#imagePreview").attr("src","/fileUploads/img/"+data.ac_filename).css("display","block");
+					$("#imagePreview").attr("src","/DHT/fileUploads/img/"+data.ac_filename).css("display","block");
 					$("#imagePreviewEmpty").css("display","none");
 				}else{
 					$("#imagePreview").attr("src","").css("display","none");
 					$("#imagePreviewEmpty").css("display","flex");
 				}
 				if(data.ac_pdf_filename != null && data.ac_pdf_filename != ''){
-					$("#pdfPreview").attr("src","/fileUploads/pdf/"+data.ac_pdf_filename).css("display","block");
+					$("#pdfPreview").attr("src","/DHT/fileUploads/pdf/"+data.ac_pdf_filename).css("display","block");
 					$("#pdfPreviewEmpty").css("display","none");
 				}else{
 					$("#pdfPreview").attr("src","").css("display","none");
@@ -423,8 +439,7 @@
 
 		$("#alarmForm")[0].reset();
 	}
-
-
 </script>
+
 </body>
 </html>

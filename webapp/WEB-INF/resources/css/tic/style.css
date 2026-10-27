@@ -2,6 +2,31 @@
 .group-2 * {
   box-sizing: border-box;
 }
+/* 온도/CP 조절계 값 박스 가운데 정렬 + 폰트 확대 */
+.pre-sp, .pre-pv,
+.hit-sp, .hit-pv,
+.chim-1-sp, .chim-1-pv,
+.chim-2-sp, .chim-2-pv,
+.diff-sp, .diff-pv,
+.crack-1-sp, .crack-1-pv,
+.crack-2-sp, .crack-2-pv,
+.oil-sp, .oil-pv,
+.hit-sp-a, .hit-pv-a,
+.chim-1-sp-a, .chim-1-pv-a,
+.chim-2-sp-a, .chim-2-pv-a,
+.diff-sp-a, .diff-pv-a,
+.crack-1-sp-a, .crack-1-pv-a,
+.crack-2-sp-a, .crack-2-pv-a,
+.cp-chim-sp, .cp-chim-pv,
+.cp-diff-sp, .cp-diff-pv,
+.cp-crack-2-sp, .cp-crack-2-pv {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .group-2 {
   height: 878px;
   position: relative;

@@ -1,0 +1,106 @@
+
+.header {
+  background: #123478;
+  width: 1918px;
+  height: 46.68px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.footer {
+  background: #123478;
+  width: 1918px;
+  height: 72.43px;
+  position: absolute;
+  left: 0px;
+  top: 805.57px;
+}
+.hamburger-icon-svg-1 {
+  width: 33px;
+  height: 26.56px;
+  position: absolute;
+  left: 13px;
+  top: 36.21px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+  object-fit: cover;
+}
+
+/* 카드 공통: 어두운 바탕 + 연회색 테두리, 검정 제목줄 + 빨간 디지털 리드아웃 4행 */
+.whm-card {
+  position: absolute;
+  width: 280px;
+  height: 220px;
+  background: #595953;
+  border-style: solid;
+  border-color: #999999;
+  border-width: 2px;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.35);
+}
+.whm-title {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 280px;
+  height: 50px;
+  background: #000000;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.whm-row {
+  position: absolute;
+  left: 0px;
+  width: 280px;
+  height: 36px;
+}
+.whm-row-1 { top: 54px; }
+.whm-row-2 { top: 92px; }
+.whm-row-3 { top: 130px; }
+.whm-row-4 { top: 168px; }
+.whm-row-label {
+  position: absolute;
+  left: 24px;
+  top: 4px;
+  color: #ff3b3b;
+  font-weight: 700;
+  font-size: 17px;
+}
+[data-role="row-value"] {
+  position: absolute;
+  left: 138px;
+  top: 1px;
+  width: 112px;
+  height: 31px;
+  background: #000000;
+  border-style: solid;
+  border-color: #ff3b3b;
+  border-width: 1px;
+  border-radius: 2px;
+  color: #ff3b3b;
+  font-family: 'Consolas', monospace;
+  font-weight: 700;
+  font-size: 19px;
+  text-align: center;
+  line-height: 29px;
+  outline: none;
+  cursor: default;
+}
+
+/* 열(4칸) 좌측 기준 좌표 */
+.whm-col-1 { left: 339px; }
+.whm-col-2 { left: 659px; }
+.whm-col-3 { left: 979px; }
+.whm-col-4 { left: 1299px; }
+
+/* 행(3줄) 상단 기준 좌표 */
+.whm-row-top-1 { top: 65px; }
+.whm-row-top-2 { top: 320px; }
+.whm-row-top-3 { top: 575px; }

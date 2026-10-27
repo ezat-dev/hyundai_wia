@@ -37,14 +37,18 @@ public class AlarmListCcfController {
 
     @RequestMapping(value= "/alarmListCcf1/view", method = RequestMethod.POST)
     @ResponseBody
-    public Map<String, Object> alarmListCcf1View() throws UaException, InterruptedException, ExecutionException {
+    public Map<String, Object> alarmListCcf1View() {
     	Map<String, Object> returnMap = new HashMap<String, Object>();
 
-    	OpcDataMap opcDataMap = new OpcDataMap();
-    	
-    	returnMap = opcDataMap.getOpcDataListMap("WIA.ALARM.LIST11");    	
-    	
-    	return returnMap;    	
+    	try {
+    		OpcDataMap opcDataMap = new OpcDataMap();
+    		returnMap = opcDataMap.getOpcDataListMap("WIA.ALARM.LIST11");
+    	} catch (Exception e) {
+    		// OPC 서버 미연결(로컬/오프라인) 시 조용히 빈 데이터 반환
+    		returnMap.put("multiValues", new java.util.ArrayList<Object>());
+    	}
+
+    	return returnMap;
     }
     
     
@@ -57,14 +61,17 @@ public class AlarmListCcfController {
     
     @RequestMapping(value= "/alarmListCcf2/view", method = RequestMethod.POST)
     @ResponseBody
-    public Map<String, Object> alarmListCcf2View() throws UaException, InterruptedException, ExecutionException {
+    public Map<String, Object> alarmListCcf2View() {
     	Map<String, Object> returnMap = new HashMap<String, Object>();
 
-    	OpcDataMap opcDataMap = new OpcDataMap();
-    	
-    	returnMap = opcDataMap.getOpcDataListMap("WIA.ALARM.LIST12");    	
-    	
-    	return returnMap;    	
+    	try {
+    		OpcDataMap opcDataMap = new OpcDataMap();
+    		returnMap = opcDataMap.getOpcDataListMap("WIA.ALARM.LIST12");
+    	} catch (Exception e) {
+    		returnMap.put("multiValues", new java.util.ArrayList<Object>());
+    	}
+
+    	return returnMap;
     }
 
     //알람 데이터 조회
@@ -85,13 +92,47 @@ public class AlarmListCcfController {
     @ResponseBody
     public Map<String, Object> alarmListCcf2AlarmData(){
     	Map<String, Object> rtnMap = new HashMap<String, Object>();
-    	
+
     	List<Alarm> alarmDataList = alarmService.alarmListCcf2AlarmData();
-    	
+
     	rtnMap.put("data", alarmDataList);
-    	
+
     	return rtnMap;
-    }    
+    }
+
+    @RequestMapping(value= "/alarmListCcf3", method = RequestMethod.GET)
+    public String alarmListCcf3(Model model) {
+
+    	return "/alarmListCcf/alarmListCcf3.jsp"; //
+    }
+
+    @RequestMapping(value= "/alarmListCcf3/view", method = RequestMethod.POST)
+    @ResponseBody
+    public Map<String, Object> alarmListCcf3View() {
+    	Map<String, Object> returnMap = new HashMap<String, Object>();
+
+    	try {
+    		OpcDataMap opcDataMap = new OpcDataMap();
+    		returnMap = opcDataMap.getOpcDataListMap("WIA.ALARM.LIST13");
+    	} catch (Exception e) {
+    		returnMap.put("multiValues", new java.util.ArrayList<Object>());
+    	}
+
+    	return returnMap;
+    }
+
+    //알람 데이터 조회
+    @RequestMapping(value= "/alarmListCcf3/alarmData", method = RequestMethod.POST)
+    @ResponseBody
+    public Map<String, Object> alarmListCcf3AlarmData(){
+    	Map<String, Object> rtnMap = new HashMap<String, Object>();
+
+    	List<Alarm> alarmDataList = alarmService.alarmListCcf3AlarmData();
+
+    	rtnMap.put("data", alarmDataList);
+
+    	return rtnMap;
+    }
 
     //알람 팝업창 데이터 조회
     @RequestMapping(value= "/alarmListCcf1/alarmPopup", method = RequestMethod.POST)
@@ -120,19 +161,38 @@ public class AlarmListCcfController {
     		@RequestParam(required = false) String alarmGroup,
     		@RequestParam(required = false) String alarmClass){
     	Map<String, Object> rtnMap = new HashMap<String, Object>();
-    	
+
     	Alarm alarm = new Alarm();
     	alarm.setAi_webdir(alarmGroup);
     	alarm.setAi_webclass(alarmClass);
-    	
+
     	Alarm alarmPopupData = alarmService.alarmListCcf1AlarmPopup(alarm);
-    	
+
     	rtnMap.put("data", alarmPopupData);
-    	
+
     	return rtnMap;
-    }    
-    
-    
+    }
+
+    //알람 팝업창 데이터 조회
+    @RequestMapping(value= "/alarmListCcf3/alarmPopup", method = RequestMethod.POST)
+    @ResponseBody
+    public Map<String, Object> alarmListCcf3AlarmPopup(
+    		@RequestParam(required = false) String alarmGroup,
+    		@RequestParam(required = false) String alarmClass){
+    	Map<String, Object> rtnMap = new HashMap<String, Object>();
+
+    	Alarm alarm = new Alarm();
+    	alarm.setAi_webdir(alarmGroup);
+    	alarm.setAi_webclass(alarmClass);
+
+    	Alarm alarmPopupData = alarmService.alarmListCcf1AlarmPopup(alarm);
+
+    	rtnMap.put("data", alarmPopupData);
+
+    	return rtnMap;
+    }
+
+
     //알람팝업 파일 업로드
     @RequestMapping(value = "/alarmListCcf1/saveComment", method = RequestMethod.POST)
     @ResponseBody
@@ -179,24 +239,55 @@ public class AlarmListCcfController {
     @RequestMapping(value = "/alarmListCcf2/updateComment", method = RequestMethod.POST)
     @ResponseBody
     public Map<String, Object> alarmListCcf2UpdateComment(@ModelAttribute Alarm alarm) {
-    	
+
     	Map<String, Object> rtnMap = new HashMap<String, Object>();
-    	
+
     	//한번이라도 코멘트가 저장된적이 있는지
     	int saveChk = alarmService.alarmListCcfCommentChk(alarm);
-    	
-    	if(saveChk != 0) {        	
-        	alarm.setDbSaveGb("U");        	
+
+    	if(saveChk != 0) {
+        	alarm.setDbSaveGb("U");
         	fileUpload(alarm);
         	rtnMap.put("data","updateComment");
     	}else {
     		rtnMap.put("data","noSaveComment");
     	}
-    	
-        return rtnMap; 
+
+        return rtnMap;
     }
-    
-    
+
+    @RequestMapping(value = "/alarmListCcf3/saveComment", method = RequestMethod.POST)
+    @ResponseBody
+    public Map<String, Object> alarmListCcf3SaveComment(@ModelAttribute Alarm alarm) {
+
+    	Map<String, Object> rtnMap = new HashMap<String, Object>();
+    	alarm.setDbSaveGb("I");
+
+    	fileUpload(alarm);
+        return rtnMap;
+    }
+
+    @RequestMapping(value = "/alarmListCcf3/updateComment", method = RequestMethod.POST)
+    @ResponseBody
+    public Map<String, Object> alarmListCcf3UpdateComment(@ModelAttribute Alarm alarm) {
+
+    	Map<String, Object> rtnMap = new HashMap<String, Object>();
+
+    	//한번이라도 코멘트가 저장된적이 있는지
+    	int saveChk = alarmService.alarmListCcfCommentChk(alarm);
+
+    	if(saveChk != 0) {
+        	alarm.setDbSaveGb("U");
+        	fileUpload(alarm);
+        	rtnMap.put("data","updateComment");
+    	}else {
+    		rtnMap.put("data","noSaveComment");
+    	}
+
+        return rtnMap;
+    }
+
+
     public String fileNameReturn(String fileOriginName, String ai_plcaddr) {
     	String fileName = "";
     	
@@ -215,8 +306,8 @@ public class AlarmListCcfController {
     	int fileGb = 0;
     	String imgFileName = "";
     	String pdfFileName = "";
-    	String imgFilePath = "D:/uploads/img/";
-    	String pdfFilePath = "D:/uploads/pdf/";
+    	String imgFilePath = "D:/알람파일/사진/";
+    	String pdfFilePath = "D:/알람파일/pdf/";
     	
     	File imgFile = null;
     	File pdfFile = null;

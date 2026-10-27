@@ -1,4 +1,4 @@
-.group-2,
+﻿.group-2,
 .group-2 * {
   box-sizing: border-box;
 }
@@ -50,6 +50,108 @@ html, body {
   object-fit: cover;
 }
 
+/* ===== 카드 공용 스타일 (위치는 각 카드 래퍼 클래스의 하위 선택자로 개별 지정) ===== */
+[data-role="card-img"] {
+  width: 196px;
+  height: 126px;
+  object-fit: cover;
+  position: absolute;
+}
+[data-role="title-box"] {
+  background: #d9d9d9;
+  width: 128px;
+  height: 34px;
+  position: absolute;
+}
+[data-variant="wide"] {
+  width: 172px !important;
+}
+/* 제목 텍스트: 모든 카드 공통으로 박스 안에서 가운데 정렬 (left/width는 카드별로 자기 title-box 값과 동일하게 지정) */
+[data-role="title-text"] {
+  color: #000000;
+  text-align: center;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  white-space: nowrap;
+  position: absolute;
+}
+[data-variant="sm"] {
+  font-size: 18px !important;
+}
+/* 라벨 텍스트: 인버터 그림 위에 얹히므로 반투명 검정 배경을 깔아 어떤 그림 위에서도 잘 보이게 함 */
+[data-role="sp-text"] {
+  color: #1fd13c;
+  text-align: left;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  background: rgba(0,0,0,.65);
+  padding: 1px 4px;
+  border-radius: 2px;
+  position: absolute;
+}
+[data-role="pv-text"] {
+  color: #c084fc;
+  text-align: left;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  background: rgba(0,0,0,.65);
+  padding: 1px 4px;
+  border-radius: 2px;
+  position: absolute;
+}
+[data-role="outa-text"] {
+  color: #fbbf24;
+  text-align: left;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  background: rgba(0,0,0,.65);
+  padding: 1px 4px;
+  border-radius: 2px;
+  position: absolute;
+}
+[data-role="outv-text"] {
+  color: #fb923c;
+  text-align: left;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  background: rgba(0,0,0,.65);
+  padding: 1px 4px;
+  border-radius: 2px;
+  position: absolute;
+}
+[data-role="pv-value"], [data-role="outa-value"], [data-role="outv-value"] {
+  background: #f1f1f1;
+  color: #000000;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  width: 50px;
+  height: 17px;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+}
+[data-role="pv-unit"], [data-role="outa-unit"], [data-role="outv-unit"] {
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  background: rgba(0,0,0,.65);
+  padding: 1px 3px;
+  border-radius: 2px;
+  position: absolute;
+}
+
+/* ===== 펜 인버터 설정 ===== */
 .pen-inv-box {
   border-style: solid;
   border-color: rgba(15,23,42,.15);
@@ -60,18 +162,18 @@ html, body {
   align-items: center;
   justify-content: center;
   width: 1688px;
-  height: 433px;
+  height: 365px;
   position: absolute;
   left: 116px;
-  top: 126px;
+  top: 100px;
 }
 .pen-inv-text-box {
   background: #9a9a9a;
   width: 168px;
-  height: 40px;
+  height: 34px;
   position: absolute;
   left: 116px;
-  top: 106px;
+  top: 95px;
 }
 .pen-inv-text {
   color: #ffffff;
@@ -81,1152 +183,122 @@ html, body {
   font-weight: 600;
   position: absolute;
   left: 134px;
-  top: 113px;
-}
-.pre-pen {
-  width: 227px;
-  height: 183px;
-  position: static;
-}
-.pre-pen-inv {
-  width: 227px;
-  height: 145px;
-  position: absolute;
-  left: 171px;
-  top: 204px;
-  object-fit: cover;
-}
-.pre-pen-sp-text {
-  color: #08941e;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 193px;
-  top: 227px;
-}
-.pre-pen-sp {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 245px;
-  top: 228px;
-}
-.hz {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 296px;
-  top: 234px;
-}
-.pre-pen-pv-text {
-  color: #9333ea;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 193px;
-  top: 248px;
-}
-.pre-pen-pv {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 245px;
-  top: 249px;
-}
-.hz2 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 296px;
-  top: 255px;
-}
-.pre-pen-out-a-text {
-  color: #ca8a04;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 193px;
-  top: 269px;
-}
-.pre-pen-out-a {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 245px;
-  top: 270px;
-}
-.a {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 299px;
-  top: 276px;
-}
-.pre-pen-out-v-text {
-  color: #b76e00;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 193px;
-  top: 290px;
-}
-.pre-pen-out-v {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 245px;
-  top: 291px;
-}
-.v {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 299px;
-  top: 297px;
-}
-.pre-pen-inv-text-box {
-  background: #d9d9d9;
-  width: 128px;
-  height: 38px;
-  position: absolute;
-  left: 220px;
-  top: 166px;
-}
-.pre-pen-text {
-  color: #000000;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: absolute;
-  left: 244px;
-  top: 173px;
-}
-.hit-pen {
-  width: 225px;
-  height: 183px;
-  position: static;
-}
-.hit-pen-inv {
-  width: 225px;
-  height: 145px;
-  position: absolute;
-  left: 442px;
-  top: 204px;
-  object-fit: cover;
-}
-.hit-pen-sp-text {
-  color: #08941e;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 463px;
-  top: 228px;
-}
-.hit-pen-sp {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 515px;
-  top: 229px;
-}
-.hz3 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 566px;
-  top: 235px;
-}
-.hit-pen-pv-text {
-  color: #9333ea;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 463px;
-  top: 249px;
-}
-.hit-pen-pv {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 515px;
-  top: 250px;
-}
-.hz4 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 566px;
-  top: 256px;
-}
-.hit-pen-out-a-text {
-  color: #ca8a04;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 463px;
-  top: 270px;
-}
-.hit-pen-out-a {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 515px;
-  top: 271px;
-}
-.a2 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 569px;
-  top: 277px;
-}
-.hit-pen-out-v-text {
-  color: #b76e00;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 463px;
-  top: 291px;
-}
-.hit-pen-out-v {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 515px;
-  top: 292px;
-}
-.v2 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 569px;
-  top: 298px;
-}
-.hit-pen-inv-text-box {
-  background: #d9d9d9;
-  width: 128px;
-  height: 38px;
-  position: absolute;
-  left: 490px;
-  top: 166px;
-}
-.hit-pen-text {
-  color: #000000;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: absolute;
-  left: 514px;
-  top: 173px;
-}
-.chim-pen-1 {
-  width: 226px;
-  height: 183px;
-  position: static;
-}
-.chim-pen-inv-1 {
-  width: 226px;
-  height: 145px;
-  position: absolute;
-  left: 712px;
-  top: 204px;
-  object-fit: cover;
-}
-.chim-pen-sp-text-1 {
-  color: #08941e;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 733px;
-  top: 228px;
-}
-.chim-pen-sp-1 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 785px;
-  top: 229px;
-}
-.hz5 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 836px;
-  top: 235px;
-}
-.chim-pen-pv-text-1 {
-  color: #9333ea;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 733px;
-  top: 249px;
-}
-.chim-pen-pv-1 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 785px;
-  top: 250px;
-}
-.hz6 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 836px;
-  top: 256px;
-}
-.chim-pen-out-a-text-1 {
-  color: #ca8a04;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 733px;
-  top: 270px;
-}
-.chim-pen-out-a-1 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 785px;
-  top: 271px;
-}
-.a3 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 839px;
-  top: 277px;
-}
-.chim-pen-out-v-text-1 {
-  color: #b76e00;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 733px;
-  top: 291px;
-}
-.chim-pen-out-v-1 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 785px;
-  top: 292px;
-}
-.v3 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 839px;
-  top: 298px;
-}
-.chim-pen-inv-text-box-1 {
-  background: #d9d9d9;
-  width: 128px;
-  height: 38px;
-  position: absolute;
-  left: 760px;
-  top: 166px;
-}
-.chim-pen-inv-text-1 {
-  color: #000000;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: absolute;
-  left: 777px;
-  top: 173px;
-}
-.chim-pen-2 {
-  width: 226px;
-  height: 183px;
-  position: static;
-}
-.chim-pen-inv-2 {
-  width: 226px;
-  height: 145px;
-  position: absolute;
-  left: 982px;
-  top: 204px;
-  object-fit: cover;
-}
-.chim-pen-sp-text-2 {
-  color: #08941e;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1003px;
-  top: 228px;
-}
-.chim-pen-sp-2 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1055px;
-  top: 229px;
-}
-.hz7 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1106px;
-  top: 235px;
-}
-.chim-pen-pv-text-2 {
-  color: #9333ea;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1003px;
-  top: 249px;
-}
-.chim-pen-pv-2 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1055px;
-  top: 250px;
-}
-.hz8 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1106px;
-  top: 256px;
-}
-.chim-pen-out-a-text-2 {
-  color: #ca8a04;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1003px;
-  top: 270px;
-}
-.chim-pen-out-a-2 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1055px;
-  top: 271px;
-}
-.a4 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1109px;
-  top: 277px;
-}
-.chim-pen-out-v-text-2 {
-  color: #b76e00;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1003px;
-  top: 291px;
-}
-.chim-pen-out-v-2 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1055px;
-  top: 292px;
-}
-.v4 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1109px;
-  top: 298px;
-}
-.chim-pen-inv-text-box-2 {
-  background: #d9d9d9;
-  width: 128px;
-  height: 38px;
-  position: absolute;
-  left: 1030px;
-  top: 166px;
-}
-.chim-pen-inv-text-2 {
-  color: #000000;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: absolute;
-  left: 1045px;
-  top: 173px;
-}
-.diff-pen {
-  width: 225px;
-  height: 183px;
-  position: static;
-}
-.diff-pen-inv {
-  width: 225px;
-  height: 145px;
-  position: absolute;
-  left: 1253px;
-  top: 204px;
-  object-fit: cover;
-}
-.diff-pen-sp-text {
-  color: #08941e;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1273px;
-  top: 228px;
-}
-.diff-pen-sp {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1325px;
-  top: 229px;
-}
-.hz9 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1376px;
-  top: 235px;
-}
-.diff-pen-pv-text {
-  color: #9333ea;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1273px;
-  top: 249px;
-}
-.diff-pen-pv {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1325px;
-  top: 250px;
-}
-.hz10 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1376px;
-  top: 256px;
-}
-.diff-pen-out-a-text {
-  color: #ca8a04;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1273px;
-  top: 270px;
-}
-.diff-pen-out-a {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1325px;
-  top: 271px;
-}
-.a5 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1379px;
-  top: 277px;
-}
-.diff-pen-out-v-text {
-  color: #b76e00;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1273px;
-  top: 291px;
-}
-.diff-pen-out-v {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1325px;
-  top: 292px;
-}
-.v5 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1379px;
-  top: 298px;
-}
-.diff-pen-inv-text-box {
-  background: #d9d9d9;
-  width: 128px;
-  height: 38px;
-  position: absolute;
-  left: 1301px;
-  top: 166px;
-}
-.diff-pen-inv-text {
-  color: #000000;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: absolute;
-  left: 1325px;
-  top: 173px;
-}
-.crack-pen-1 {
-  width: 226px;
-  height: 183px;
-  position: static;
-}
-.crack-pen-inv-1 {
-  width: 226px;
-  height: 145px;
-  position: absolute;
-  left: 1522px;
-  top: 204px;
-  object-fit: cover;
-}
-.crack-pen-sp-text-1 {
-  color: #08941e;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1543px;
-  top: 228px;
-}
-.crack-pen-sp-1 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1595px;
-  top: 229px;
-}
-.hz11 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1646px;
-  top: 235px;
-}
-.crack-pen-pv-text-1 {
-  color: #9333ea;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1543px;
-  top: 249px;
-}
-.crack-pen-pv-1 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1595px;
-  top: 250px;
-}
-.hz12 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1646px;
-  top: 256px;
-}
-.crack-pen-out-a-text-1 {
-  color: #ca8a04;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1543px;
-  top: 270px;
-}
-.crack-pen-out-a-1 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1595px;
-  top: 271px;
-}
-.a6 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1649px;
-  top: 277px;
-}
-.crack-pen-out-v-text-1 {
-  color: #b76e00;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1543px;
-  top: 291px;
-}
-.crack-pen-out-v-1 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1595px;
-  top: 292px;
-}
-.v6 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1649px;
-  top: 298px;
-}
-.crack-pen-inv-text-box-1 {
-  background: #d9d9d9;
-  width: 127px;
-  height: 38px;
-  position: absolute;
-  left: 1571px;
-  top: 166px;
-}
-.crack-pen-inv-text-1 {
-  color: #000000;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: absolute;
-  left: 1587px;
-  top: 173px;
-}
-.crack-pen-2 {
-  width: 227px;
-  height: 183px;
-  position: static;
-}
-.crack-pen-inv-2 {
-  width: 227px;
-  height: 145px;
-  position: absolute;
-  left: 171px;
-  top: 402px;
-  object-fit: cover;
-}
-.crack-pen-sp-text-2 {
-  color: #08941e;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 193px;
-  top: 425px;
-}
-.crack-pen-sp-2 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 245px;
-  top: 426px;
-}
-.hz13 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 296px;
-  top: 432px;
-}
-.crack-pen-pv-text-2 {
-  color: #9333ea;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 193px;
-  top: 446px;
-}
-.crack-pen-pv-2 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 245px;
-  top: 447px;
-}
-.hz14 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 296px;
-  top: 453px;
-}
-.crack-pen-out-a-text-2 {
-  color: #ca8a04;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 193px;
-  top: 467px;
-}
-.crack-pen-out-a-2 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 245px;
-  top: 468px;
-}
-.a7 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 299px;
-  top: 474px;
-}
-.crack-pen-out-v-text-2 {
-  color: #b76e00;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 193px;
-  top: 488px;
-}
-.crack-pen-out-v-2 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 245px;
-  top: 489px;
-}
-.v7 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 299px;
-  top: 495px;
-}
-.crack-pen-inv-text-box-2 {
-  background: #d9d9d9;
-  width: 128px;
-  height: 38px;
-  position: absolute;
-  left: 220px;
-  top: 364px;
-}
-.crack-pen-inv-text-2 {
-  color: #000000;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: absolute;
-  left: 237px;
-  top: 371px;
-}
-.oil-agi-pen {
-  width: 225px;
-  height: 183px;
-  position: static;
-}
-.oil-agi-inv {
-  width: 225px;
-  height: 145px;
-  position: absolute;
-  left: 442px;
-  top: 402px;
-  object-fit: cover;
-}
-.oil-agi-pen-sp-text {
-  color: #08941e;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 463px;
-  top: 425px;
-}
-.oil-agi-pen-sp {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 515px;
-  top: 426px;
-}
-.hz15 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 566px;
-  top: 432px;
-}
-.oil-agi-pen-pv-text {
-  color: #9333ea;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 463px;
-  top: 446px;
-}
-.oil-agi-pen-pv {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 515px;
-  top: 447px;
-}
-.hz16 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 566px;
-  top: 453px;
-}
-.oil-agi-pen-out-a-text {
-  color: #ca8a04;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 463px;
-  top: 467px;
-}
-.oil-agi-pen-out-a {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 515px;
-  top: 468px;
-}
-.a8 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 569px;
-  top: 474px;
-}
-.oil-agi-pen-out-v-text {
-  color: #b76e00;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 463px;
-  top: 488px;
-}
-.oil-agi-pen-out-v {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 515px;
-  top: 489px;
-}
-.v8 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 569px;
-  top: 495px;
-}
-.oil-agi-inv-text-box {
-  background: #d9d9d9;
-  width: 128px;
-  height: 38px;
-  position: absolute;
-  left: 490px;
-  top: 364px;
-}
-.oil-agi-inv-text {
-  color: #000000;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  position: absolute;
-  left: 494px;
-  top: 371px;
-}
+  top: 101px;
+}
+
+/* 예열로 펜 (1행 1열) */
+.pre-pen [data-role="card-img"] { left: 186px; top: 169px; }
+.pre-pen [data-role="title-box"] { left: 220px; top: 135px; }
+.pre-pen [data-role="title-text"] { left: 220px; width: 128px; top: 140px; }
+.pre-pen [data-role="pv-text"] { left: 193px; top: 193px; }
+.pre-pen [data-role="pv-value"] { left: 245px; top: 194px; }
+.pre-pen [data-role="pv-unit"] { left: 296px; top: 199px; }
+.pre-pen [data-role="outa-text"] { left: 193px; top: 213px; }
+.pre-pen [data-role="outa-value"] { left: 245px; top: 214px; }
+.pre-pen [data-role="outa-unit"] { left: 299px; top: 220px; }
+.pre-pen [data-role="outv-text"] { left: 193px; top: 234px; }
+.pre-pen [data-role="outv-value"] { left: 245px; top: 235px; }
+.pre-pen [data-role="outv-unit"] { left: 299px; top: 241px; }
+
+/* 가열존 펜 (1행 2열) */
+.hit-pen [data-role="card-img"] { left: 456px; top: 169px; }
+.hit-pen [data-role="title-box"] { left: 490px; top: 135px; }
+.hit-pen [data-role="title-text"] { left: 490px; width: 128px; top: 140px; }
+.hit-pen [data-role="pv-text"] { left: 463px; top: 193px; }
+.hit-pen [data-role="pv-value"] { left: 515px; top: 194px; }
+.hit-pen [data-role="pv-unit"] { left: 566px; top: 199px; }
+.hit-pen [data-role="outa-text"] { left: 463px; top: 213px; }
+.hit-pen [data-role="outa-value"] { left: 515px; top: 214px; }
+.hit-pen [data-role="outa-unit"] { left: 569px; top: 220px; }
+.hit-pen [data-role="outv-text"] { left: 463px; top: 234px; }
+.hit-pen [data-role="outv-value"] { left: 515px; top: 235px; }
+.hit-pen [data-role="outv-unit"] { left: 569px; top: 241px; }
+
+/* 침탄존 펜 (1행 3열, 기존 침탄 1존+2존 펜 통합) */
+.chim-pen [data-role="card-img"] { left: 726px; top: 169px; }
+.chim-pen [data-role="title-box"] { left: 760px; top: 135px; }
+.chim-pen [data-role="title-text"] { left: 760px; width: 128px; top: 140px; }
+.chim-pen [data-role="pv-text"] { left: 733px; top: 193px; }
+.chim-pen [data-role="pv-value"] { left: 785px; top: 194px; }
+.chim-pen [data-role="pv-unit"] { left: 836px; top: 199px; }
+.chim-pen [data-role="outa-text"] { left: 733px; top: 213px; }
+.chim-pen [data-role="outa-value"] { left: 785px; top: 214px; }
+.chim-pen [data-role="outa-unit"] { left: 839px; top: 220px; }
+.chim-pen [data-role="outv-text"] { left: 733px; top: 234px; }
+.chim-pen [data-role="outv-value"] { left: 785px; top: 235px; }
+.chim-pen [data-role="outv-unit"] { left: 839px; top: 241px; }
+
+/* 확산존 펜 (1행 4열) */
+.diff-pen [data-role="card-img"] { left: 996px; top: 169px; }
+.diff-pen [data-role="title-box"] { left: 1030px; top: 135px; }
+.diff-pen [data-role="title-text"] { left: 1030px; width: 128px; top: 140px; }
+.diff-pen [data-role="pv-text"] { left: 1003px; top: 193px; }
+.diff-pen [data-role="pv-value"] { left: 1055px; top: 194px; }
+.diff-pen [data-role="pv-unit"] { left: 1106px; top: 199px; }
+.diff-pen [data-role="outa-text"] { left: 1003px; top: 213px; }
+.diff-pen [data-role="outa-value"] { left: 1055px; top: 214px; }
+.diff-pen [data-role="outa-unit"] { left: 1109px; top: 220px; }
+.diff-pen [data-role="outv-text"] { left: 1003px; top: 234px; }
+.diff-pen [data-role="outv-value"] { left: 1055px; top: 235px; }
+.diff-pen [data-role="outv-unit"] { left: 1109px; top: 241px; }
+
+/* 균열 1존 펜 (1행 5열) */
+.crack-pen-1 [data-role="card-img"] { left: 1267px; top: 169px; }
+.crack-pen-1 [data-role="title-box"] { left: 1301px; top: 135px; }
+.crack-pen-1 [data-role="title-text"] { left: 1301px; width: 128px; top: 140px; }
+.crack-pen-1 [data-role="pv-text"] { left: 1274px; top: 193px; }
+.crack-pen-1 [data-role="pv-value"] { left: 1326px; top: 194px; }
+.crack-pen-1 [data-role="pv-unit"] { left: 1377px; top: 199px; }
+.crack-pen-1 [data-role="outa-text"] { left: 1274px; top: 213px; }
+.crack-pen-1 [data-role="outa-value"] { left: 1326px; top: 214px; }
+.crack-pen-1 [data-role="outa-unit"] { left: 1380px; top: 220px; }
+.crack-pen-1 [data-role="outv-text"] { left: 1274px; top: 234px; }
+.crack-pen-1 [data-role="outv-value"] { left: 1326px; top: 235px; }
+.crack-pen-1 [data-role="outv-unit"] { left: 1380px; top: 241px; }
+
+/* 균열 2존 펜 (1행 6열) */
+.crack-pen-2 [data-role="card-img"] { left: 1537px; top: 169px; }
+.crack-pen-2 [data-role="title-box"] { left: 1571px; top: 135px; }
+.crack-pen-2 [data-role="title-text"] { left: 1571px; width: 128px; top: 140px; }
+.crack-pen-2 [data-role="pv-text"] { left: 1544px; top: 193px; }
+.crack-pen-2 [data-role="pv-value"] { left: 1596px; top: 194px; }
+.crack-pen-2 [data-role="pv-unit"] { left: 1647px; top: 199px; }
+.crack-pen-2 [data-role="outa-text"] { left: 1544px; top: 213px; }
+.crack-pen-2 [data-role="outa-value"] { left: 1596px; top: 214px; }
+.crack-pen-2 [data-role="outa-unit"] { left: 1650px; top: 220px; }
+.crack-pen-2 [data-role="outv-text"] { left: 1544px; top: 234px; }
+.crack-pen-2 [data-role="outv-value"] { left: 1596px; top: 235px; }
+.crack-pen-2 [data-role="outv-unit"] { left: 1650px; top: 241px; }
+
+/* 유조 아지테이터 (2행 1열) */
+.oil-agi-pen [data-role="card-img"] { left: 186px; top: 334px; }
+.oil-agi-pen [data-role="title-box"] { left: 220px; top: 300px; }
+.oil-agi-pen [data-role="title-text"] { left: 220px; width: 128px; top: 305px; }
+.oil-agi-pen [data-role="pv-text"] { left: 193px; top: 358px; }
+.oil-agi-pen [data-role="pv-value"] { left: 245px; top: 359px; }
+.oil-agi-pen [data-role="pv-unit"] { left: 296px; top: 364px; }
+.oil-agi-pen [data-role="outa-text"] { left: 193px; top: 378px; }
+.oil-agi-pen [data-role="outa-value"] { left: 245px; top: 379px; }
+.oil-agi-pen [data-role="outa-unit"] { left: 299px; top: 385px; }
+.oil-agi-pen [data-role="outv-text"] { left: 193px; top: 399px; }
+.oil-agi-pen [data-role="outv-value"] { left: 245px; top: 400px; }
+.oil-agi-pen [data-role="outv-unit"] { left: 299px; top: 406px; }
+
+/* 아지테이터 (신규, 2행 2열) */
+.agi2-pen [data-role="card-img"] { left: 456px; top: 334px; }
+.agi2-pen [data-role="title-box"] { left: 490px; top: 300px; }
+.agi2-pen [data-role="title-text"] { left: 490px; width: 128px; top: 305px; }
+.agi2-pen [data-role="pv-text"] { left: 463px; top: 358px; }
+.agi2-pen [data-role="pv-value"] { left: 515px; top: 359px; }
+.agi2-pen [data-role="pv-unit"] { left: 566px; top: 364px; }
+.agi2-pen [data-role="outa-text"] { left: 463px; top: 378px; }
+.agi2-pen [data-role="outa-value"] { left: 515px; top: 379px; }
+.agi2-pen [data-role="outa-unit"] { left: 569px; top: 385px; }
+.agi2-pen [data-role="outv-text"] { left: 463px; top: 399px; }
+.agi2-pen [data-role="outv-value"] { left: 515px; top: 400px; }
+.agi2-pen [data-role="outv-unit"] { left: 569px; top: 406px; }
+
+/* ===== 롤러 인버터 설정 ===== */
 .roll-inv-box {
   border-style: solid;
   border-color: rgba(15,23,42,.15);
@@ -1237,18 +309,18 @@ html, body {
   align-items: center;
   justify-content: center;
   width: 1688px;
-  height: 241px;
+  height: 365px;
   position: absolute;
   left: 116px;
-  top: 590px;
+  top: 483px;
 }
 .roll-inv-text-box {
   background: #9a9a9a;
   width: 168px;
-  height: 40px;
+  height: 34px;
   position: absolute;
   left: 116px;
-  top: 571px;
+  top: 478px;
 }
 .roll-inv-text {
   color: #ffffff;
@@ -1258,863 +330,117 @@ html, body {
   font-weight: 600;
   position: absolute;
   left: 124px;
-  top: 576px;
-}
-.pre-roll {
-  width: 227px;
-  height: 183px;
-  position: static;
-}
-.pre-roll-inv {
-  width: 227px;
-  height: 145px;
-  position: absolute;
-  left: 171px;
-  top: 672px;
-  object-fit: cover;
-}
-.pre-roll-inv-sp-text {
-  color: #08941e;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 193px;
-  top: 696px;
-}
-.pre-roll-inv-sp {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 245px;
-  top: 697px;
-}
-.hz17 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 296px;
-  top: 703px;
-}
-.pre-roll-inv-pv-text {
-  color: #9333ea;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 193px;
-  top: 717px;
-}
-.pre-roll-inv-pv {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 245px;
-  top: 718px;
-}
-.hz18 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 296px;
-  top: 724px;
-}
-.pre-roll-inv-out-a-text {
-  color: #ca8a04;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 193px;
-  top: 738px;
-}
-.pre-roll-inv-out-a {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 245px;
-  top: 739px;
-}
-.a9 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 299px;
-  top: 745px;
-}
-.pre-roll-inv-out-v-text {
-  color: #b76e00;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 193px;
-  top: 759px;
-}
-.pre-roll-inv-out-v {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 245px;
-  top: 760px;
-}
-.v9 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 299px;
-  top: 766px;
-}
-.pre-roll-inv-text-box {
-  background: #d9d9d9;
-  width: 128px;
-  height: 38px;
-  position: absolute;
-  left: 220px;
-  top: 634px;
-}
-.pre-roll-inv-text {
-  color: #000000;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: absolute;
-  left: 235px;
-  top: 641px;
-}
-.hit-roll {
-  width: 225px;
-  height: 183px;
-  position: static;
-}
-.hit-roll-inv {
-  width: 225px;
-  height: 145px;
-  position: absolute;
-  left: 442px;
-  top: 672px;
-  object-fit: cover;
-}
-.hit-roll-inv-sp-text {
-  color: #08941e;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 463px;
-  top: 697px;
-}
-.hit-roll-inv-sp {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 515px;
-  top: 698px;
-}
-.hz19 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 566px;
-  top: 704px;
-}
-.hit-roll-inv-pv-text {
-  color: #9333ea;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 463px;
-  top: 718px;
-}
-.hit-roll-inv-pv {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 515px;
-  top: 719px;
-}
-.hz20 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 566px;
-  top: 725px;
-}
-.hit-roll-inv-out-a-text {
-  color: #ca8a04;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 463px;
-  top: 739px;
-}
-.hit-roll-inv-out-a {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 515px;
-  top: 740px;
-}
-.a10 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 569px;
-  top: 746px;
-}
-.hit-roll-inv-out-v-text {
-  color: #b76e00;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 463px;
-  top: 760px;
-}
-.hit-roll-inv-out-v {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 515px;
-  top: 761px;
-}
-.v10 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 569px;
-  top: 767px;
-}
-.hit-roll-inv-text-box {
-  background: #d9d9d9;
-  width: 128px;
-  height: 38px;
-  position: absolute;
-  left: 490px;
-  top: 634px;
-}
-.hit-roll-inv-text {
-  color: #000000;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: absolute;
-  left: 505px;
-  top: 641px;
-}
-.chim-roll {
-  width: 226px;
-  height: 183px;
-  position: static;
-}
-.chim-roll-inv {
-  width: 226px;
-  height: 145px;
-  position: absolute;
-  left: 712px;
-  top: 672px;
-  object-fit: cover;
-}
-.chim-roll-inv-sp-text {
-  color: #08941e;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 734px;
-  top: 697px;
-}
-.chim-roll-inv-sp {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 786px;
-  top: 698px;
-}
-.hz21 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 837px;
-  top: 704px;
-}
-.chim-roll-inv-pv-text {
-  color: #9333ea;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 734px;
-  top: 718px;
-}
-.chim-roll-inv-pv {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 786px;
-  top: 719px;
-}
-.hz22 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 837px;
-  top: 725px;
-}
-.chim-roll-inv-out-a-text {
-  color: #ca8a04;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 734px;
-  top: 739px;
-}
-.chim-roll-inv-out-a {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 786px;
-  top: 740px;
-}
-.a11 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 840px;
-  top: 746px;
-}
-.chim-roll-inv-out-v-text {
-  color: #b76e00;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 734px;
-  top: 760px;
-}
-.chim-roll-inv-out-v {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 786px;
-  top: 761px;
-}
-.v11 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 840px;
-  top: 767px;
-}
-.chin-roll-inv-text-box {
-  background: #d9d9d9;
-  width: 128px;
-  height: 38px;
-  position: absolute;
-  left: 760px;
-  top: 634px;
-}
-.chin-roll-inv-text {
-  color: #000000;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: absolute;
-  left: 775px;
-  top: 641px;
-}
-.diff-roll {
-  width: 226px;
-  height: 183px;
-  position: static;
-}
-.diff-roll-inv {
-  width: 226px;
-  height: 145px;
-  position: absolute;
-  left: 982px;
-  top: 672px;
-  object-fit: cover;
-}
-.diff-roll-inv-sp-text {
-  color: #08941e;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1003px;
-  top: 697px;
-}
-.diff-roll-inv-sp {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1055px;
-  top: 698px;
-}
-.hz23 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1106px;
-  top: 704px;
-}
-.diff-roll-inv-pv-text {
-  color: #9333ea;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1003px;
-  top: 718px;
-}
-.diff-roll-inv-pv {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1055px;
-  top: 719px;
-}
-.hz24 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1106px;
-  top: 725px;
-}
-.diff-roll-inv-out-a-text {
-  color: #ca8a04;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1003px;
-  top: 739px;
-}
-.diff-roll-inv-out-a {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1055px;
-  top: 740px;
-}
-.a12 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1109px;
-  top: 746px;
-}
-.diff-roll-inv-out-v-text {
-  color: #b76e00;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1003px;
-  top: 760px;
-}
-.diff-roll-inv-out-v {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1055px;
-  top: 761px;
-}
-.v12 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1109px;
-  top: 767px;
-}
-.diff-roll-inv-text-box {
-  background: #d9d9d9;
-  width: 128px;
-  height: 38px;
-  position: absolute;
-  left: 1030px;
-  top: 634px;
-}
-.diff-roll-inv-text {
-  color: #000000;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: absolute;
-  left: 1045px;
-  top: 641px;
-}
-.crack-roll-1 {
-  width: 225px;
-  height: 183px;
-  position: static;
-}
-.crack-roll-inv-1 {
-  width: 225px;
-  height: 145px;
-  position: absolute;
-  left: 1253px;
-  top: 672px;
-  object-fit: cover;
-}
-.crack-roll-inv-sp-text-1 {
-  color: #08941e;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1273px;
-  top: 697px;
-}
-.crack-roll-inv-sp-1 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1325px;
-  top: 698px;
-}
-.hz25 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1376px;
-  top: 704px;
-}
-.crack-roll-inv-pv-text-1 {
-  color: #9333ea;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1273px;
-  top: 718px;
-}
-.crack-roll-inv-pv-1 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1325px;
-  top: 719px;
-}
-.hz26 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1376px;
-  top: 725px;
-}
-.crack-roll-inv-out-a-text-1 {
-  color: #ca8a04;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1273px;
-  top: 739px;
-}
-.crack-roll-inv-out-a-1 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1325px;
-  top: 740px;
-}
-.a13 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1379px;
-  top: 746px;
-}
-.crack-roll-inv-out-v-text-1 {
-  color: #b76e00;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1273px;
-  top: 760px;
-}
-.crack-roll-inv-out-v-1 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1325px;
-  top: 761px;
-}
-.v13 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1379px;
-  top: 767px;
-}
-.crack-roll-inv-text-box-1 {
-  background: #d9d9d9;
-  width: 128px;
-  height: 38px;
-  position: absolute;
-  left: 1301px;
-  top: 634px;
-}
-.crack-roll-inv-text-1 {
-  color: #000000;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: absolute;
-  left: 1309px;
-  top: 641px;
-}
-.crack-roll-2 {
-  width: 226px;
-  height: 183px;
-  position: static;
-}
-.crack-roll-inv-2 {
-  width: 226px;
-  height: 145px;
-  position: absolute;
-  left: 1522px;
-  top: 672px;
-  object-fit: cover;
-}
-.crack-roll-inv-sp-text-2 {
-  color: #08941e;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1543px;
-  top: 697px;
-}
-.crack-roll-inv-sp-2 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1595px;
-  top: 698px;
-}
-.hz27 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1646px;
-  top: 704px;
-}
-.crack-roll-inv-pv-text-2 {
-  color: #9333ea;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1543px;
-  top: 718px;
-}
-.crack-roll-inv-pv-2 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1595px;
-  top: 719px;
-}
-.hz28 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1646px;
-  top: 725px;
-}
-.crack-roll-inv-out-a-text-2 {
-  color: #ca8a04;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1543px;
-  top: 739px;
-}
-.crack-roll-inv-out-a-2 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1595px;
-  top: 740px;
-}
-.a14 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1649px;
-  top: 746px;
-}
-.crack-roll-inv-out-v-text-2 {
-  color: #b76e00;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  left: 1543px;
-  top: 760px;
-}
-.crack-roll-inv-out-v-2 {
-  background: #d9d9d9;
-  width: 50px;
-  height: 16px;
-  position: absolute;
-  left: 1595px;
-  top: 761px;
-}
-.v14 {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 9px;
-  font-weight: 600;
-  position: absolute;
-  left: 1649px;
-  top: 767px;
-}
-.crack-roll-inv-text-box-2 {
-  background: #d9d9d9;
-  width: 127px;
-  height: 38px;
-  position: absolute;
-  left: 1571px;
-  top: 634px;
-}
-.crack-roll-inv-text-2 {
-  color: #000000;
-  text-align: left;
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: absolute;
-  left: 1578px;
-  top: 641px;
-}
+  top: 484px;
+}
+
+/* 예열로 롤러 (1행 1열) */
+.pre-roll [data-role="card-img"] { left: 186px; top: 552px; }
+.pre-roll [data-role="title-box"] { left: 220px; top: 518px; }
+.pre-roll [data-role="title-text"] { left: 220px; width: 128px; top: 523px; }
+.pre-roll [data-role="pv-text"] { left: 193px; top: 576px; }
+.pre-roll [data-role="pv-value"] { left: 245px; top: 577px; }
+.pre-roll [data-role="pv-unit"] { left: 296px; top: 582px; }
+.pre-roll [data-role="outa-text"] { left: 193px; top: 596px; }
+.pre-roll [data-role="outa-value"] { left: 245px; top: 597px; }
+.pre-roll [data-role="outa-unit"] { left: 299px; top: 603px; }
+.pre-roll [data-role="outv-text"] { left: 193px; top: 617px; }
+.pre-roll [data-role="outv-value"] { left: 245px; top: 618px; }
+.pre-roll [data-role="outv-unit"] { left: 299px; top: 624px; }
+
+/* 가열1-1존 롤러 (신규 분할 A, 1행 2열, 라벨이 길어 넓은 제목박스 사용) */
+.hit1-1-roll [data-role="card-img"] { left: 456px; top: 552px; }
+.hit1-1-roll [data-role="title-box"][data-variant="wide"] { left: 490px; top: 518px; }
+.hit1-1-roll [data-role="title-text"][data-variant="sm"] { left: 490px; width: 172px; top: 524px; }
+.hit1-1-roll [data-role="pv-text"] { left: 463px; top: 576px; }
+.hit1-1-roll [data-role="pv-value"] { left: 515px; top: 577px; }
+.hit1-1-roll [data-role="pv-unit"] { left: 566px; top: 582px; }
+.hit1-1-roll [data-role="outa-text"] { left: 463px; top: 596px; }
+.hit1-1-roll [data-role="outa-value"] { left: 515px; top: 597px; }
+.hit1-1-roll [data-role="outa-unit"] { left: 569px; top: 603px; }
+.hit1-1-roll [data-role="outv-text"] { left: 463px; top: 617px; }
+.hit1-1-roll [data-role="outv-value"] { left: 515px; top: 618px; }
+.hit1-1-roll [data-role="outv-unit"] { left: 569px; top: 624px; }
+
+/* 가열1-2존 롤러 (신규 분할 B, 1행 3열) */
+.hit1-2-roll [data-role="card-img"] { left: 726px; top: 552px; }
+.hit1-2-roll [data-role="title-box"][data-variant="wide"] { left: 760px; top: 518px; }
+.hit1-2-roll [data-role="title-text"][data-variant="sm"] { left: 760px; width: 172px; top: 524px; }
+.hit1-2-roll [data-role="pv-text"] { left: 733px; top: 576px; }
+.hit1-2-roll [data-role="pv-value"] { left: 785px; top: 577px; }
+.hit1-2-roll [data-role="pv-unit"] { left: 836px; top: 582px; }
+.hit1-2-roll [data-role="outa-text"] { left: 733px; top: 596px; }
+.hit1-2-roll [data-role="outa-value"] { left: 785px; top: 597px; }
+.hit1-2-roll [data-role="outa-unit"] { left: 839px; top: 603px; }
+.hit1-2-roll [data-role="outv-text"] { left: 733px; top: 617px; }
+.hit1-2-roll [data-role="outv-value"] { left: 785px; top: 618px; }
+.hit1-2-roll [data-role="outv-unit"] { left: 839px; top: 624px; }
+
+/* 침탄존 롤러 (1행 4열) */
+.chim-roll [data-role="card-img"] { left: 996px; top: 552px; }
+.chim-roll [data-role="title-box"] { left: 1030px; top: 518px; }
+.chim-roll [data-role="title-text"] { left: 1030px; width: 128px; top: 523px; }
+.chim-roll [data-role="pv-text"] { left: 1003px; top: 576px; }
+.chim-roll [data-role="pv-value"] { left: 1055px; top: 577px; }
+.chim-roll [data-role="pv-unit"] { left: 1106px; top: 582px; }
+.chim-roll [data-role="outa-text"] { left: 1003px; top: 596px; }
+.chim-roll [data-role="outa-value"] { left: 1055px; top: 597px; }
+.chim-roll [data-role="outa-unit"] { left: 1109px; top: 603px; }
+.chim-roll [data-role="outv-text"] { left: 1003px; top: 617px; }
+.chim-roll [data-role="outv-value"] { left: 1055px; top: 618px; }
+.chim-roll [data-role="outv-unit"] { left: 1109px; top: 624px; }
+
+/* 확산존 롤러 (1행 5열) */
+.diff-roll [data-role="card-img"] { left: 1267px; top: 552px; }
+.diff-roll [data-role="title-box"] { left: 1301px; top: 518px; }
+.diff-roll [data-role="title-text"] { left: 1301px; width: 128px; top: 523px; }
+.diff-roll [data-role="pv-text"] { left: 1274px; top: 576px; }
+.diff-roll [data-role="pv-value"] { left: 1326px; top: 577px; }
+.diff-roll [data-role="pv-unit"] { left: 1377px; top: 582px; }
+.diff-roll [data-role="outa-text"] { left: 1274px; top: 596px; }
+.diff-roll [data-role="outa-value"] { left: 1326px; top: 597px; }
+.diff-roll [data-role="outa-unit"] { left: 1380px; top: 603px; }
+.diff-roll [data-role="outv-text"] { left: 1274px; top: 617px; }
+.diff-roll [data-role="outv-value"] { left: 1326px; top: 618px; }
+.diff-roll [data-role="outv-unit"] { left: 1380px; top: 624px; }
+
+/* 균열 1존 롤러 (1행 6열) */
+.crack-roll-1 [data-role="card-img"] { left: 1537px; top: 552px; }
+.crack-roll-1 [data-role="title-box"] { left: 1571px; top: 518px; }
+.crack-roll-1 [data-role="title-text"] { left: 1571px; width: 128px; top: 523px; }
+.crack-roll-1 [data-role="pv-text"] { left: 1544px; top: 576px; }
+.crack-roll-1 [data-role="pv-value"] { left: 1596px; top: 577px; }
+.crack-roll-1 [data-role="pv-unit"] { left: 1647px; top: 582px; }
+.crack-roll-1 [data-role="outa-text"] { left: 1544px; top: 596px; }
+.crack-roll-1 [data-role="outa-value"] { left: 1596px; top: 597px; }
+.crack-roll-1 [data-role="outa-unit"] { left: 1650px; top: 603px; }
+.crack-roll-1 [data-role="outv-text"] { left: 1544px; top: 617px; }
+.crack-roll-1 [data-role="outv-value"] { left: 1596px; top: 618px; }
+.crack-roll-1 [data-role="outv-unit"] { left: 1650px; top: 624px; }
+
+/* 균열 2존 롤러 (2행 1열) */
+.crack-roll-2 [data-role="card-img"] { left: 186px; top: 717px; }
+.crack-roll-2 [data-role="title-box"] { left: 220px; top: 683px; }
+.crack-roll-2 [data-role="title-text"] { left: 220px; width: 128px; top: 688px; }
+.crack-roll-2 [data-role="pv-text"] { left: 193px; top: 741px; }
+.crack-roll-2 [data-role="pv-value"] { left: 245px; top: 742px; }
+.crack-roll-2 [data-role="pv-unit"] { left: 296px; top: 747px; }
+.crack-roll-2 [data-role="outa-text"] { left: 193px; top: 761px; }
+.crack-roll-2 [data-role="outa-value"] { left: 245px; top: 762px; }
+.crack-roll-2 [data-role="outa-unit"] { left: 299px; top: 768px; }
+.crack-roll-2 [data-role="outv-text"] { left: 193px; top: 782px; }
+.crack-roll-2 [data-role="outv-value"] { left: 245px; top: 783px; }
+.crack-roll-2 [data-role="outv-unit"] { left: 299px; top: 789px; }
+
+/* Spare 인버터 (신규, 2행 2열) */
+.spare-roll [data-role="card-img"] { left: 456px; top: 717px; }
+.spare-roll [data-role="title-box"][data-variant="wide"] { left: 490px; top: 683px; }
+.spare-roll [data-role="title-text"][data-variant="sm"] { left: 490px; width: 172px; top: 689px; }
+.spare-roll [data-role="pv-text"] { left: 463px; top: 741px; }
+.spare-roll [data-role="pv-value"] { left: 515px; top: 742px; }
+.spare-roll [data-role="pv-unit"] { left: 566px; top: 747px; }
+.spare-roll [data-role="outa-text"] { left: 463px; top: 761px; }
+.spare-roll [data-role="outa-value"] { left: 515px; top: 762px; }
+.spare-roll [data-role="outa-unit"] { left: 569px; top: 768px; }
+.spare-roll [data-role="outv-text"] { left: 463px; top: 782px; }
+.spare-roll [data-role="outv-value"] { left: 515px; top: 783px; }
+.spare-roll [data-role="outv-unit"] { left: 569px; top: 789px; }

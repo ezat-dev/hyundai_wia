@@ -19,4 +19,9 @@ public class AlarmHistoryCcfServiceImpl implements AlarmHistoryCcfService{
 		return alarmHistoryCcfDao.alarmHistoryCcfList(alarmHistory);
 	}
 
+	@Override
+	public List<AlarmHistory> alarmHistoryCcfActiveList() {
+		return alarmHistoryCcfDao.alarmHistoryCcfActiveList();
+	}
+
 }

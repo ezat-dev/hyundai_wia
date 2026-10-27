@@ -76,7 +76,7 @@
   transition: background .15s, box-shadow .15s;
 }
 .wia-alarm-chip:hover { border-color: #3b82f6; box-shadow: 0 0 0 2px rgba(59,130,246,.12); }
-.wia-alarm-chip.is-active { background: #dc2626 !important; color: #fff !important; border-color: #dc2626; box-shadow: 0 0 0 2px rgba(220,38,38,.18); }
+.wia-alarm-chip.is-active { background: #dc2626 !important; color: #ffff00 !important; border-color: #dc2626; box-shadow: 0 0 0 2px rgba(220,38,38,.18); }
 .wia-alarm-chip .check-icon { position: absolute; top: 4px; right: 4px; margin-top: 0; }
 
 /* 알람 코멘트 모달 */

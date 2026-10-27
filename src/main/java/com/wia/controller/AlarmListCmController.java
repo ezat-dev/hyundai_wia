@@ -37,14 +37,17 @@ public class AlarmListCmController {
     
     @RequestMapping(value= "/alarmListCm1/view", method = RequestMethod.POST)
     @ResponseBody
-    public Map<String, Object> alarmListCm1View() throws UaException, InterruptedException, ExecutionException {
+    public Map<String, Object> alarmListCm1View() {
     	Map<String, Object> returnMap = new HashMap<String, Object>();
 
-    	OpcDataMap opcDataMap = new OpcDataMap();
-    	
-    	returnMap = opcDataMap.getOpcDataListMap("WIA.ALARM.LIST21");
-    	
-    	return returnMap;    	
+    	try {
+    		OpcDataMap opcDataMap = new OpcDataMap();
+    		returnMap = opcDataMap.getOpcDataListMap("WIA.ALARM.LIST21");
+    	} catch (Exception e) {
+    		returnMap.put("multiValues", new java.util.ArrayList<Object>());
+    	}
+
+    	return returnMap;
     }
     
     
@@ -57,14 +60,17 @@ public class AlarmListCmController {
     
     @RequestMapping(value= "/alarmListCm2/view", method = RequestMethod.POST)
     @ResponseBody
-    public Map<String, Object> alarmListCm2View() throws UaException, InterruptedException, ExecutionException {
+    public Map<String, Object> alarmListCm2View() {
     	Map<String, Object> returnMap = new HashMap<String, Object>();
 
-    	OpcDataMap opcDataMap = new OpcDataMap();
-    	
-    	returnMap = opcDataMap.getOpcDataListMap("WIA.ALARM.LIST22");
-    	
-    	return returnMap;    	
+    	try {
+    		OpcDataMap opcDataMap = new OpcDataMap();
+    		returnMap = opcDataMap.getOpcDataListMap("WIA.ALARM.LIST22");
+    	} catch (Exception e) {
+    		returnMap.put("multiValues", new java.util.ArrayList<Object>());
+    	}
+
+    	return returnMap;
     }
 
     @RequestMapping(value= "/alarmListCm1/alarmData", method = RequestMethod.POST)
@@ -214,8 +220,8 @@ public class AlarmListCmController {
     	int fileGb = 0;
     	String imgFileName = "";
     	String pdfFileName = "";
-    	String imgFilePath = "D:/uploads/img/";
-    	String pdfFilePath = "D:/uploads/pdf/";
+    	String imgFilePath = "D:/알람파일/사진/";
+    	String pdfFilePath = "D:/알람파일/pdf/";
     	
     	File imgFile = null;
     	File pdfFile = null;

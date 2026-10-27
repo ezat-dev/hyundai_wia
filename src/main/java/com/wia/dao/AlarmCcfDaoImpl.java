@@ -26,6 +26,11 @@ public class AlarmCcfDaoImpl implements AlarmCcfDao{
 	}
 
 	@Override
+	public List<Alarm> alarmListCcf3AlarmData() {
+		return sqlSession.selectList("alarmCcf.alarmListCcf3AlarmData");
+	}
+
+	@Override
 	public Alarm alarmListCcf1AlarmPopup(Alarm alarm) {
 		return sqlSession.selectOne("alarmCcf.alarmListCcf1AlarmPopup", alarm);
 	}

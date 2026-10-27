@@ -14,6 +14,9 @@
    <mapper resource="mybatis/mapper/ioCcfList.xml"/>
    <mapper resource="mybatis/mapper/ioCmList.xml"/>
    <mapper resource="mybatis/mapper/autoConCm.xml"/>
-   <mapper resource="mybatis/mapper/autoConCcf.xml"/>   
+   <mapper resource="mybatis/mapper/autoConCcf.xml"/>
+   <mapper resource="mybatis/mapper/user.xml"/>
+   <mapper resource="mybatis/mapper/permission.xml"/>
+   <mapper resource="mybatis/mapper/repairHistoryCcf.xml"/>
   </mappers>
 </configuration>

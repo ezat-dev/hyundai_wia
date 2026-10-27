@@ -10,6 +10,8 @@ public interface AlarmCcfService {
 
 	List<Alarm> alarmListCcf2AlarmData();
 
+	List<Alarm> alarmListCcf3AlarmData();
+
 	Alarm alarmListCcf1AlarmPopup(Alarm alarm);
 
 	int alarmListCcfCommentChk(Alarm alarm);

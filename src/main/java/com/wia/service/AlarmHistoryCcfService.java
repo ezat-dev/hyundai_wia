@@ -8,4 +8,6 @@ public interface AlarmHistoryCcfService {
 
 	List<AlarmHistory> alarmHistoryCcfList(AlarmHistory alarmHistory);
 
+	List<AlarmHistory> alarmHistoryCcfActiveList();
+
 }

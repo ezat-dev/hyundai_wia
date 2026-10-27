@@ -25,6 +25,11 @@ public class AlarmCcfServiceImpl implements AlarmCcfService{
 	}
 
 	@Override
+	public List<Alarm> alarmListCcf3AlarmData() {
+		return alarmDao.alarmListCcf3AlarmData();
+	}
+
+	@Override
 	public Alarm alarmListCcf1AlarmPopup(Alarm alarm) {
 		return alarmDao.alarmListCcf1AlarmPopup(alarm);
 	}

@@ -25,76 +25,76 @@
     </div>
     <div class="wia-card">
       <div class="wia-alarm-grid">
-        <div class="alarm-1 wia-alarm-chip">프레스 퀜칭 푸셔 트립</div>
-        <div class="alarm-2 wia-alarm-chip">프레스 퀜칭 리프터 트립</div>
-        <div class="alarm-3 wia-alarm-chip">예열로 버너 에어 블러워 트립</div>
-        <div class="alarm-4 wia-alarm-chip">예열로 입구롤러(1) 트립</div>
-        <div class="alarm-5 wia-alarm-chip">예열로 입구롤러(2) 트립</div>
-        <div class="alarm-6 wia-alarm-chip">예열로 입구롤러(3) 트립</div>
-        <div class="alarm-7 wia-alarm-chip">예열로 입구 리프터 롤러 트립</div>
-        <div class="alarm-8 wia-alarm-chip">예열로 장입 롤러 트립</div>
-        <div class="alarm-9 wia-alarm-chip">연속로 입구 리르터 롤러 트립</div>
-        <div class="alarm-10 wia-alarm-chip">침탄존 장입 롤러 트립</div>
-        <div class="alarm-11 wia-alarm-chip">확산존 추출 롤러 트립</div>
-        <div class="alarm-12 wia-alarm-chip">유조 엘리베이터 체인 트립</div>
-        <div class="alarm-13 wia-alarm-chip">유조 출구문 트립</div>
-        <div class="alarm-14 wia-alarm-chip">유조 출구 롤러(1) 트립</div>
-        <div class="alarm-15 wia-alarm-chip">유조 출구 롤러(2) 트립</div>
+        <div class="alarm-1 wia-alarm-chip"></div>
+        <div class="alarm-2 wia-alarm-chip"></div>
+        <div class="alarm-3 wia-alarm-chip"></div>
+        <div class="alarm-4 wia-alarm-chip">세정기 기기 마그네틱 스위치 동작이상</div>
+        <div class="alarm-5 wia-alarm-chip">소려로 기기 마그네틱 스위치 동작이상</div>
+        <div class="alarm-6 wia-alarm-chip">출구 스톡콘베어 기기 마그네틱 스위치 동작이상</div>
+        <div class="alarm-7 wia-alarm-chip"></div>
+        <div class="alarm-8 wia-alarm-chip">자동대차 비상정지</div>
+        <div class="alarm-9 wia-alarm-chip">자동대차 주행터 인버터 이상</div>
+        <div class="alarm-10 wia-alarm-chip">자동대차 롤러 이상</div>
+        <div class="alarm-11 wia-alarm-chip">자동대차 주행위치 오버런 (전진)</div>
+        <div class="alarm-12 wia-alarm-chip">자동대차 주행위치 오버런 (후진)</div>
+        <div class="alarm-13 wia-alarm-chip">자동대차 안전 범퍼센서 이상 (전진)</div>
+        <div class="alarm-14 wia-alarm-chip">자동대차 안전 범퍼센서 이상 (후진)</div>
+        <div class="alarm-15 wia-alarm-chip"></div>
         <div class="alarm-16 wia-alarm-chip"></div>
         <div class="alarm-17 wia-alarm-chip"></div>
         <div class="alarm-18 wia-alarm-chip"></div>
         <div class="alarm-19 wia-alarm-chip"></div>
-        <div class="alarm-20 wia-alarm-chip">예열로 디바이스 MCCB 트립</div>
-        <div class="alarm-21 wia-alarm-chip">연속로 디바이스 MCCB 트립</div>
-        <div class="alarm-22 wia-alarm-chip">유조 디바이스 MCCB 트립</div>
-        <div class="alarm-23 wia-alarm-chip">회로 보호기 트립</div>
-        <div class="alarm-24 wia-alarm-chip">연속로 입구 프레임 커튼 점화 이상</div>
-        <div class="alarm-25 wia-alarm-chip">연속로 출구 프레임 커튼 점화 이상</div>
-        <div class="alarm-26 wia-alarm-chip">PQ 출구 프레임 커튼 점화 이상</div>
+        <div class="alarm-20 wia-alarm-chip"></div>
+        <div class="alarm-21 wia-alarm-chip"></div>
+        <div class="alarm-22 wia-alarm-chip"></div>
+        <div class="alarm-23 wia-alarm-chip"></div>
+        <div class="alarm-24 wia-alarm-chip"></div>
+        <div class="alarm-25 wia-alarm-chip"></div>
+        <div class="alarm-26 wia-alarm-chip"></div>
         <div class="alarm-27 wia-alarm-chip"></div>
-        <div class="alarm-28 wia-alarm-chip">예열로 입구 리프터 이상</div>
-        <div class="alarm-29 wia-alarm-chip">예열로 입구문 이상</div>
-        <div class="alarm-30 wia-alarm-chip">예열로 입구문 이동 리프터 이상</div>
-        <div class="alarm-31 wia-alarm-chip">에열로 출구문 이상</div>
-        <div class="alarm-32 wia-alarm-chip">예열로 출구문 이동 리프터 이상</div>
-        <div class="alarm-33 wia-alarm-chip">연속로 입구 리프터 이상</div>
-        <div class="alarm-34 wia-alarm-chip">연속로 입구문 이상</div>
-        <div class="alarm-35 wia-alarm-chip">침탄1존 입구문 이상</div>
-        <div class="alarm-36 wia-alarm-chip">균열1존 입구문 이상</div>
-        <div class="alarm-37 wia-alarm-chip">균열2존 입구문 이상</div>
-        <div class="alarm-38 wia-alarm-chip">유조 입구문 이상</div>
-        <div class="alarm-39 wia-alarm-chip">유조 엘리베이터 이상</div>
-        <div class="alarm-40 wia-alarm-chip">유조 출구문 이상</div>
-        <div class="alarm-41 wia-alarm-chip">프레스 퀜칭 출구문 이상</div>
+        <div class="alarm-28 wia-alarm-chip"></div>
+        <div class="alarm-29 wia-alarm-chip"></div>
+        <div class="alarm-30 wia-alarm-chip"></div>
+        <div class="alarm-31 wia-alarm-chip"></div>
+        <div class="alarm-32 wia-alarm-chip"></div>
+        <div class="alarm-33 wia-alarm-chip"></div>
+        <div class="alarm-34 wia-alarm-chip"></div>
+        <div class="alarm-35 wia-alarm-chip"></div>
+        <div class="alarm-36 wia-alarm-chip"></div>
+        <div class="alarm-37 wia-alarm-chip"></div>
+        <div class="alarm-38 wia-alarm-chip"></div>
+        <div class="alarm-39 wia-alarm-chip"></div>
+        <div class="alarm-40 wia-alarm-chip"></div>
+        <div class="alarm-41 wia-alarm-chip"></div>
         <div class="alarm-42 wia-alarm-chip"></div>
         <div class="alarm-43 wia-alarm-chip"></div>
-        <div class="alarm-44 wia-alarm-chip">예열로 입구 롤러(1) 오버런</div>
-        <div class="alarm-45 wia-alarm-chip">예열로 입구 롤러(2) 오버런</div>
-        <div class="alarm-46 wia-alarm-chip">예열로 입구 롤러(3) 오버런</div>
-        <div class="alarm-47 wia-alarm-chip">예열로 입구 리프터 롤러 오버런</div>
-        <div class="alarm-48 wia-alarm-chip">예열로 투입 롤러 오버런</div>
-        <div class="alarm-49 wia-alarm-chip">예열로 로내 롤러 오버런</div>
-        <div class="alarm-50 wia-alarm-chip">연속로 입구 리프터 롤러 오버런</div>
-        <div class="alarm-51 wia-alarm-chip">가열존 로내 롤러 오버런</div>
-        <div class="alarm-52 wia-alarm-chip">침탄존 투입 롤러 오버런</div>
-        <div class="alarm-53 wia-alarm-chip">침탄존 클러치 오버런</div>
-        <div class="alarm-54 wia-alarm-chip">침탄존 로내 롤러 오버런</div>
-        <div class="alarm-55 wia-alarm-chip">확산존 로내 롤러 오버런</div>
-        <div class="alarm-56 wia-alarm-chip">확산존 추출 롤러 오버런</div>
-        <div class="alarm-57 wia-alarm-chip">확산존 클러치 오버런</div>
-        <div class="alarm-58 wia-alarm-chip">균열1존 로내 롤러 오버런</div>
-        <div class="alarm-59 wia-alarm-chip">균열2존 로내 롤러 오버런</div>
-        <div class="alarm-60 wia-alarm-chip">유조 엘리베이터 체인 오버런</div>
-        <div class="alarm-61 wia-alarm-chip">유조 출구 롤러(1) 오버런</div>
-        <div class="alarm-62 wia-alarm-chip">유조 출구 롤러(2) 오버런</div>
-        <div class="alarm-63 wia-alarm-chip">프레스 퀜칭 푸셔 이상</div>
-        <div class="alarm-64 wia-alarm-chip">프레스 퀜칭 리프터 이상</div>
+        <div class="alarm-44 wia-alarm-chip"></div>
+        <div class="alarm-45 wia-alarm-chip"></div>
+        <div class="alarm-46 wia-alarm-chip"></div>
+        <div class="alarm-47 wia-alarm-chip"></div>
+        <div class="alarm-48 wia-alarm-chip"></div>
+        <div class="alarm-49 wia-alarm-chip"></div>
+        <div class="alarm-50 wia-alarm-chip"></div>
+        <div class="alarm-51 wia-alarm-chip"></div>
+        <div class="alarm-52 wia-alarm-chip"></div>
+        <div class="alarm-53 wia-alarm-chip"></div>
+        <div class="alarm-54 wia-alarm-chip"></div>
+        <div class="alarm-55 wia-alarm-chip"></div>
+        <div class="alarm-56 wia-alarm-chip"></div>
+        <div class="alarm-57 wia-alarm-chip"></div>
+        <div class="alarm-58 wia-alarm-chip"></div>
+        <div class="alarm-59 wia-alarm-chip"></div>
+        <div class="alarm-60 wia-alarm-chip"></div>
+        <div class="alarm-61 wia-alarm-chip"></div>
+        <div class="alarm-62 wia-alarm-chip"></div>
+        <div class="alarm-63 wia-alarm-chip"></div>
+        <div class="alarm-64 wia-alarm-chip"></div>
         <div class="alarm-65 wia-alarm-chip"></div>
         <div class="alarm-66 wia-alarm-chip"></div>
         <div class="alarm-67 wia-alarm-chip"></div>
-        <div class="alarm-68 wia-alarm-chip">예열로 마그네틱 접촉기 이상</div>
-        <div class="alarm-69 wia-alarm-chip">연속로 마그네틱 접촉기 이상</div>
-        <div class="alarm-70 wia-alarm-chip">유조 마그네틱 접초기 이상</div>
+        <div class="alarm-68 wia-alarm-chip"></div>
+        <div class="alarm-69 wia-alarm-chip"></div>
+        <div class="alarm-70 wia-alarm-chip"></div>
         <div class="alarm-71 wia-alarm-chip"></div>
         <div class="alarm-72 wia-alarm-chip"></div>
         <div class="alarm-73 wia-alarm-chip"></div>
@@ -348,14 +348,14 @@ function cmALarmListPopup(){
 			$("#ac_comment").val(data.ac_comment);
 
 			if(data.ac_filename != null && data.ac_filename != ''){
-				$("#imagePreview").attr("src","/fileUploads/img/"+data.ac_filename).css("display","block");
+				$("#imagePreview").attr("src","/DHT/fileUploads/img/"+data.ac_filename).css("display","block");
 				$("#imagePreviewEmpty").css("display","none");
 			}else{
 				$("#imagePreview").attr("src","").css("display","none");
 				$("#imagePreviewEmpty").css("display","flex");
 			}
 			if(data.ac_pdf_filename != null && data.ac_pdf_filename != ''){
-				$("#pdfPreview").attr("src","/fileUploads/pdf/"+data.ac_pdf_filename).css("display","block");
+				$("#pdfPreview").attr("src","/DHT/fileUploads/pdf/"+data.ac_pdf_filename).css("display","block");
 				$("#pdfPreviewEmpty").css("display","none");
 			}else{
 				$("#pdfPreview").attr("src","").css("display","none");

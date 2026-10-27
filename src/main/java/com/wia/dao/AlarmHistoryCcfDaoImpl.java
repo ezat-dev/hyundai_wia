@@ -12,12 +12,17 @@ import com.wia.domain.AlarmHistory;
 @Repository
 public class AlarmHistoryCcfDaoImpl implements AlarmHistoryCcfDao{
 
-	@Resource(name="sessionSQLite")
+	@Resource(name="sessionEzScada")
 	private SqlSession sqlSession;
 	
 	@Override
 	public List<AlarmHistory> alarmHistoryCcfList(AlarmHistory alarmHistory) {
 		return sqlSession.selectList("alarmHistoryCcf.alarmHistoryCcfList", alarmHistory);
+	}
+
+	@Override
+	public List<AlarmHistory> alarmHistoryCcfActiveList() {
+		return sqlSession.selectList("alarmHistoryCcf.alarmHistoryCcfActiveList");
 	}
 
 }

@@ -24,11 +24,18 @@ public class ControlCcfcontroller {
     
     @RequestMapping(value= "/controlCcf2", method = RequestMethod.GET)
     public String controlCcf2(Model model) {
-    	
-    	
+
+
     	return "/controlCcf/control2Ccf.jsp";
     }
-    
+
+    @RequestMapping(value= "/controlCcf3", method = RequestMethod.GET)
+    public String controlCcf3(Model model) {
+
+
+    	return "/controlCcf/control3Ccf.jsp";
+    }
+
 
     @RequestMapping(value= "/controlCcf1/view", method = RequestMethod.POST)
     @ResponseBody
@@ -47,13 +54,25 @@ public class ControlCcfcontroller {
     @ResponseBody
     public Map<String, Object> controlCcf2View() throws UaException, InterruptedException, ExecutionException {
     	Map<String, Object> returnMap = new HashMap<String, Object>();
-    	
+
     	OpcDataMap opcDataMap = new OpcDataMap();
-    	
-    	returnMap = opcDataMap.getOpcDataListMap("WIA.CCF.CONTROL");    	
-    	
-    	return returnMap;    	
+
+    	returnMap = opcDataMap.getOpcDataListMap("WIA.CCF.CONTROL");
+
+    	return returnMap;
     }
-    
-    
+
+    @RequestMapping(value= "/controlCcf3/view", method = RequestMethod.POST)
+    @ResponseBody
+    public Map<String, Object> controlCcf3View() throws UaException, InterruptedException, ExecutionException {
+    	Map<String, Object> returnMap = new HashMap<String, Object>();
+
+    	OpcDataMap opcDataMap = new OpcDataMap();
+
+    	returnMap = opcDataMap.getOpcDataListMap("WIA.CCF.CONTROL");
+
+    	return returnMap;
+    }
+
+
 }

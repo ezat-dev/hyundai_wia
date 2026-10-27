@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="user">
+
+	<select id="selectUserByLoginId" parameterType="string" resultType="user">
+		SELECT user_code, user_id, user_pwd, user_name, user_dept, user_position, use_yn, admin_yn, reg_date
+		FROM tb_user
+		WHERE user_id = #{user_id}
+	</select>
+
+	<select id="selectUserByCode" parameterType="int" resultType="user">
+		SELECT user_code, user_id, user_pwd, user_name, user_dept, user_position, use_yn, admin_yn, reg_date
+		FROM tb_user
+		WHERE user_code = #{user_code}
+	</select>
+
+	<select id="selectUserIdCount" parameterType="string" resultType="int">
+		SELECT COUNT(*) FROM tb_user WHERE user_id = #{user_id}
+	</select>
+
+	<select id="selectUserList" resultType="user">
+		SELECT user_code, user_id, user_name, user_dept, user_position, use_yn, admin_yn, reg_date
+		FROM tb_user
+		ORDER BY user_code
+	</select>
+
+	<insert id="insertUser" parameterType="user" useGeneratedKeys="true" keyProperty="user_code">
+		INSERT INTO tb_user (user_id, user_pwd, user_name, user_dept, user_position, use_yn, admin_yn)
+		VALUES (#{user_id}, #{user_pwd}, #{user_name}, #{user_dept}, #{user_position}, #{use_yn}, #{admin_yn})
+	</insert>
+
+	<update id="updateUser" parameterType="user">
+		UPDATE tb_user
+		SET user_name = #{user_name},
+			user_dept = #{user_dept},
+			user_position = #{user_position},
+			use_yn = #{use_yn},
+			admin_yn = #{admin_yn}
+		WHERE user_code = #{user_code}
+	</update>
+
+	<update id="updateUserPassword" parameterType="user">
+		UPDATE tb_user SET user_pwd = #{user_pwd} WHERE user_code = #{user_code}
+	</update>
+
+	<delete id="deleteUser" parameterType="int">
+		DELETE FROM tb_user WHERE user_code = #{user_code}
+	</delete>
+
+</mapper>

@@ -42,9 +42,10 @@
   			<configuration>
   				<url>http://192.168.1.247/manager/text</url>
   				<server>tomcatserver</server>
-  				<path>/</path>
+  				<path>/DHT</path>
   				<username>admin</username>
   				<password>admin</password>
+  				<warSourceDirectory>${project.basedir}/webapp</warSourceDirectory>
   			</configuration>
   		</plugin>
   	</plugins>

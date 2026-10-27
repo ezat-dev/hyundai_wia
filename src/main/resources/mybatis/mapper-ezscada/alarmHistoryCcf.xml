@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="alarmHistoryCcf">
+	<select id="alarmHistoryCcfList" parameterType="alarmHistory" resultType="alarmHistory">
+		SELECT
+			address AS tagname,
+			alarm_msg AS alarmdesc,
+			occur_time_str AS time,
+			clear_time_str AS lead_alarmtime
+		FROM vw_alarm_history
+		WHERE 1=1
+		AND (
+			occur_time BETWEEN #{sdateTime} AND #{edateTime}
+			OR clear_time BETWEEN #{sdateTime} AND #{edateTime}
+		)
+		ORDER BY occur_time DESC
+	</select>
+
+	<select id="alarmHistoryCcfActiveList" resultType="alarmHistory">
+		SELECT
+			alarm_msg AS alarmdesc,
+			occur_time_str AS time
+		FROM vw_alarm_history
+		WHERE alarm_status = 'ACTIVE'
+		ORDER BY occur_time DESC
+	</select>
+
+</mapper>

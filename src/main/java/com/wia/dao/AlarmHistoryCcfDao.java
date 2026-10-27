@@ -8,4 +8,6 @@ public interface AlarmHistoryCcfDao {
 
 	List<AlarmHistory> alarmHistoryCcfList(AlarmHistory alarmHistory);
 
+	List<AlarmHistory> alarmHistoryCcfActiveList();
+
 }

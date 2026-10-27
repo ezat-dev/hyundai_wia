@@ -26,11 +26,35 @@ public class IoMonitorCcfController {
     
     @RequestMapping(value= "/ioMonitorCcf1", method = RequestMethod.GET)
     public String ioMonitorCcf1(Model model) {
-    	
+
 
         return "/ioMonitorCcf/ioMonitorCcf1.jsp";
     }
-    
+
+    @RequestMapping(value= "/ioMonitorCcf2", method = RequestMethod.GET)
+    public String ioMonitorCcf2(Model model) {
+        return "/ioMonitorCcf/ioMonitorCcf2.jsp";
+    }
+
+    @RequestMapping(value= "/ioMonitorCcf3", method = RequestMethod.GET)
+    public String ioMonitorCcf3(Model model) {
+        return "/ioMonitorCcf/ioMonitorCcf3.jsp";
+    }
+
+    @RequestMapping(value= "/ioMonitorCcf4", method = RequestMethod.GET)
+    public String ioMonitorCcf4(Model model) {
+        return "/ioMonitorCcf/ioMonitorCcf4.jsp";
+    }
+
+    @RequestMapping(value= "/ioMonitorCcf5", method = RequestMethod.GET)
+    public String ioMonitorCcf5(Model model) {
+        return "/ioMonitorCcf/ioMonitorCcf5.jsp";
+    }
+
+    @RequestMapping(value= "/ioMonitorCcf6", method = RequestMethod.GET)
+    public String ioMonitorCcf6(Model model) {
+        return "/ioMonitorCcf/ioMonitorCcf6.jsp";
+    }
 
     @RequestMapping(value= "/ioMonitorCcf1/view", method = RequestMethod.POST)
     @ResponseBody

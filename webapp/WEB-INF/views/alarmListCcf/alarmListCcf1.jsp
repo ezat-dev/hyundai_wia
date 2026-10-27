@@ -1,4 +1,4 @@
-<%@ page contentType="text/html; charset=UTF-8" language="java" %>
+﻿<%@ page contentType="text/html; charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,119 +17,119 @@
     <div class="wia-page-header">
       <div>
         <div class="wia-page-title">알람</div>
-        <div class="wia-page-sub">연속로(CCF) 실시간 알람 현황 · 1 / 2 페이지</div>
+        <div class="wia-page-sub">연속로(CCF) 실시간 알람 현황 · 1 / 3 페이지</div>
       </div>
       <div class="wia-toolbar">
-        <button class="wia-btn-outline" onclick="goToIndex2()">2 페이지 →</button>
+        <button class="wia-btn-outline" onclick="goToIndex(2)">다음 페이지 →</button>
       </div>
     </div>
     <div class="wia-card">
       <div class="wia-alarm-grid">
-        <div class="alarm-1 wia-alarm-chip">PLC 배터리 이상</div>
-        <div class="alarm-2 wia-alarm-chip">비상정지</div>
-        <div class="alarm-3 wia-alarm-chip">세정기 싸이클 이상</div>
-        <div class="alarm-4 wia-alarm-chip">소려로 자동운전 이상</div>
-        <div class="alarm-5 wia-alarm-chip">출구 스톡콘베어 자동운전 이상</div>
-        <div class="alarm-6 wia-alarm-chip">자동대차 싸이클 자동운전 이상</div>
-        <div class="alarm-7 wia-alarm-chip">제품 데이터 이상</div>
-        <div class="alarm-8 wia-alarm-chip"></div>
-        <div class="alarm-9 wia-alarm-chip"></div>
-        <div class="alarm-10 wia-alarm-chip"></div>
-        <div class="alarm-11 wia-alarm-chip"></div>
-        <div class="alarm-12 wia-alarm-chip"></div>
-        <div class="alarm-13 wia-alarm-chip">세정기 디핑존 과열 이상</div>
-        <div class="alarm-14 wia-alarm-chip">세정기 디핑존 온도 저하 이상</div>
-        <div class="alarm-15 wia-alarm-chip">세정기 린스존 과열 이상</div>
-        <div class="alarm-16 wia-alarm-chip">세정기 린스존 온도 저하 이상</div>
-        <div class="alarm-17 wia-alarm-chip">소려로 1존 과열 이상</div>
-        <div class="alarm-18 wia-alarm-chip">소려로 1존 온도 저하 이상</div>
-        <div class="alarm-19 wia-alarm-chip">소려로 2존 과열 이상</div>
-        <div class="alarm-20 wia-alarm-chip">소려로 2존 온도 저하 이상</div>
-        <div class="alarm-21 wia-alarm-chip">소려로 3존 과열 이상</div>
-        <div class="alarm-22 wia-alarm-chip">소려로 3존 온도 저하 이상</div>
-        <div class="alarm-23 wia-alarm-chip">세정기 디핑존 액면 이상</div>
-        <div class="alarm-24 wia-alarm-chip">세정기 린스존 액면 이상</div>
-        <div class="alarm-25 wia-alarm-chip">세정기 입구 장입 요청 이상</div>
-        <div class="alarm-26 wia-alarm-chip">출구 스톡콘베어 추출 요청 이상</div>
-        <div class="alarm-27 wia-alarm-chip">세정기 스프레이 회전기 회전 감지 이상</div>
-        <div class="alarm-28 wia-alarm-chip">소려로 1존 팬 회전 감지 이상</div>
-        <div class="alarm-29 wia-alarm-chip">소려로 2존 팬 회전 감지 이상</div>
-        <div class="alarm-30 wia-alarm-chip">소려로 3존 팬 회전 감지 이상</div>
-        <div class="alarm-31 wia-alarm-chip">소려로 장입 롤러 회전 감지 이상</div>
-        <div class="alarm-32 wia-alarm-chip">소려로 내부 롤러(1) 회전 감지 이상</div>
-        <div class="alarm-33 wia-alarm-chip">소려로 내부 롤러(2) 회전 감지 이상</div>
-        <div class="alarm-34 wia-alarm-chip">소려로 추출 롤러 회전 감지 이상</div>
-        <div class="alarm-35 wia-alarm-chip">소려로 장입 롤러 광전센서 이상</div>
-        <div class="alarm-36 wia-alarm-chip">소려로 로내 롤러(1) 광전센서 이상</div>
-        <div class="alarm-37 wia-alarm-chip">소려로 로내 롤러(2) 광전센서 이상</div>
-        <div class="alarm-38 wia-alarm-chip">소려로 추출 롤러 광전센서 이상</div>
-        <div class="alarm-39 wia-alarm-chip"></div>
-        <div class="alarm-40 wia-alarm-chip"></div>
-        <div class="alarm-41 wia-alarm-chip">세정기 디핑존 스위핑 펌프 트립</div>
-        <div class="alarm-42 wia-alarm-chip">세정기 디핑존 오일스키머 트립</div>
-        <div class="alarm-43 wia-alarm-chip">세정기 린스존 스프레이 펌프 트립</div>
-        <div class="alarm-44 wia-alarm-chip">세정기 린스존 스윕핑 펌프 트립</div>
-        <div class="alarm-45 wia-alarm-chip">세정기 린스존 오일스키머 트립</div>
-        <div class="alarm-46 wia-alarm-chip">세정기 린스존 스프레이 노즐 트립</div>
-        <div class="alarm-47 wia-alarm-chip">세정기 출구 블로워 트립</div>
-        <div class="alarm-48 wia-alarm-chip">소려로 1존 팬 트립</div>
-        <div class="alarm-49 wia-alarm-chip">소려로 2존 팬 트립</div>
-        <div class="alarm-50 wia-alarm-chip">소려로 3존 팬 트립</div>
-        <div class="alarm-51 wia-alarm-chip">세정기 입구 롤러(1) 트립</div>
-        <div class="alarm-52 wia-alarm-chip">세정기 입구 롤러(2) 트립</div>
-        <div class="alarm-53 wia-alarm-chip">세정기 장입 리트리버 트립</div>
-        <div class="alarm-54 wia-alarm-chip">세정기 추출 리트리버 트립</div>
-        <div class="alarm-55 wia-alarm-chip">세정기 출구 롤러(1) 트립</div>
-        <div class="alarm-56 wia-alarm-chip">세정기 출구 롤러(2) 트립</div>
-        <div class="alarm-57 wia-alarm-chip">소려로 입구 롤러(1) 트립</div>
-        <div class="alarm-58 wia-alarm-chip">소려로 입구 롤러(2) 트립</div>
-        <div class="alarm-59 wia-alarm-chip">소려로 장입 롤러 트립</div>
-        <div class="alarm-60 wia-alarm-chip">소려로 로내 롤러(1) 트립</div>
-        <div class="alarm-61 wia-alarm-chip">소려로 로내 롤러(2) 트립</div>
-        <div class="alarm-62 wia-alarm-chip">소려로 추출 롤러 트립</div>
-        <div class="alarm-63 wia-alarm-chip">소려로 출구 롤러 트립</div>
-        <div class="alarm-64 wia-alarm-chip">소려로 출구 리프터 롤러 트립</div>
-        <div class="alarm-65 wia-alarm-chip">출구 스톡콘베어 입구 롤러 트립</div>
-        <div class="alarm-66 wia-alarm-chip">출구 스톡콘베어 리트리버 트립</div>
-        <div class="alarm-67 wia-alarm-chip">출구 스톡콘베어 출구 롤러 트립</div>
-        <div class="alarm-68 wia-alarm-chip">세정기 상부후드 팬 트립</div>
-        <div class="alarm-69 wia-alarm-chip">히터부하 MCCB 트립</div>
-        <div class="alarm-70 wia-alarm-chip">세정기 기기 MCCB 트립</div>
-        <div class="alarm-71 wia-alarm-chip">소려로 기기 MCCB 트립</div>
-        <div class="alarm-72 wia-alarm-chip">출구 스톡콘베어 기기 MCCB 트립</div>
-        <div class="alarm-73 wia-alarm-chip">자동대차 메인전원 MCCB 트립</div>
-        <div class="alarm-74 wia-alarm-chip">회로 보호기 트립</div>
-        <div class="alarm-75 wia-alarm-chip"></div>
-        <div class="alarm-76 wia-alarm-chip"></div>
-        <div class="alarm-77 wia-alarm-chip">세정기 입구문 & 중간문 동작이상</div>
-        <div class="alarm-78 wia-alarm-chip">세정기 디핑존 엘리베이터 동작이상</div>
-        <div class="alarm-79 wia-alarm-chip">세정기 출구문 동작이상</div>
-        <div class="alarm-80 wia-alarm-chip">세정기 출구챔버 출구문 동작이상</div>
-        <div class="alarm-81 wia-alarm-chip">소려로 입구문 동작이상</div>
-        <div class="alarm-82 wia-alarm-chip">소려로 출구문 동작이상</div>
-        <div class="alarm-83 wia-alarm-chip">세정기 출구챔버 출구문 동작이상</div>
-        <div class="alarm-84 wia-alarm-chip">소려로 출구 리프터 동작이상</div>
-        <div class="alarm-85 wia-alarm-chip"></div>
-        <div class="alarm-86 wia-alarm-chip"></div>
-        <div class="alarm-87 wia-alarm-chip"></div>
-        <div class="alarm-88 wia-alarm-chip"></div>
-        <div class="alarm-89 wia-alarm-chip">세정기 롤러(1) 구동시간 초과 이상</div>
-        <div class="alarm-90 wia-alarm-chip">세정기 롤러(2) 구동시간 초과 이상</div>
-        <div class="alarm-91 wia-alarm-chip">세정기 장입 리트리버 구동시간 초과 이상</div>
-        <div class="alarm-92 wia-alarm-chip">세정기 추출 리트리버 구동시간 초과 이상</div>
-        <div class="alarm-93 wia-alarm-chip">세정기 출구 롤러(1) 구동시간 초과 이상</div>
-        <div class="alarm-94 wia-alarm-chip">세정기 출구 롤러(2) 구동시간 초과 이상</div>
-        <div class="alarm-95 wia-alarm-chip">소려로 롤러(1) 구동시간 초과 이상</div>
-        <div class="alarm-96 wia-alarm-chip">소려로 롤러(2) 구동시간 초과 이상</div>
-        <div class="alarm-97 wia-alarm-chip">소려로 장입 롤러 구동시간 초과 이상</div>
-        <div class="alarm-98 wia-alarm-chip">소려로 로내 롤러(1) 구동시간 초과 이상</div>
-        <div class="alarm-99 wia-alarm-chip">소려로 로내 롤러(2) 구동시간 초과 이상</div>
-        <div class="alarm-100 wia-alarm-chip">소려로 추출 롤러 구동시간 초과 이상</div>
-        <div class="alarm-101 wia-alarm-chip">소려로 출구 롤러 구동시간 초과 이상</div>
-        <div class="alarm-102 wia-alarm-chip">소려로 출구 리프터 롤러 구동시간 초과 이상</div>
-        <div class="alarm-103 wia-alarm-chip">출구 스톡콘베어 입구 롤러 구동시간 초과 이상</div>
-        <div class="alarm-104 wia-alarm-chip">출구 스톡콘베어 리트리버 구동시간 초과 이상</div>
-        <div class="alarm-105 wia-alarm-chip">출구 스톡콘베어 출구 롤러 구동시간 초과 이상</div>
+        <div class="B800 wia-alarm-chip">PLC 배터리 이상</div>
+        <div class="B801 wia-alarm-chip">비상정지 이상</div>
+        <div class="B802 wia-alarm-chip">예열로 싸이클 이상</div>
+        <div class="B803 wia-alarm-chip">연속로 싸이클 이상</div>
+        <div class="B804 wia-alarm-chip">유조 싸이클 이상</div>
+        <div class="B805 wia-alarm-chip">제품 데이터 이상</div>
+        <div class="B806 wia-alarm-chip">RX가스 공급압력하한</div>
+        <div class="B807 wia-alarm-chip">LNG가스 공급압력이상</div>
+        <div class="B808 wia-alarm-chip">예열로 버너 MAIN GAS 압력이상</div>
+        <div class="B809 wia-alarm-chip">예열로 버너 파이롯트 압력 하한</div>
+        <div class="B80A wia-alarm-chip">예열로 버너 AIR 압력 하한</div>
+        <div class="B80B wia-alarm-chip">냉각수 공급이상</div>
+        <div class="B80C wia-alarm-chip"></div>
+        <div class="B80D wia-alarm-chip"></div>
+        <div class="B80E wia-alarm-chip"></div>
+        <div class="B80F wia-alarm-chip"></div>
+        <div class="B810 wia-alarm-chip">예열로 버너 파이롯트 불꽃 꺼짐</div>
+        <div class="B811 wia-alarm-chip">예열로 배기변 파이롯트 불꽃 꺼짐</div>
+        <div class="B812 wia-alarm-chip">가열존 입구도어 파이롯트 불꽃 꺼짐</div>
+        <div class="B813 wia-alarm-chip">가열존 배기변 파이롯트 불꽃 꺼짐</div>
+        <div class="B814 wia-alarm-chip">가열존 입구도어 커튼 불꽃 꺼짐</div>
+        <div class="B815 wia-alarm-chip">유조 배기변 파이롯트 불꽃 꺼짐</div>
+        <div class="B816 wia-alarm-chip">유조 출구도어 파이롯트 불꽃 꺼짐</div>
+        <div class="B817 wia-alarm-chip">유조 출구도어 커튼 불꽃 꺼짐</div>
+        <div class="B818 wia-alarm-chip"></div>
+        <div class="B819 wia-alarm-chip"></div>
+        <div class="B81A wia-alarm-chip"></div>
+        <div class="B81B wia-alarm-chip"></div>
+        <div class="B81C wia-alarm-chip"></div>
+        <div class="B81D wia-alarm-chip">유조 수위 레벨 이상(OVER)</div>
+        <div class="B81E wia-alarm-chip">유조 수위 레벨 이상(보충)</div>
+        <div class="B81F wia-alarm-chip">유조 수위 레벨 이상(히터 OFF)</div>
+        <div class="B820 wia-alarm-chip">예열로 과열 이상</div>
+        <div class="B821 wia-alarm-chip">예열로 온도 저하 이상</div>
+        <div class="B822 wia-alarm-chip">가열존 과열 이상</div>
+        <div class="B823 wia-alarm-chip">가열존 온도저하 이상</div>
+        <div class="B824 wia-alarm-chip">침탄1존 과열 이상</div>
+        <div class="B825 wia-alarm-chip">침탄1존 온도저하 이상</div>
+        <div class="B826 wia-alarm-chip">침탄2존 과열 이상</div>
+        <div class="B827 wia-alarm-chip">침탄2존 온도저하 이상</div>
+        <div class="B828 wia-alarm-chip">확산존 과열 이상</div>
+        <div class="B829 wia-alarm-chip">확산존 온도 저하 이상</div>
+        <div class="B82A wia-alarm-chip">냉각존 과열 이상</div>
+        <div class="B82B wia-alarm-chip">냉각존 온도 저하 이상</div>
+        <div class="B82C wia-alarm-chip">균열1존 과열 이상</div>
+        <div class="B82D wia-alarm-chip">균열1존 온도 저하 이상</div>
+        <div class="B82E wia-alarm-chip">균열2존 과열 이상</div>
+        <div class="B82F wia-alarm-chip">균열2존 온도 저하 이상</div>
+        <div class="B830 wia-alarm-chip">유조 과열 이상</div>
+        <div class="B831 wia-alarm-chip">유조 온도저하 이상</div>
+        <div class="B832 wia-alarm-chip">가열존 가스차단신호</div>
+        <div class="B833 wia-alarm-chip">가열존 히터OFF신호</div>
+        <div class="B834 wia-alarm-chip">침탄1존 가스차단신호</div>
+        <div class="B835 wia-alarm-chip">침탄1존 히터OFF신호</div>
+        <div class="B836 wia-alarm-chip">침탄2존 가스차단신호</div>
+        <div class="B837 wia-alarm-chip">침탄2존 히터OFF신호</div>
+        <div class="B838 wia-alarm-chip">확산존 가스차단신호</div>
+        <div class="B839 wia-alarm-chip">확산존 히터OFF신호</div>
+        <div class="B83A wia-alarm-chip">균열1존 가스차단신호</div>
+        <div class="B83B wia-alarm-chip">균열1존 히터OFF신호</div>
+        <div class="B83C wia-alarm-chip">균열2존 가스차단신호</div>
+        <div class="B83D wia-alarm-chip">균열2존 히터OFF신호</div>
+        <div class="B83E wia-alarm-chip"></div>
+        <div class="B83F wia-alarm-chip"></div>
+        <div class="B840 wia-alarm-chip">침탄존 CP값 이상(상한)</div>
+        <div class="B841 wia-alarm-chip">침탄존 CP값 이상(하한)</div>
+        <div class="B842 wia-alarm-chip">확산존 CP값 이상(상한)</div>
+        <div class="B843 wia-alarm-chip">확산존 CP값 이상(하한)</div>
+        <div class="B844 wia-alarm-chip">균열2존 CP값 이상(상한)</div>
+        <div class="B845 wia-alarm-chip">균열2존 CP값 이상(하한)</div>
+        <div class="B846 wia-alarm-chip"></div>
+        <div class="B847 wia-alarm-chip"></div>
+        <div class="B848 wia-alarm-chip">가열존 SCR 이상</div>
+        <div class="B849 wia-alarm-chip">침탄1존 SCR 이상</div>
+        <div class="B84A wia-alarm-chip">침탄2존 SCR 이상</div>
+        <div class="B84B wia-alarm-chip">확산존 SCR 이상</div>
+        <div class="B84C wia-alarm-chip">냉각존 SCR 이상</div>
+        <div class="B84D wia-alarm-chip">균열1존 SCR 이상</div>
+        <div class="B84E wia-alarm-chip">균열2존 SCR 이상</div>
+        <div class="B84F wia-alarm-chip"></div>
+        <div class="B850 wia-alarm-chip">예열로 팬 인버터 이상</div>
+        <div class="B851 wia-alarm-chip">가열존 팬 인버터 이상</div>
+        <div class="B852 wia-alarm-chip">침탄존 팬 인버터 이상</div>
+        <div class="B853 wia-alarm-chip">확산존 팬 인버터 이상</div>
+        <div class="B854 wia-alarm-chip">균열1존 팬 인버터 이상</div>
+        <div class="B855 wia-alarm-chip">균열2존 팬 인버터 이상</div>
+        <div class="B856 wia-alarm-chip">유조 교반기-1 인버터 이상</div>
+        <div class="B857 wia-alarm-chip">유조 교반기-2 인버터 이상</div>
+        <div class="B858 wia-alarm-chip">예열로 로내롤러 인버터 이상</div>
+        <div class="B859 wia-alarm-chip">가열존-1 로내롤러 인버터 이상</div>
+        <div class="B85A wia-alarm-chip">가열존-2 로내롤러 인버터 이상</div>
+        <div class="B85B wia-alarm-chip">침탄존 로내롤러 인버터 이상</div>
+        <div class="B85C wia-alarm-chip">확산존 로내롤러 인버터 이상</div>
+        <div class="B85D wia-alarm-chip">균열1존 로내롤러 인버터 이상</div>
+        <div class="B85E wia-alarm-chip">균열2존 로내롤러 인버터 이상</div>
+        <div class="B85F wia-alarm-chip"></div>
+        <div class="B860 wia-alarm-chip">예열로 입구도어 보전스토퍼 점검</div>
+        <div class="B861 wia-alarm-chip">예열로 출구도어 보전스토퍼 점검</div>
+        <div class="B862 wia-alarm-chip">가열존 입구도어 보전스토퍼 점검</div>
+        <div class="B863 wia-alarm-chip">침탄존 입구도어 보전스토퍼 점검</div>
+        <div class="B864 wia-alarm-chip">균열1존 입구도어 보전스토퍼 점검</div>
+        <div class="B865 wia-alarm-chip">균열2존 입구도어 보전스토퍼 점검</div>
+        <div class="B866 wia-alarm-chip"></div>
+        <div class="B867 wia-alarm-chip">유조 출구도어 보전스토퍼 점검</div>
+        <div class="B868 wia-alarm-chip"></div>
       </div>
     </div>
   </div>
@@ -197,37 +197,62 @@
 		getAlarmText();
 		ccfAlarmListView();
 		alarmInterval = setInterval("ccfAlarmListView()", 1000);
+
+		pollAlarmBitTags(25, 1000);
 	});
+
+	//ez_scada foldertag API(BIT값) 폴링 - folderId: 25 = 알람(B800~B8FF)
+	//신호=1일 때 is-active 클래스 토글(빨간 배경+노란 폰트는 common_style.jsp CSS에서 처리)
+	function pollAlarmBitTags(folderId, intervalMs){
+		function tick(){
+			$.ajax({
+				url: "http://localhost:5050/api/foldertag/values?folderId=" + folderId,
+				type: "get",
+				dataType: "json",
+				timeout: 4000
+			}).done(function(result){
+				if(!result || !result.tags) return;
+				result.tags.forEach(function(tag){
+					if(!tag.name) return;
+					var on = (tag.value === 1 || tag.value === true);
+					c(tag.name, on);
+				});
+			}).always(function(){
+				setTimeout(tick, intervalMs);
+			});
+		}
+		tick();
+	}
 
 //이벤트
 
 	$("#fileInput").change(function(event){
-        const file = event.target.files[0]; // 선택된 파일 가져오기
+        const file = event.target.files[0];
         if(file){
-            const reader = new FileReader(); // FileReader 객체 생성
+            const reader = new FileReader();
             reader.onload = function(e) {
 
-            	$("#imagePreview").attr("src",e.target.result); // 미리보기 이미지 소스 업데이트
-            	$("#imagePreview").css("display","block");// 미리보기 보이게
+            	$("#imagePreview").attr("src",e.target.result);
+            	$("#imagePreview").css("display","block");
             	$("#imagePreviewEmpty").css("display","none");
             	uploadImgFileName = e.target.result;
             };
-            reader.readAsDataURL(file); // 파일을 데이터 URL로 읽기
+            reader.readAsDataURL(file);
         }
 	});
 
 	$("#pdfInput").change(function(event){
-        const file = event.target.files[0]; // 선택된 파일 가져오기
+        const file = event.target.files[0];
         if(file){
-            const reader = new FileReader(); // FileReader 객체 생성
+            const reader = new FileReader();
             reader.onload = function(e) {
 
-            	$("#pdfPreview").attr("src",e.target.result); // 미리보기 이미지 소스 업데이트
-            	$("#pdfPreview").css("display","block");// 미리보기 보이게
+            	$("#pdfPreview").attr("src",e.target.result);
+            	$("#pdfPreview").css("display","block");
             	$("#pdfPreviewEmpty").css("display","none");
             	uploadImgFileName = e.target.result;
             };
-            reader.readAsDataURL(file); // 파일을 데이터 URL로 읽기
+            reader.readAsDataURL(file);
         }
 	});
 
@@ -245,25 +270,16 @@
 		$("#pdfButton").addClass("active");
 	});
 
-	$('[class^="alarm-"]').on("click",function(ev){
+	$('.wia-alarm-chip').on("click",function(ev){
 		className = ev.currentTarget.className.replace("wia-alarm-chip","").trim();
-		var v_index = className.indexOf("-")+1;
-		var v_length = className.length;
-
-		var v_value = className.substring(v_index,v_length);
-
-		if(v_value <= 105){
-			modalOpen();
-			ccfALarmListPopup();
-		}
-
+		modalOpen();
+		ccfALarmListPopup();
 	});
 
 //함수
-    function goToIndex2() {
-        window.location.href = '/DHT/alarmListCcf2';
+    function goToIndex(page) {
+        window.location.href = '/DHT/alarmListCcf' + page;
     }
-
 
     //OPC값 알람 조회
     function ccfAlarmListView(){
@@ -344,14 +360,14 @@
 				$("#ac_comment").val(data.ac_comment);
 
 				if(data.ac_filename != null && data.ac_filename != ''){
-					$("#imagePreview").attr("src","/fileUploads/img/"+data.ac_filename).css("display","block");
+					$("#imagePreview").attr("src","/DHT/fileUploads/img/"+data.ac_filename).css("display","block");
 					$("#imagePreviewEmpty").css("display","none");
 				}else{
 					$("#imagePreview").attr("src","").css("display","none");
 					$("#imagePreviewEmpty").css("display","flex");
 				}
 				if(data.ac_pdf_filename != null && data.ac_pdf_filename != ''){
-					$("#pdfPreview").attr("src","/fileUploads/pdf/"+data.ac_pdf_filename).css("display","block");
+					$("#pdfPreview").attr("src","/DHT/fileUploads/pdf/"+data.ac_pdf_filename).css("display","block");
 					$("#pdfPreviewEmpty").css("display","none");
 				}else{
 					$("#pdfPreview").attr("src","").css("display","none");

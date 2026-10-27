@@ -1,4 +1,27 @@
 /* ccf */
+/* 자동운전 조건: 라벨/값 박스 정중앙 정렬 + 굵게 */
+[class^="auto-"]:not([class*="big-box"]):not(.auto-con),
+[class^="data-"] {
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+/* 자동운전 조건: 헤더(예열로 자동조건 만족/불만족 등) 글씨 크게 + 굵게 */
+[class^="sag-"] {
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+  vertical-align: middle;
+}
+/* 표 태그 전환용 래퍼/테이블 기본 스타일 */
+.ac-grid-wrap { position: absolute; }
+.ac-grid-wrap-1 { left: 72px; top: 176px; }
+.ac-grid-wrap-2 { left: 524px; top: 176px; }
+.ac-grid-wrap-3 { left: 978px; top: 176px; }
+.ac-grid-wrap-4 { left: 1431px; top: 176px; }
+.ac-table { border-collapse: separate; border-spacing: 5px 5px; table-layout: fixed; }
+.ac-table td { vertical-align: middle; }
 .header {
   background: #123478;
   width: 1918px;
@@ -47,9 +70,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 404px;
   height: 52px;
-  position: absolute;
-  left: 77px;
-  top: 181px;
 }
 .auto-0 {
   background: #d9d9d9;
@@ -60,9 +80,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 76.78px;
-  top: 237.64px;
 }
 .data-0 {
   background: #d9d9d9;
@@ -73,9 +90,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 150.09px;
-  top: 237.64px;
 }
 .auto-1 {
   background: #d9d9d9;
@@ -86,9 +100,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 77px;
-  top: 278px;
 }
 .data-1 {
   background: #d9d9d9;
@@ -99,9 +110,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 150.31px;
-  top: 278px;
 }
 .auto-2 {
   background: #d9d9d9;
@@ -112,9 +120,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 77px;
-  top: 318px;
 }
 .data-2 {
   background: #d9d9d9;
@@ -125,9 +130,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 150.31px;
-  top: 318px;
 }
 .auto-3 {
   background: #d9d9d9;
@@ -138,9 +140,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 77px;
-  top: 358px;
 }
 .data-3 {
   background: #d9d9d9;
@@ -151,9 +150,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 150.31px;
-  top: 358px;
 }
 .auto-4 {
   background: #d9d9d9;
@@ -164,9 +160,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 77px;
-  top: 398px;
 }
 .data-4 {
   background: #d9d9d9;
@@ -177,9 +170,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 150.31px;
-  top: 398px;
 }
 .auto-5 {
   background: #d9d9d9;
@@ -190,9 +180,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 77px;
-  top: 438px;
 }
 .data-5 {
   background: #d9d9d9;
@@ -203,9 +190,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 150.31px;
-  top: 438px;
 }
 .auto-6 {
   background: #d9d9d9;
@@ -216,9 +200,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 77px;
-  top: 478px;
 }
 .data-6 {
   background: #d9d9d9;
@@ -229,9 +210,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 150.31px;
-  top: 478px;
 }
 .auto-7 {
   background: #d9d9d9;
@@ -242,9 +220,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 77px;
-  top: 518px;
 }
 .data-7 {
   background: #d9d9d9;
@@ -255,9 +230,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 150.31px;
-  top: 518px;
 }
 .auto-8 {
   background: #d9d9d9;
@@ -268,9 +240,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 77px;
-  top: 558px;
 }
 .data-8 {
   background: #d9d9d9;
@@ -281,9 +250,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 150.31px;
-  top: 558px;
 }
 .auto-9 {
   background: #d9d9d9;
@@ -294,9 +260,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 77px;
-  top: 598px;
 }
 .data-9 {
   background: #d9d9d9;
@@ -307,9 +270,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 150.31px;
-  top: 598px;
 }
 .auto-big-box-2 {
   background: #f1f1f1;
@@ -333,9 +293,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 404px;
   height: 52px;
-  position: absolute;
-  left: 529px;
-  top: 181px;
 }
 .auto-10 {
   background: #d9d9d9;
@@ -346,9 +303,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 529px;
-  top: 238px;
 }
 .data-10 {
   background: #d9d9d9;
@@ -359,9 +313,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 602.31px;
-  top: 238px;
 }
 .auto-11 {
   background: #d9d9d9;
@@ -372,9 +323,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 529.22px;
-  top: 278.36px;
 }
 .data-11 {
   background: #d9d9d9;
@@ -385,9 +333,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 602.54px;
-  top: 278.36px;
 }
 .auto-12 {
   background: #d9d9d9;
@@ -398,9 +343,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 529.22px;
-  top: 318.36px;
 }
 .data-12 {
   background: #d9d9d9;
@@ -411,9 +353,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 602.54px;
-  top: 318.36px;
 }
 .auto-13 {
   background: #d9d9d9;
@@ -424,9 +363,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 529.22px;
-  top: 358.36px;
 }
 .data-13 {
   background: #d9d9d9;
@@ -437,9 +373,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 602.54px;
-  top: 358.36px;
 }
 .auto-14 {
   background: #d9d9d9;
@@ -450,9 +383,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 529.22px;
-  top: 398.36px;
 }
 .data-14 {
   background: #d9d9d9;
@@ -463,9 +393,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 602.54px;
-  top: 398.36px;
 }
 .auto-15 {
   background: #d9d9d9;
@@ -476,9 +403,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 529.22px;
-  top: 438.36px;
 }
 .data-15 {
   background: #d9d9d9;
@@ -489,9 +413,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 602.54px;
-  top: 438.36px;
 }
 .auto-16 {
   background: #d9d9d9;
@@ -502,9 +423,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 529.22px;
-  top: 478.36px;
 }
 .data-16 {
   background: #d9d9d9;
@@ -515,9 +433,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 602.54px;
-  top: 478.36px;
 }
 .auto-17 {
   background: #d9d9d9;
@@ -528,9 +443,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 529.22px;
-  top: 518.36px;
 }
 .data-17 {
   background: #d9d9d9;
@@ -541,9 +453,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 602.54px;
-  top: 518.36px;
 }
 .auto-18 {
   background: #d9d9d9;
@@ -554,9 +463,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 529.22px;
-  top: 558.36px;
 }
 .data-18 {
   background: #d9d9d9;
@@ -567,9 +473,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 602.54px;
-  top: 558.36px;
 }
 .auto-19 {
   background: #d9d9d9;
@@ -580,9 +483,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 529.22px;
-  top: 598.36px;
 }
 .data-19 {
   background: #d9d9d9;
@@ -593,9 +493,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 602.54px;
-  top: 598.36px;
 }
 .auto-big-box-3 {
   background: #f1f1f1;
@@ -619,9 +516,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 404px;
   height: 52px;
-  position: absolute;
-  left: 983px;
-  top: 181px;
 }
 .auto-20 {
   background: #d9d9d9;
@@ -632,9 +526,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 983px;
-  top: 238px;
 }
 .data-20 {
   background: #d9d9d9;
@@ -645,9 +536,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 1056.31px;
-  top: 238px;
 }
 .auto-21 {
   background: #d9d9d9;
@@ -658,9 +546,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 983.22px;
-  top: 278.36px;
 }
 .data-21 {
   background: #d9d9d9;
@@ -671,9 +556,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 1056.54px;
-  top: 278.36px;
 }
 .auto-22 {
   background: #d9d9d9;
@@ -684,9 +566,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 983.22px;
-  top: 318.36px;
 }
 .data-22 {
   background: #d9d9d9;
@@ -697,9 +576,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 1056.54px;
-  top: 318.36px;
 }
 .auto-23 {
   background: #d9d9d9;
@@ -710,9 +586,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 983.22px;
-  top: 358.36px;
 }
 .data-23 {
   background: #d9d9d9;
@@ -723,9 +596,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 1056.54px;
-  top: 358.36px;
 }
 .auto-big-box-4 {
   background: #f1f1f1;
@@ -749,9 +619,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 404px;
   height: 52px;
-  position: absolute;
-  left: 1436px;
-  top: 181px;
 }
 .auto-24 {
   background: #d9d9d9;
@@ -762,9 +629,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 1436px;
-  top: 238px;
 }
 .data-24 {
   background: #d9d9d9;
@@ -775,9 +639,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 1509.31px;
-  top: 238px;
 }
 .auto-25 {
   background: #d9d9d9;
@@ -788,9 +649,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 1436.22px;
-  top: 278.36px;
 }
 .data-25 {
   background: #d9d9d9;
@@ -801,9 +659,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 1509.54px;
-  top: 278.36px;
 }
 .auto-26 {
   background: #d9d9d9;
@@ -814,9 +669,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 1436.22px;
-  top: 318.36px;
 }
 .data-26 {
   background: #d9d9d9;
@@ -827,9 +679,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 1509.54px;
-  top: 318.36px;
 }
 .auto-27 {
   background: #d9d9d9;
@@ -840,9 +689,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 1436.22px;
-  top: 358.36px;
 }
 .data-27 {
   background: #d9d9d9;
@@ -853,9 +699,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 1509.54px;
-  top: 358.36px;
 }
 .auto-28 {
   background: #d9d9d9;
@@ -866,9 +709,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 1436.22px;
-  top: 398.36px;
 }
 .data-28 {
   background: #d9d9d9;
@@ -879,9 +719,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 1509.54px;
-  top: 398.36px;
 }
 .auto-29 {
   background: #d9d9d9;
@@ -892,9 +729,6 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 67.45px;
   height: 35.19px;
-  position: absolute;
-  left: 1436.22px;
-  top: 438.36px;
 }
 .data-29 {
   background: #d9d9d9;
@@ -905,7 +739,130 @@
   box-shadow: 0 1px 4px rgba(0,0,0,.08);
   width: 330.4px;
   height: 35.19px;
-  position: absolute;
-  left: 1509.54px;
-  top: 438.36px;
+}
+.auto-30 {
+  background: #d9d9d9;
+  border-style: solid;
+  border-color: rgba(15,23,42,.15);
+  border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
+  width: 67.45px;
+  height: 35.19px;
+}
+.data-30 {
+  background: #d9d9d9;
+  border-style: solid;
+  border-color: rgba(15,23,42,.15);
+  border-width: 1px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
+  width: 330.4px;
+  height: 35.19px;
+}
+/* ===== 자동운전조건: 행별 기본(off)/신호=1(on) 색상 - auto/data 동일하게 박스+폰트 전부 반전 ===== */
+.auto-0 { background: #f0e68c !important; color: #ff0000 !important; font-weight: 700 !important; }
+.data-0 { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-0.bit-on, .data-0.bit-on { background: #90ee90 !important; color: #000000 !important; }
+.auto-1 { background: #90ee90 !important; color: #000000 !important; font-weight: 700 !important; }
+.data-1 { background: #90ee90 !important; color: #000000 !important; }
+.auto-1.bit-on, .data-1.bit-on { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-2 { background: #f0e68c !important; color: #ff0000 !important; font-weight: 700 !important; }
+.data-2 { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-2.bit-on, .data-2.bit-on { background: #90ee90 !important; color: #000000 !important; }
+.auto-3 { background: #90ee90 !important; color: #000000 !important; font-weight: 700 !important; }
+.data-3 { background: #90ee90 !important; color: #000000 !important; }
+.auto-3.bit-on, .data-3.bit-on { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-4 { background: #f0e68c !important; color: #ff0000 !important; font-weight: 700 !important; }
+.data-4 { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-4.bit-on, .data-4.bit-on { background: #90ee90 !important; color: #000000 !important; }
+.auto-5 { background: #90ee90 !important; color: #000000 !important; font-weight: 700 !important; }
+.data-5 { background: #90ee90 !important; color: #000000 !important; }
+.auto-5.bit-on, .data-5.bit-on { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-6 { background: #f0e68c !important; color: #ff0000 !important; font-weight: 700 !important; }
+.data-6 { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-6.bit-on, .data-6.bit-on { background: #90ee90 !important; color: #000000 !important; }
+.auto-7 { background: #90ee90 !important; color: #000000 !important; font-weight: 700 !important; }
+.data-7 { background: #90ee90 !important; color: #000000 !important; }
+.auto-7.bit-on, .data-7.bit-on { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-8 { background: #f0e68c !important; color: #ff0000 !important; font-weight: 700 !important; }
+.data-8 { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-8.bit-on, .data-8.bit-on { background: #90ee90 !important; color: #000000 !important; }
+.auto-9 { background: #90ee90 !important; color: #000000 !important; font-weight: 700 !important; }
+.data-9 { background: #90ee90 !important; color: #000000 !important; }
+.auto-9.bit-on, .data-9.bit-on { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-10 { background: #f0e68c !important; color: #ff0000 !important; font-weight: 700 !important; }
+.data-10 { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-10.bit-on, .data-10.bit-on { background: #90ee90 !important; color: #000000 !important; }
+.auto-11 { background: #90ee90 !important; color: #000000 !important; font-weight: 700 !important; }
+.data-11 { background: #90ee90 !important; color: #000000 !important; }
+.auto-11.bit-on, .data-11.bit-on { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-12 { background: #f0e68c !important; color: #ff0000 !important; font-weight: 700 !important; }
+.data-12 { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-12.bit-on, .data-12.bit-on { background: #90ee90 !important; color: #000000 !important; }
+.auto-13 { background: #90ee90 !important; color: #000000 !important; font-weight: 700 !important; }
+.data-13 { background: #90ee90 !important; color: #000000 !important; }
+.auto-13.bit-on, .data-13.bit-on { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-14 { background: #f0e68c !important; color: #ff0000 !important; font-weight: 700 !important; }
+.data-14 { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-14.bit-on, .data-14.bit-on { background: #90ee90 !important; color: #000000 !important; }
+.auto-15 { background: #90ee90 !important; color: #000000 !important; font-weight: 700 !important; }
+.data-15 { background: #90ee90 !important; color: #000000 !important; }
+.auto-15.bit-on, .data-15.bit-on { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-16 { background: #f0e68c !important; color: #ff0000 !important; font-weight: 700 !important; }
+.data-16 { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-16.bit-on, .data-16.bit-on { background: #90ee90 !important; color: #000000 !important; }
+.auto-17 { background: #90ee90 !important; color: #000000 !important; font-weight: 700 !important; }
+.data-17 { background: #90ee90 !important; color: #000000 !important; }
+.auto-17.bit-on, .data-17.bit-on { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-18 { background: #f0e68c !important; color: #ff0000 !important; font-weight: 700 !important; }
+.data-18 { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-18.bit-on, .data-18.bit-on { background: #90ee90 !important; color: #000000 !important; }
+.auto-19 { background: #90ee90 !important; color: #000000 !important; font-weight: 700 !important; }
+.data-19 { background: #90ee90 !important; color: #000000 !important; }
+.auto-19.bit-on, .data-19.bit-on { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-20 { background: #f0e68c !important; color: #ff0000 !important; font-weight: 700 !important; }
+.data-20 { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-20.bit-on, .data-20.bit-on { background: #90ee90 !important; color: #000000 !important; }
+.auto-21 { background: #90ee90 !important; color: #000000 !important; font-weight: 700 !important; }
+.data-21 { background: #90ee90 !important; color: #000000 !important; }
+.auto-21.bit-on, .data-21.bit-on { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-22 { background: #f0e68c !important; color: #ff0000 !important; font-weight: 700 !important; }
+.data-22 { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-22.bit-on, .data-22.bit-on { background: #90ee90 !important; color: #000000 !important; }
+.auto-23 { background: #90ee90 !important; color: #000000 !important; font-weight: 700 !important; }
+.data-23 { background: #90ee90 !important; color: #000000 !important; }
+.auto-23.bit-on, .data-23.bit-on { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-24 { background: #f0e68c !important; color: #ff0000 !important; font-weight: 700 !important; }
+.data-24 { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-24.bit-on, .data-24.bit-on { background: #90ee90 !important; color: #000000 !important; }
+.auto-25 { background: #f0e68c !important; color: #ff0000 !important; font-weight: 700 !important; }
+.data-25 { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-25.bit-on, .data-25.bit-on { background: #90ee90 !important; color: #000000 !important; }
+.auto-26 { background: #90ee90 !important; color: #000000 !important; font-weight: 700 !important; }
+.data-26 { background: #90ee90 !important; color: #000000 !important; }
+.auto-26.bit-on, .data-26.bit-on { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-27 { background: #f0e68c !important; color: #ff0000 !important; font-weight: 700 !important; }
+.data-27 { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-27.bit-on, .data-27.bit-on { background: #90ee90 !important; color: #000000 !important; }
+.auto-28 { background: #90ee90 !important; color: #000000 !important; font-weight: 700 !important; }
+.data-28 { background: #90ee90 !important; color: #000000 !important; }
+.auto-28.bit-on, .data-28.bit-on { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-29 { background: #f0e68c !important; color: #ff0000 !important; font-weight: 700 !important; }
+.data-29 { background: #f0e68c !important; color: #ff0000 !important; }
+.auto-29.bit-on, .data-29.bit-on { background: #90ee90 !important; color: #000000 !important; }
+.auto-30 { background: #90ee90 !important; color: #000000 !important; font-weight: 700 !important; }
+.data-30 { background: #90ee90 !important; color: #000000 !important; }
+.auto-30.bit-on, .data-30.bit-on { background: #f0e68c !important; color: #ff0000 !important; }
+
+
+
+/* 헤더(sag-N) 기본(off) khaki + 빨강 텍스트, 신호=1(on)은 bit-on 클래스로 green/black 전환 */
+.sag-0, .sag-1, .sag-2, .sag-3 {
+  background: #f0e68c !important;
+  color: #ff0000 !important;
+}
+.sag-0.bit-on, .sag-1.bit-on, .sag-2.bit-on, .sag-3.bit-on {
+  background: #90ee90 !important;
+  color: #000000 !important;
 }

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="repairHistoryCcf">
+
+	<select id="repairHistoryCcfList" parameterType="repairHistory" resultType="repairHistory">
+		SELECT repair_idx, repair_date, equip_name, worker_name, symptom, repair_content, reg_user, reg_date
+		FROM tb_repair_history
+		WHERE repair_date BETWEEN #{sdateTime} AND #{edateTime}
+		ORDER BY repair_date DESC, repair_idx DESC
+	</select>
+
+	<insert id="insertRepairHistory" parameterType="repairHistory">
+		INSERT INTO tb_repair_history (repair_date, equip_name, worker_name, symptom, repair_content, reg_user)
+		VALUES (#{repair_date}, #{equip_name}, #{worker_name}, #{symptom}, #{repair_content}, #{reg_user})
+	</insert>
+
+	<update id="updateRepairHistory" parameterType="repairHistory">
+		UPDATE tb_repair_history
+		SET repair_date = #{repair_date},
+			equip_name = #{equip_name},
+			worker_name = #{worker_name},
+			symptom = #{symptom},
+			repair_content = #{repair_content}
+		WHERE repair_idx = #{repair_idx}
+	</update>
+
+	<delete id="deleteRepairHistory" parameterType="int">
+		DELETE FROM tb_repair_history WHERE repair_idx = #{repair_idx}
+	</delete>
+
+</mapper>

@@ -4,10 +4,9 @@
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="trendCcf">
     <select id="trendCcfData" parameterType="trendCcf" resultType="trendCcf">
-        SELECT * 
-        FROM tb_trend_ccf 
+        SELECT *
+        FROM tb_trend_ccf
         WHERE tdate BETWEEN #{startDate} AND #{endDate}
         ORDER BY tdate
     </select>
 </mapper>
-

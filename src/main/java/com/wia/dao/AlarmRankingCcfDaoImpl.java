@@ -12,7 +12,7 @@ import com.wia.domain.AlarmRanking;
 @Repository
 public class AlarmRankingCcfDaoImpl implements AlarmRankingCcfDao{
 
-	@Resource(name = "sessionSQLite")
+	@Resource(name = "sessionEzScada")
 	private SqlSession sqlSession;
 
 	@Override

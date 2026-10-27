@@ -21,13 +21,31 @@
 	<mvc:resources  mapping="/image/**" location="/WEB-INF/resources/image/"/>
 	
 	<mvc:resources  mapping="/uploads/**" location="/WEB-INF/resources/uploads/"/>
-	
+
+	<!-- 알람 코멘트 첨부파일(사진/PDF) 서빙: 컨트롤러 저장 경로와 동일하게 맞춤 -->
+	<mvc:resources  mapping="/fileUploads/img/**" location="file:D:/알람파일/사진/"/>
+	<mvc:resources  mapping="/fileUploads/pdf/**" location="file:D:/알람파일/pdf/"/>
+
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"
 			p:prefix="/WEB-INF/views"/>
-<!-- 			
-	<bean id="loginInterceptor" class="com.ace.interceptor.LoginInterceptor"/>
-	<bean id="xssInterceptor" class="com.ace.interceptor.XssInterceptor"/>
- -->	
+
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/**"/>
+			<mvc:exclude-mapping path="/login"/>
+			<mvc:exclude-mapping path="/logout"/>
+			<mvc:exclude-mapping path="/main"/>
+			<mvc:exclude-mapping path="/"/>
+			<mvc:exclude-mapping path="/css/**"/>
+			<mvc:exclude-mapping path="/js/**"/>
+			<mvc:exclude-mapping path="/fonts/**"/>
+			<mvc:exclude-mapping path="/image/**"/>
+			<mvc:exclude-mapping path="/uploads/**"/>
+			<mvc:exclude-mapping path="/fileUploads/**"/>
+			<bean class="com.wia.interceptor.LoginInterceptor"/>
+		</mvc:interceptor>
+	</mvc:interceptors>
+
 	<context:component-scan base-package="com.wia.controller"/>
 
 	<bean name="multipartResolver"

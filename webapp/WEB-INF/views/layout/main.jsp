@@ -1,10 +1,21 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="java.util.List"%>
 <%
 // 최상위 프레임(iframe 밖)이라 여기서는 서버 리다이렉트로 바로 로그인 화면으로 보낸다.
 if (session.getAttribute("user") == null) {
     response.sendRedirect(request.getContextPath() + "/login");
     return;
 }
+boolean isAdmin = "Y".equals(session.getAttribute("admin_yn"));
+List<String> permCodes = (List<String>) session.getAttribute("permission_codes");
+if (permCodes == null) permCodes = java.util.Collections.emptyList();
+pageContext.setAttribute("isAdmin", isAdmin);
+pageContext.setAttribute("permCodes", permCodes);
+%>
+<%!
+	private boolean canSee(boolean isAdmin, java.util.List<String> permCodes, String menuCode) {
+		return isAdmin || permCodes.contains(menuCode);
+	}
 %>
 <!DOCTYPE html>
 <html lang="ko">
@@ -128,21 +139,28 @@ html, body {
         <a class="nav-item" data-page="autoConCm" onclick="go('/autoConCm','자동운전 조건',this);return false;">자동운전 조건</a>
         <a class="nav-item" data-page="ioMonitorCm1" onclick="go('/ioMonitorCm1','IO 모니터링',this);return false;">IO 모니터링</a>
         --%>
-        <a class="nav-item" data-page="overviewCcf" onclick="go('/overviewCcf','연속운용 현황',this);return false;">연속운용 현황</a>
-        <a class="nav-item" data-page="controlCcf1" onclick="go('/controlCcf1','제어 화면',this);return false;">제어 화면</a>
-        <a class="nav-item" data-page="trendCcf" onclick="go('/trendCcf','트렌드',this);return false;">트렌드</a>
-        <a class="nav-item" data-page="alarmHistoryCcf" onclick="go('/alarmHistoryCcf','알람 내역',this);return false;">알람 내역</a>
-        <a class="nav-item" data-page="alarmListCcf1" onclick="go('/alarmListCcf1','알람',this);return false;">알람</a>
-        <a class="nav-item" data-page="alarmRankingCcf" onclick="go('/alarmRankingCcf','알람 랭킹',this);return false;">알람 랭킹</a>
-        <a class="nav-item" data-page="overviewDataCcf" onclick="go('/overviewDataCcf','처리품 데이터',this);return false;">처리품 데이터</a>
-        <a class="nav-item" data-page="productCycleCcf" onclick="go('/productCycleCcf','처리품 싸이클',this);return false;">처리품 싸이클</a>
-        <a class="nav-item" data-page="ticCcf" onclick="go('/ticCcf','온도 조절계',this);return false;">온도 조절계</a>
-        <a class="nav-item" data-page="autoConCcf" onclick="go('/autoConCcf','자동운전 조건',this);return false;">자동운전 조건</a>
-        <a class="nav-item" data-page="ioMonitorCcf1" onclick="go('/ioMonitorCcf1','IO 모니터링',this);return false;">IO 모니터링</a>
-        <a class="nav-item" data-page="invCcf" onclick="go('/invCcf','인버터',this);return false;">인버터</a>
+        <% if (canSee(isAdmin, permCodes, "overviewCcf")) { %><a class="nav-item" data-page="overviewCcf" data-url="/overviewCcf" onclick="go('/overviewCcf','연속운용 현황',this);return false;">연속운용 현황</a><% } %>
+        <% if (canSee(isAdmin, permCodes, "controlCcf")) { %><a class="nav-item" data-page="controlCcf1" data-url="/controlCcf1" onclick="go('/controlCcf1','제어 화면',this);return false;">제어 화면</a><% } %>
+        <% if (canSee(isAdmin, permCodes, "trendCcf")) { %><a class="nav-item" data-page="trendCcf" data-url="/trendCcf" onclick="go('/trendCcf','트렌드',this);return false;">트렌드</a><% } %>
+        <% if (canSee(isAdmin, permCodes, "alarmHistoryCcf")) { %><a class="nav-item" data-page="alarmHistoryCcf" data-url="/alarmHistoryCcf" onclick="go('/alarmHistoryCcf','알람 내역',this);return false;">알람 내역</a><% } %>
+        <% if (canSee(isAdmin, permCodes, "alarmListCcf")) { %><a class="nav-item" data-page="alarmListCcf1" data-url="/alarmListCcf1" onclick="go('/alarmListCcf1','알람',this);return false;">알람</a><% } %>
+        <% if (canSee(isAdmin, permCodes, "alarmRankingCcf")) { %><a class="nav-item" data-page="alarmRankingCcf" data-url="/alarmRankingCcf" onclick="go('/alarmRankingCcf','알람 랭킹',this);return false;">알람 랭킹</a><% } %>
+        <% if (canSee(isAdmin, permCodes, "overviewDataCcf")) { %><a class="nav-item" data-page="overviewDataCcf" data-url="/overviewDataCcf" onclick="go('/overviewDataCcf','처리품 데이터',this);return false;">처리품 데이터</a><% } %>
+        <% if (canSee(isAdmin, permCodes, "productCycleCcf")) { %><a class="nav-item" data-page="productCycleCcf" data-url="/productCycleCcf" onclick="go('/productCycleCcf','처리품 싸이클',this);return false;">처리품 싸이클</a><% } %>
+        <% if (canSee(isAdmin, permCodes, "ticCcf")) { %><a class="nav-item" data-page="ticCcf" data-url="/ticCcf" onclick="go('/ticCcf','온도 조절계',this);return false;">온도 조절계</a><% } %>
+        <% if (canSee(isAdmin, permCodes, "autoConCcf")) { %><a class="nav-item" data-page="autoConCcf" data-url="/autoConCcf" onclick="go('/autoConCcf','자동운전 조건',this);return false;">자동운전 조건</a><% } %>
+        <% if (canSee(isAdmin, permCodes, "ioMonitorCcf")) { %><a class="nav-item" data-page="ioMonitorCcfX1" data-url="/ioMonitorCcfX1" onclick="go('/ioMonitorCcfX1','IO 모니터링',this);return false;">IO 모니터링</a><% } %>
+        <% if (canSee(isAdmin, permCodes, "invCcf")) { %><a class="nav-item" data-page="invCcf" data-url="/invCcf" onclick="go('/invCcf','인버터',this);return false;">인버터</a><% } %>
+        <% if (canSee(isAdmin, permCodes, "whmCcf")) { %><a class="nav-item" data-page="whmCcf" data-url="/whmCcf" onclick="go('/whmCcf','적산전력계&amp;전류계',this);return false;">적산전력계&amp;전류계</a><% } %>
+        <% if (canSee(isAdmin, permCodes, "repairHistoryCcf")) { %><a class="nav-item" data-page="repairHistoryCcf" data-url="/repairHistoryCcf" onclick="go('/repairHistoryCcf','설비수리이력',this);return false;">설비수리이력</a><% } %>
         <%-- 전체 현황 메뉴는 현재 숨김 처리. 필요해지면 아래 주석을 해제해서 복원.
         <a class="nav-item" data-page="overviewStatusAll" onclick="go('/overviewStatusAll','전체 현황',this);return false;">전체 현황</a>
         --%>
+        <% if ("Y".equals(session.getAttribute("admin_yn"))) { %>
+        <a class="nav-item" data-page="userManage" onclick="go('/userManage','사용자 관리',this);return false;" style="margin-left:10px;border-left:1px solid rgba(255,255,255,.15);padding-left:20px;">사용자 관리</a>
+        <a class="nav-item" data-page="permission" onclick="go('/permission','권한 부여',this);return false;">권한 부여</a>
+        <a class="nav-item" data-page="plcWriteLogCcf" onclick="go('/plcWriteLogCcf','로그',this);return false;">로그</a>
+        <% } %>
       </nav>
 
       <div class="header-right">
@@ -156,7 +174,7 @@ html, body {
     </header>
 
     <div class="frame-wrap">
-      <iframe id="pageFrame" src="${pageContext.request.contextPath}/overviewCcf" allowfullscreen></iframe>
+      <iframe id="pageFrame" src="" allowfullscreen></iframe>
     </div>
   </div>
 
@@ -186,8 +204,11 @@ html, body {
     setInterval(tickClock, 1000);
 
     document.addEventListener('DOMContentLoaded', function () {
-      var first = document.querySelector('.nav-item[data-page="overviewCcf"]');
-      if (first) first.classList.add('active');
+      var first = document.querySelector('#appNav .nav-item[data-url]');
+      if (first) {
+        first.classList.add('active');
+        document.getElementById('pageFrame').src = CTX + first.getAttribute('data-url');
+      }
     });
   </script>
 </body>
