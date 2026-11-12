@@ -58,19 +58,6 @@ body { font-family: Pretendard,'Malgun Gothic','Noto Sans KR','Segoe UI',sans-se
 .tag-group-btn:hover { border-color: var(--primary-m); color: var(--primary); }
 .tag-group-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); }
 
-.sp-toggle-row {
-  display: flex; align-items: center; justify-content: space-between; gap: 6px;
-  padding: 7px 9px; margin-bottom: 8px; border-radius: 7px; flex-shrink: 0;
-  background: rgba(128,90,213,.06); border: 1px solid rgba(128,90,213,.2);
-}
-.sp-toggle-lbl { font-size: 11px; font-weight: 700; color: #553C9A; }
-.sp-switch { position: relative; width: 34px; height: 18px; flex-shrink: 0; cursor: pointer; }
-.sp-switch input { opacity: 0; width: 0; height: 0; }
-.sp-switch-track { position: absolute; inset: 0; background: #cbd5e1; border-radius: 20px; transition: .15s; }
-.sp-switch-track::before { content:''; position:absolute; width:14px; height:14px; left:2px; top:2px; background:#fff; border-radius:50%; transition:.15s; box-shadow:0 1px 2px rgba(0,0,0,.3); }
-.sp-switch input:checked + .sp-switch-track { background: #805AD5; }
-.sp-switch input:checked + .sp-switch-track::before { transform: translateX(16px); }
-
 .tag-search {
   width: 100%; padding: 7px 10px; border: 1px solid var(--border); border-radius: 7px;
   font-size: 12px; outline: none; transition: border-color .13s; flex-shrink: 0; font-family: inherit;
@@ -185,13 +172,6 @@ body { font-family: Pretendard,'Malgun Gothic','Noto Sans KR','Segoe UI',sans-se
             <button class="tag-group-btn" onclick="setGroup('temp',this)">온도</button>
             <button class="tag-group-btn" onclick="setGroup('cp',this)">CP</button>
           </div>
-          <label class="sp-toggle-row" for="spSwitch">
-            <span class="sp-toggle-lbl">SP(설정값) 겹쳐보기</span>
-            <span class="sp-switch">
-              <input type="checkbox" id="spSwitch" onchange="toggleSp(this.checked)">
-              <span class="sp-switch-track"></span>
-            </span>
-          </label>
           <input class="tag-search" id="tagSearch" placeholder="태그 검색..." oninput="renderTagList()">
           <div class="tag-sel-btns">
             <button onclick="selectAll(true)">전체 선택</button>
@@ -254,7 +234,6 @@ TAG_DEFS.forEach(function(t){ TAG_MAP[t.key] = t; });
 
 var selTags   = {};
 var curGroup  = 'all';
-var showSp    = false;
 var curPeriod = '24h';
 var isCustom  = false;
 var mainChart = null;
@@ -279,7 +258,6 @@ Highcharts.setOptions({
 });
 
 function esc(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
-function spKey(pvKey){ return pvKey.replace(/Pv$/, 'Sp'); }
 function pad(n){ return String(n).padStart(2,'0'); }
 function toSqlDateTime(dt) {
   return dt.getFullYear()+'-'+pad(dt.getMonth()+1)+'-'+pad(dt.getDate())
@@ -372,9 +350,6 @@ function setGroup(g, btn) {
   renderTagList();
 }
 
-/* ── SP 겹쳐보기 토글 ── */
-function toggleSp(v) { showSp = v; reloadChart(); }
-
 /* ── 태그 목록 렌더 ── */
 function renderTagList() {
   var q = (document.getElementById('tagSearch').value || '').toLowerCase();
@@ -387,7 +362,7 @@ function renderTagList() {
           + '<div class="tag-dot" style="background:'+t.color+'"></div>'
           + '<div style="flex:1;min-width:0">'
           + '  <div class="tag-item-name">'+esc(t.label)+'</div>'
-          + '  <div class="tag-item-sub">'+t.key+(showSp ? ' + SP' : '')+'</div>'
+          + '  <div class="tag-item-sub">'+t.key+'</div>'
           + '</div></div>';
   });
   document.getElementById('tagList').innerHTML = html ||
@@ -461,10 +436,14 @@ function selectedKeys() {
 function seriesPoints(key) {
   var s = curData && curData[key];
   if (!s || !s.data) return [];
+  var meta = TAG_MAP[key];
+  var isCp = meta && meta.group === 'cp';
   return s.data.map(function(item){
     var ts = parseTs(item[0]);
     var v  = item[1];
-    return (ts === null || v === null || v === undefined) ? null : [ts, v];
+    if (ts === null || v === null || v === undefined) return null;
+    if (isCp) v = Math.round(v * 1000) / 1000; //CP는 원본 float에 부동소수점 오차가 섞여있어 소숫점 3자리로 반올림(CSV/XLS 내보내기 포함 전체 반영)
+    return [ts, v];
   }).filter(function(p){ return p !== null; });
 }
 
@@ -473,14 +452,13 @@ function buildKpiCards() {
   var keys = selectedKeys();
   var html = '';
   keys.forEach(function(key) {
-    renderKpiCard(key, TAG_MAP[key], false);
-    if (showSp) renderKpiCard(spKey(key), TAG_MAP[key], true);
+    renderKpiCard(key, TAG_MAP[key]);
   });
-  function renderKpiCard(k, meta, isSp) {
+  function renderKpiCard(k, meta) {
     var pts = seriesPoints(k);
     var vals = pts.map(function(p){ return p[1]; });
-    var dec = meta.group === 'cp' ? 2 : 0;
-    var label = meta.label + (isSp ? ' SP' : '');
+    var dec = meta.group === 'cp' ? 3 : 0;
+    var label = meta.label;
     if (!vals.length) {
       html += '<div class="kpi-card" style="border-top-color:'+meta.color+'">'
             + '<div class="kpi-card-lbl" title="'+esc(label)+'">'+esc(label)+'</div>'
@@ -521,18 +499,9 @@ function buildMainChart() {
     series.push({
       name: meta.label, data: seriesPoints(key), color: meta.color, lineWidth: 2,
       yAxis: meta.group === 'cp' ? 1 : 0, dashStyle: 'Solid',
-      dec: meta.group === 'cp' ? 2 : 0,
+      dec: meta.group === 'cp' ? 3 : 0,
       marker: { enabled: false }, states: { hover: { lineWidth: 3 } }
     });
-    if (showSp) {
-      var sk = spKey(key);
-      series.push({
-        name: meta.label + ' SP', data: seriesPoints(sk), color: meta.color, lineWidth: 1.5,
-        yAxis: meta.group === 'cp' ? 1 : 0, dashStyle: 'ShortDash',
-        dec: meta.group === 'cp' ? 2 : 0,
-        marker: { enabled: false }, opacity: 0.85, states: { hover: { lineWidth: 2.5 } }
-      });
-    }
   });
 
   document.getElementById('btnZoomReset').classList.remove('visible');
@@ -663,7 +632,7 @@ function showAvgResult(t0, t1) {
     var vals = seriesPoints(key).filter(function(p){ return p[0] >= t0 && p[0] <= t1; }).map(function(p){ return p[1]; });
     if (!vals.length) return;
     var sum = vals.reduce(function(a,b){return a+b;},0);
-    results.push({ name: meta.label, color: meta.color, avg: sum/vals.length, dec: meta.group==='cp'?2:0, cnt: vals.length });
+    results.push({ name: meta.label, color: meta.color, avg: sum/vals.length, dec: meta.group==='cp'?3:0, cnt: vals.length });
   });
   if (!results.length) { clearAvgOverlay(); return; }
   var cnt = results[0].cnt;

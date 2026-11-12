@@ -61,6 +61,8 @@ public class TrendCcfController {
             for (Map<String, Object> row : rows) {
                 Object ts = row.get("record_time");
                 Object val = row.get(colName);
+                //CP 값은 통신프로그램(TempMonitorService)이 2워드 float을 이미 실제값으로 디코딩해서
+                //tb_temp_snapshot에 저장하므로, 여기서는 추가 스케일 없이 그대로 쓴다.
 
                 List<Object> point = new ArrayList<Object>();
                 point.add(ts == null ? null : ts.toString());

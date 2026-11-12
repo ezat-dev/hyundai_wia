@@ -470,7 +470,7 @@ var BTN_ADDR_MAP = {
 var WORD_ADDR_MAP = {
 	"pre-pen-hz":"R6500", "hit-pen-hz":"R6502", "chim-pen-hz-1":"R6505",
 	"diff-pen-hz":"R6509", "crack-pen-hz-1":"R6513", "crack-pen-hz-2":"R6514",
-	"oil-agi-rpm":"R6517"
+	"oil-agi-rpm":"D488"
 };
 
 //버튼을 2초간 꾹 눌러야 실제 PLC에 값(1)을 쓴다 (오작동 방지, 아래쪽에 연두색 진행바 표시)
@@ -496,6 +496,7 @@ function wirePlcHoldButtons(addrMap){
 			holdTimer = setTimeout(function(){
 				holdTimer = null;
 				writeByAddress(addrMap[name], 1, name);
+				setTimeout(function(){ writeByAddress(addrMap[name], 0, name); }, 1500); //PLC 비트는 순간 신호여야 하므로 1.5초 후 자동으로 0 복귀
 				resetBar();
 			}, 1000);
 		}
@@ -592,9 +593,10 @@ function confirmPlcValModal(){
 	if (!plcValModalCtx) return;
 	var v = Number(calcBuf);
 	if (calcBuf === "" || calcBuf === "-" || isNaN(v)) { alert("숫자를 입력하세요"); return; }
-	markRecentWrite(plcValModalCtx.name, v);
-	writeByAddress(plcValModalCtx.addr, v, plcValModalCtx.name);
-	renderValue(plcValModalCtx.name, v); //폴링 반영 전까지 화면에 즉시 보이도록
+	var rawVal = isHzScaleTag(plcValModalCtx.name) ? Math.round(v * HZ_SCALE) : v;
+	markRecentWrite(plcValModalCtx.name, rawVal);
+	writeByAddress(plcValModalCtx.addr, rawVal, plcValModalCtx.name);
+	renderValue(plcValModalCtx.name, rawVal); //폴링 반영 전까지 화면에 즉시 보이도록
 	closePlcValModal();
 }
 $(document).on("keydown", function(e){
@@ -665,8 +667,19 @@ function pollControlTags(folderId, intervalMs){
 	tick();
 }
 
-//WORD값 표시 - hz(Hz 주파수)는 소수점 2자리, 나머지(RPM/LNG 등)는 그대로 표시
-//값이 없거나(null) 통신 끊김이면 기본값 0 유지
+//WORD값 표시 - hz/rpm(인버터 주파수) 계열은 raw가 실제값*100으로 들어옴(계측기 스펙) - 소수점 2자리로 환산해서 표시/입력
+//나머지(LNG 등)는 그대로 표시. 값이 없거나(null) 통신 끊김이면 기본값 0 유지
+var HZ_SCALE = 100;
+//유조 아지테이터(oil-agi-rpm/oil-rpm-sp/oil-rpm-pv/oil-agi-speed-sp/oil-agi-speed-wait)는 이 인버터군과 달리
+//raw=실제값 그대로(스케일 없음)라서 제외 — 예: 178 그대로 178Hz
+var HZ_SCALE_NAMES = [
+	"pre-pen-hz","hit-pen-hz","chim-pen-hz-1","diff-pen-hz","crack-pen-hz-1","crack-pen-hz-2",
+	"pre-hz-sp","pre-hz-pv","hit-hz-sp","hit-hz-pv","chim-hz-sp","chim-hz-pv","diff-hz-sp","diff-hz-pv",
+	"crack1-hz-sp","crack1-hz-pv","crack2-hz-sp","crack2-hz-pv"
+];
+function isHzScaleTag(name){
+	return HZ_SCALE_NAMES.indexOf(name) !== -1;
+}
 var recentWrites = {};
 var WRITE_GRACE_MS = 3000;
 function markRecentWrite(name, val){
@@ -688,8 +701,8 @@ function renderValue(keys, val){
 	if(val == null){
 		val = 0;
 	}
-	if(keys.indexOf("hz") !== -1){
-		$("."+keys).text(Number(val).toFixed(2));
+	if(isHzScaleTag(keys)){
+		$("."+keys).text((Number(val) / HZ_SCALE).toFixed(2));
 	}else{
 		$("."+keys).text(val);
 	}

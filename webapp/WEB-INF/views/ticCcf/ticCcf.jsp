@@ -194,15 +194,10 @@ letter-spacing: .2px;
   </div>
 <script>
 
-//전역변수
-var ticCcfInterval;
-
 //로드
 $(document).ready(function() {
-	ticCcfView();
-	ticCcfInterval = setInterval("ticCcfView()", 1000);
-
 	pollFolderWordTags(7, 1000);
+	pollFolderDwordTags(7, 1000);
 
 	var TIC_ADDR_MAP = {
 		"pre-sp": "R6400",
@@ -226,6 +221,66 @@ $(document).ready(function() {
 	wireInlineEditable(Object.keys(TIC_ADDR_MAP), TIC_ADDR_MAP);
 });
 
+//CP 설정값/현재값은 PLC에 2워드짜리 IEEE754 float(32비트 실수)로 저장되어 있음(실측 확인:
+//R6466/R6467=1.00, R6470/R6471=0.85, R6474/R6475=0.80) - 1워드 정수로는 절대 못 읽으므로
+//dw_folders_tags(더블워드 태그)에 등록해서 /api/admin/dwtags로 따로 폴링 + 비트 재해석한다
+function isCpTag(name){
+	return /^cp-(chim|diff|crack-2)-(sp|pv)$/.test(name);
+}
+//32비트 정수(워드 2개를 이어붙인 값) -> IEEE754 float로 비트 재해석
+function int32ToFloat32(n){
+	var buf = new ArrayBuffer(4);
+	new Int32Array(buf)[0] = n | 0;
+	return new Float32Array(buf)[0];
+}
+//실수 -> [저워드, 고워드] (PLC에 쓸 때 2워드로 쪼갬)
+function float32ToWords(f){
+	var buf = new ArrayBuffer(4);
+	new Float32Array(buf)[0] = f;
+	var u16 = new Uint16Array(buf);
+	return [u16[0], u16[1]];
+}
+//주소 문자열(R6466, D334 등)의 다음 워드 주소 (고워드 주소 = 저워드 주소 + 1)
+function nextWordAddress(addr){
+	var m = /^([A-Za-z]+)(\d+)$/.exec(addr);
+	if (!m) return null;
+	return m[1] + (Number(m[2]) + 1);
+}
+//CP 태그(더블워드/float) 전용 쓰기 - 저워드/고워드 두 번 나눠서 쓴다
+function writeCpFloat(name, addr, realVal){
+	var words = float32ToWords(Number(realVal));
+	var highAddr = nextWordAddress(addr);
+	markRecentWrite(name, Number(realVal));
+	writeByAddress(addr, words[0], name);
+	writeByAddress(highAddr, words[1], name);
+}
+//CP 태그(더블워드/float) 전용 폴링 - folderId: 7 = 온도조절계 CP 설정값/현재값
+function pollFolderDwordTags(folderId, intervalMs){
+	function tick(){
+		$.ajax({
+			url: "http://localhost:5050/api/admin/dwtags?folderId=" + folderId,
+			type: "get",
+			dataType: "json",
+			timeout: 4000
+		}).done(function(result){
+			if(!result || !result.tags) return;
+			result.tags.forEach(function(tag){
+				if(!tag.name || tag.value == null) return;
+				renderCpFloatValue(tag.name, int32ToFloat32(tag.value));
+			});
+		}).always(function(){
+			setTimeout(tick, intervalMs);
+		});
+	}
+	tick();
+}
+function renderCpFloatValue(name, floatVal){
+	var $el = $("." + name);
+	if ($el.find("input.inline-edit-input").length) return;
+	if (isStaleAfterWrite(name, floatVal)) return;
+	$el.text(floatVal.toFixed(3));
+}
+
 //쓰기 직후 일정 시간 동안은 폴링으로 받은 "쓰기 전" 캐시값을 무시(깜빡임 방지)
 var recentWrites = {};
 var WRITE_GRACE_MS = 3000;
@@ -243,9 +298,9 @@ function isStaleAfterWrite(name, incomingVal){
 
 function writeByAddress(address, val, label){
 	$.ajax({
-		url: "http://localhost:5050/api/foldertag/write/by-address",
+		url: "http://localhost:5050/api/foldertag/write/by-name",
 		type: "get",
-		data: { plcId: 1, address: address, value: val },
+		data: { name: label, value: val },
 		dataType: "json",
 		timeout: 4000
 	}).done(function(){
@@ -296,8 +351,12 @@ function wireInlineEditable(names, addrMap){
 					return;
 				}
 				$el.text(newVal);
-				markRecentWrite(name, newVal);
-				writeByAddress(addr, newVal, name);
+				if (isCpTag(name)) {
+					writeCpFloat(name, addr, Number(newVal));
+				} else {
+					markRecentWrite(name, newVal);
+					writeByAddress(addr, newVal, name);
+				}
 			}
 			function cancel(){
 				if (finished) return;
@@ -340,27 +399,6 @@ function pollFolderWordTags(folderId, intervalMs){
 		});
 	}
 	tick();
-}
-
-//OPC값 알람 조회
-function ticCcfView(){
-	$.ajax({
-		url:"/DHT/ticCcf/view",
-		type:"post",
-		dataType:"json",
-		success:function(result){				
-			var data = result.multiValues;
-			
-          for(let key in data){
-          	for(let keys in data[key]){
-          		var d = data[key];
-					if(d[keys].action == "value"){
-						value(keys, d[keys].value);
-					}
-          	}                    	
-          }
-		}
-	});
 }
 
 

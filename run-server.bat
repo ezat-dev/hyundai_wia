@@ -1,9 +1,9 @@
 @echo off
 REM ============================================
-REM  WIA 연속로(CCF) 웹 서버 실행 스크립트
-REM  더블클릭하면 서버가 실행되고, 실행 중에는
-REM  이 창을 닫지 말고 그대로 두세요.
-REM  종료하려면 이 창에서 Ctrl+C 를 누르세요.
+REM  WIA CCF web server launcher
+REM  Double-click to start the server.
+REM  Keep this window open while the server is running.
+REM  Press Ctrl+C in this window to stop it.
 REM ============================================
 
 set "JAVA_HOME=C:\Program Files\Java\jdk1.8.0_503"
@@ -14,20 +14,20 @@ cd /d "%~dp0"
 
 echo.
 echo ============================================
-echo  MariaDB(로컬 DB) 서비스 상태 확인 중...
+echo  Checking MariaDB (local DB) service status...
 echo ============================================
 sc query MySQL | find "RUNNING" >nul
 if errorlevel 1 (
-    echo MariaDB 서비스가 꺼져 있어 시작합니다...
+    echo MariaDB service is stopped. Starting it now...
     net start MySQL
 ) else (
-    echo MariaDB 서비스 정상 동작 중.
+    echo MariaDB service is already running.
 )
 
 echo.
 echo ============================================
-echo  서버를 시작합니다. (오프라인 모드)
-echo  잠시 후 아래 주소로 접속하세요:
+echo  Starting server (offline mode).
+echo  Once it is ready, open this address in a browser:
 echo    http://localhost:8080/DHT/
 echo ============================================
 echo.

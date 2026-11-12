@@ -217,6 +217,7 @@ function wirePlcHoldButtons(addrMap){
 			holdTimer = setTimeout(function(){
 				holdTimer = null;
 				writeByAddress(addrMap[name], 1, name);
+				setTimeout(function(){ writeByAddress(addrMap[name], 0, name); }, 1500); //PLC 비트는 순간 신호여야 하므로 1.5초 후 자동으로 0 복귀
 				resetBar();
 			}, 1000);
 		}

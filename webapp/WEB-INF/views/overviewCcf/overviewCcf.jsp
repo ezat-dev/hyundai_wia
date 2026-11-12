@@ -78,34 +78,34 @@ font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', s
     <img class="short-11-2" src="/DHT/image/overview_1_gt2/short-11-20.png" />
     <img class="short-11-3" src="/DHT/image/overview_1_gt2/short-11-30.png" />
     <img class="short-11-4" src="/DHT/image/overview_1_gt2/short-11-40.png" />
-    <img class="tong-2 R222" src="/DHT/image/overview_1_gt2/tong-281.png" />
-    <img class="tong-1 R212" src="/DHT/image/overview_1_gt2/tong-282.png" />
-    <img class="tong-3 R232" src="/DHT/image/overview_1_gt2/tong-283.png" />
-    <img class="tong-4 R242" src="/DHT/image/overview_1_gt2/tong-284.png" />
-    <img class="tong-5 R252" src="/DHT/image/overview_1_gt2/tong-285.png" />
-    <img class="tong-6 R262" src="/DHT/image/overview_1_gt2/tong-287.png" />
-    <img class="tong-7 R272" src="/DHT/image/overview_1_gt2/tong-288.png" />
-    <img class="tong-8 R282" src="/DHT/image/overview_1_gt2/tong-289.png" />
-    <img class="tong-9 R292" src="/DHT/image/overview_1_gt2/tong-2810.png" />
-    <img class="tong-10 R302" src="/DHT/image/overview_1_gt2/tong-2811.png" />
-    <img class="tong-11 R312" src="/DHT/image/overview_1_gt2/tong-2812.png" />
-    <img class="tong-12 R322" src="/DHT/image/overview_1_gt2/tong-2813.png" />
-    <img class="tong-13 R332" src="/DHT/image/overview_1_gt2/tong-2814.png" />
-    <img class="tong-14 R342" src="/DHT/image/overview_1_gt2/tong-2815.png" />
-    <img class="tong-15 R352" src="/DHT/image/overview_1_gt2/tong-2816.png" />
-    <img class="tong-16 R362" src="/DHT/image/overview_1_gt2/tong-2817.png" />
-    <img class="tong-17 R372" src="/DHT/image/overview_1_gt2/tong-2818.png" />
-    <img class="tong-18 R382" src="/DHT/image/overview_1_gt2/tong-2819.png" />
-    <img class="tong-19 R392" src="/DHT/image/overview_1_gt2/tong-2820.png" />
-    <img class="tong-20 R402" src="/DHT/image/overview_1_gt2/tong-2821.png" />
-    <img class="tong-21 R412" src="/DHT/image/overview_1_gt2/tong-2822.png" />
-    <img class="tong-22 R422" src="/DHT/image/overview_1_gt2/tong-2823.png" />
-    <img class="tong-23 R432" src="/DHT/image/overview_1_gt2/tong-2824.png" />
-    <img class="tong-24 R442" src="/DHT/image/overview_1_gt2/tong-2825.png" />
-    <img class="tong-25 R452" src="/DHT/image/overview_1_gt2/tong-2826.png" />
-    <img class="tong-26 R462" src="/DHT/image/overview_1_gt2/tong-2827.png" />
-    <img class="tong-27 R472" src="/DHT/image/overview_1_gt2/tong-2828.png" />
-    <img class="tong-28 R482" src="/DHT/image/overview_1_gt2/tong-286.png" />
+    <img class="tong-2 R4226" src="/DHT/image/overview_1_gt2/tong-281.png" />
+    <img class="tong-1 R4126" src="/DHT/image/overview_1_gt2/tong-282.png" />
+    <img class="tong-3 R4326" src="/DHT/image/overview_1_gt2/tong-283.png" />
+    <img class="tong-4 R4426" src="/DHT/image/overview_1_gt2/tong-284.png" />
+    <img class="tong-5 R4826" src="/DHT/image/overview_1_gt2/tong-285.png" />
+    <img class="tong-6 R4926" src="/DHT/image/overview_1_gt2/tong-287.png" />
+    <img class="tong-7 R1026" src="/DHT/image/overview_1_gt2/tong-288.png" />
+    <img class="tong-8 R1126" src="/DHT/image/overview_1_gt2/tong-289.png" />
+    <img class="tong-9 R1226" src="/DHT/image/overview_1_gt2/tong-2810.png" />
+    <img class="tong-10 R1326" src="/DHT/image/overview_1_gt2/tong-2811.png" />
+    <img class="tong-11 R1426" src="/DHT/image/overview_1_gt2/tong-2812.png" />
+    <img class="tong-12 R1526" src="/DHT/image/overview_1_gt2/tong-2813.png" />
+    <img class="tong-13 R1626" src="/DHT/image/overview_1_gt2/tong-2814.png" />
+    <img class="tong-14 R1726" src="/DHT/image/overview_1_gt2/tong-2815.png" />
+    <img class="tong-15 R1826" src="/DHT/image/overview_1_gt2/tong-2816.png" />
+    <img class="tong-16 R1926" src="/DHT/image/overview_1_gt2/tong-2817.png" />
+    <img class="tong-17 R2026" src="/DHT/image/overview_1_gt2/tong-2818.png" />
+    <img class="tong-18 R2426" src="/DHT/image/overview_1_gt2/tong-2819.png" />
+    <img class="tong-19 R2526" src="/DHT/image/overview_1_gt2/tong-2820.png" />
+    <img class="tong-20 R2626" src="/DHT/image/overview_1_gt2/tong-2821.png" />
+    <img class="tong-21 R2726" src="/DHT/image/overview_1_gt2/tong-2822.png" />
+    <img class="tong-22 R2826" src="/DHT/image/overview_1_gt2/tong-2823.png" />
+    <img class="tong-23 R2926" src="/DHT/image/overview_1_gt2/tong-2824.png" />
+    <img class="tong-24 R3226" src="/DHT/image/overview_1_gt2/tong-2825.png" />
+    <img class="tong-25 R3326" src="/DHT/image/overview_1_gt2/tong-2826.png" />
+    <img class="tong-26 R3426" src="/DHT/image/overview_1_gt2/tong-2827.png" />
+    <img class="tong-27 R3526" src="/DHT/image/overview_1_gt2/tong-2828.png" />
+    <img class="tong-28 R3626" src="/DHT/image/overview_1_gt2/tong-286.png" />
 
 
     
@@ -128,9 +128,9 @@ font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', s
     <div class="door-green-5 X0290"></div>
     <div class="door-yellow-5 X0291"></div>
     <div class="door-green-6 X0292"></div>
-    <div class="door-yellow-6 X0290"></div>
-    <div class="door-green-7 X02C0"></div>
-    <div class="door-yellow-7 X02C1"></div>
+    <div class="door-yellow-6 X0293"></div>
+    <div class="door-green-7 X02C1"></div>
+    <div class="door-yellow-7 X02C0"></div>
     <div class="door-green-8 X02C5"></div>
     <div class="door-yellow-8 X02C6"></div>
     <div class="door-green-3 X0260"></div>
@@ -238,45 +238,62 @@ font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', s
     <div class="con-off-6"></div>
     <div class="con-on-6 X029C"></div>
     <img class="moter-red-1" src="/DHT/image/overview_1_gt2/moter-red-190.png" />
-    <img class="moter-green-1" src="/DHT/image/overview_1_gt2/moter-green-190.png" />
+    <img class="moter-green-1 Y03E2" src="/DHT/image/overview_1_gt2/moter-green-190.png" />
+    <img class="moter-green-1-2 Y03E3" src="/DHT/image/overview_1_gt2/moter-green-190.png" />
     <img class="moter-red-2" src="/DHT/image/overview_1_gt2/moter-red-191.png" />
-    <img class="moter-green-2" src="/DHT/image/overview_1_gt2/moter-green-191.png" />
+    <img class="moter-green-2 Y03E6" src="/DHT/image/overview_1_gt2/moter-green-191.png" />
+    <img class="moter-green-2-2 Y03E7" src="/DHT/image/overview_1_gt2/moter-green-191.png" />
     <img class="moter-red-3" src="/DHT/image/overview_1_gt2/moter-red-192.png" />
-    <img class="moter-green-3" src="/DHT/image/overview_1_gt2/moter-green-192.png" />
+    <img class="moter-green-3 Y03EA" src="/DHT/image/overview_1_gt2/moter-green-192.png" />
+    <img class="moter-green-3-2 Y03EB" src="/DHT/image/overview_1_gt2/moter-green-192.png" />
     <img class="moter-red-4" src="/DHT/image/overview_1_gt2/moter-red-193.png" />
-    <img class="moter-green-4" src="/DHT/image/overview_1_gt2/moter-green-193.png" />
+    <img class="moter-green-4 Y03EC" src="/DHT/image/overview_1_gt2/moter-green-193.png" />
+    <img class="moter-green-4-2 Y03ED" src="/DHT/image/overview_1_gt2/moter-green-193.png" />
     <img class="moter-red-5" src="/DHT/image/overview_1_gt2/moter-red-194.png" />
-    <img class="moter-green-5" src="/DHT/image/overview_1_gt2/moter-green-194.png" />
+    <img class="moter-green-5 Y03B0" src="/DHT/image/overview_1_gt2/moter-green-194.png" />
+    <img class="moter-green-5-2 Y03B1" src="/DHT/image/overview_1_gt2/moter-green-194.png" />
     <img class="moter-red-6" src="/DHT/image/overview_1_gt2/moter-red-195.png" />
-    <img class="moter-green-6" src="/DHT/image/overview_1_gt2/moter-green-195.png" />
+    <img class="moter-green-6 Y03F0" src="/DHT/image/overview_1_gt2/moter-green-195.png" />
+    <img class="moter-green-6-2 Y03F1" src="/DHT/image/overview_1_gt2/moter-green-195.png" />
     <img class="moter-red-7" src="/DHT/image/overview_1_gt2/moter-red-196.png" />
-    <img class="moter-green-7" src="/DHT/image/overview_1_gt2/moter-green-196.png" />
+    <img class="moter-green-7 Y03B4" src="/DHT/image/overview_1_gt2/moter-green-196.png" />
+    <img class="moter-green-7-2 Y03B5" src="/DHT/image/overview_1_gt2/moter-green-196.png" />
     <img class="moter-red-8" src="/DHT/image/overview_1_gt2/moter-red-197.png" />
-    <img class="moter-green-8" src="/DHT/image/overview_1_gt2/moter-green-197.png" />
+    <img class="moter-green-8 Y03B8" src="/DHT/image/overview_1_gt2/moter-green-197.png" />
+    <img class="moter-green-8-2 Y03B9" src="/DHT/image/overview_1_gt2/moter-green-197.png" />
     <img class="moter-red-9" src="/DHT/image/overview_1_gt2/moter-red-198.png" />
-    <img class="moter-green-9" src="/DHT/image/overview_1_gt2/moter-green-198.png" />
+    <img class="moter-green-9 Y03F2" src="/DHT/image/overview_1_gt2/moter-green-198.png" />
+    <img class="moter-green-9-2 Y03F3" src="/DHT/image/overview_1_gt2/moter-green-198.png" />
     <img class="moter-red-10" src="/DHT/image/overview_1_gt2/moter-red-199.png" />
-    <img class="moter-green-10" src="/DHT/image/overview_1_gt2/moter-green-199.png" />
+    <img class="moter-green-10 Y03BC" src="/DHT/image/overview_1_gt2/moter-green-199.png" />
+    <img class="moter-green-10-2 Y03BD" src="/DHT/image/overview_1_gt2/moter-green-199.png" />
     <img class="moter-red-11" src="/DHT/image/overview_1_gt2/moter-red-1910.png" />
-    <img class="moter-green-11" src="/DHT/image/overview_1_gt2/moter-green-1910.png" />
+    <img class="moter-green-11 Y03C0" src="/DHT/image/overview_1_gt2/moter-green-1910.png" />
+    <img class="moter-green-11-2 Y03C1" src="/DHT/image/overview_1_gt2/moter-green-1910.png" />
     <img class="moter-red-12" src="/DHT/image/overview_1_gt2/moter-red-1911.png" />
-    <img class="moter-green-12" src="/DHT/image/overview_1_gt2/moter-green-1911.png" />
+    <img class="moter-green-12 Y03F4" src="/DHT/image/overview_1_gt2/moter-green-1911.png" />
+    <img class="moter-green-12-2 Y03F5" src="/DHT/image/overview_1_gt2/moter-green-1911.png" />
     <img class="moter-red-13" src="/DHT/image/overview_1_gt2/moter-red-1912.png" />
-    <img class="moter-green-13" src="/DHT/image/overview_1_gt2/moter-green-1912.png" />
+    <img class="moter-green-13 Y03C4" src="/DHT/image/overview_1_gt2/moter-green-1912.png" />
+    <img class="moter-green-13-2 Y03C4" src="/DHT/image/overview_1_gt2/moter-green-1912.png" />
     <img class="moter-red-14" src="/DHT/image/overview_1_gt2/moter-red-1913.png" />
-    <img class="moter-green-14" src="/DHT/image/overview_1_gt2/moter-green-1913.png" />
+    <img class="moter-green-14 Y03F6" src="/DHT/image/overview_1_gt2/moter-green-1913.png" />
+    <img class="moter-green-14-2 Y03F7" src="/DHT/image/overview_1_gt2/moter-green-1913.png" />
     <img class="moter-red-15" src="/DHT/image/overview_1_gt2/moter-red-1914.png" />
-    <img class="moter-green-15" src="/DHT/image/overview_1_gt2/moter-green-1914.png" />
+    <img class="moter-green-15 Y03C8" src="/DHT/image/overview_1_gt2/moter-green-1914.png" />
+    <img class="moter-green-15-2 Y03C9" src="/DHT/image/overview_1_gt2/moter-green-1914.png" />
     <img class="moter-red-16" src="/DHT/image/overview_1_gt2/moter-red-1915.png" />
-    <img class="moter-green-16" src="/DHT/image/overview_1_gt2/moter-green-1915.png" />
+    <img class="moter-green-16 Y03FA" src="/DHT/image/overview_1_gt2/moter-green-1915.png" /> 
+    <img class="moter-green-16-2 Y03FB" src="/DHT/image/overview_1_gt2/moter-green-1915.png" /> 
+    <img class="moter-red-17" src="/DHT/image/overview_1_gt2/moter-red-1916.png" />
+    <img class="moter-green-17 Y03FC" src="/DHT/image/overview_1_gt2/moter-green-1916.png" />
+    <img class="moter-green-17-2 Y03FD" src="/DHT/image/overview_1_gt2/moter-green-1916.png" />
     <img class="green-up-25 Y03FB" src="/DHT/image/overview_1_gt2/green-up-918.png" />
     <img class="green-down-25 Y03FA" src="/DHT/image/overview_1_gt2/green-down-918.png" />
-    <img class="moter-red-17" src="/DHT/image/overview_1_gt2/moter-red-1916.png" />
-    <img class="moter-green-17" src="/DHT/image/overview_1_gt2/moter-green-1916.png" />
+    
     <img class="green-up-27 Y03FD" src="/DHT/image/overview_1_gt2/green-up-919.png" />
     <img class="green-down-27 Y03FC" src="/DHT/image/overview_1_gt2/green-down-919.png" />
-    <img class="moter-red-18" src="/DHT/image/overview_1_gt2/moter-red-1917.png" />
-    <img class="moter-green-18" src="/DHT/image/overview_1_gt2/moter-green-1917.png" />
+    
     <img class="elevator-1 X02C2" src="/DHT/image/overview_1_gt2/elevator-10.png" />
     <img class="elevator-3 X02C3" src="/DHT/image/overview_1_gt2/elevator-30.png" />
     <img class="pen-trans-1 Y03A8" src="/DHT/image/overview_1_gt2/pen-trans-20.png" />
@@ -305,12 +322,12 @@ font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', s
     <div class="middle-value-2"></div>
     <div class="middle-value-text-1">설정값</div>
     <div class="middle-value-text-12">현재값</div>
-    <div class="middle-value-1-sp R710">0</div>
-    <div class="middle-value-1-pv D422">0</div>
+    <div class="middle-value-1-sp R6523">0</div>
+    <div class="middle-value-1-pv D523">0</div>
     <div class="middle-value-text-2">설정값</div>
     <div class="middle-value-text-22">현재값</div>
-    <div class="middle-value-2-sp R711">0</div>
-    <div class="middle-value-2-pv D437">0</div>
+    <div class="middle-value-2-sp R6527">0</div>
+    <div class="middle-value-2-pv D538">0</div>
     <div class="process-data-box"></div>
     <div class="process-data-text">공정 데이터</div>
     <div class="process-time-box"></div>
@@ -326,14 +343,14 @@ font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', s
     <div class="cp-sp-text">0</div>
     <div class="cp-pv-text">0</div>
     <div class="time-pre-sp R7000">0</div>
-    <div class="time-pre-pv R6350">0</div>
+    <div class="time-pre-pv R6375">0</div>
     <div class="tem-pre-sp R6400">0</div>
     <div class="tem-pre-pv D200">0</div>
     <div class="cp-block-1"></div>
     <div class="time-hit-1-sp R7001">0</div>
-    <div class="time-hit-1-pv R6351">0</div>
+    <div class="time-hit-1-pv R6376">0</div>
     <div class="time-hit-2-sp R7002">0</div>
-    <div class="time-hit-2-pv R6352">0</div>
+    <div class="time-hit-2-pv R6377">0</div>
     <div class="tem-hit-sp R6402">0</div>
     <div class="tem-hit-pv D206">0</div>
     <div class="time-chim-all R7003">0</div>
@@ -354,22 +371,22 @@ font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', s
     <!-- <div class="cp-cool-sp">0</div> -->
     <div class="cp-cool-pv">0</div>
     <div class="time-crack-sp-1 R7019">0</div>
-    <div class="time-crack-pv-1 R6369">0</div>
+    <div class="time-crack-pv-1 R6394">0</div>
     <div class="tem-crack-sp-1 R6411">0</div>
     <div class="tem-crack-pv-1 D233">0</div>
     <div class="cp-block-3"></div>
     <div class="time-crack-sp-2 R7020">0</div>
-    <div class="time-crack-pv-2 R6370">0</div>
+    <div class="time-crack-pv-2 R6395">0</div>
     <div class="tem-crack-sp-2 R6413">0</div>
     <div class="tem-crack-pv-2 D239">0</div>
     <div class="cp-crack-sp-2 R6474">0</div>
     <div class="cp-crack-pv-2 D358">0</div>
     <div class="time-q-sp R7021">0</div>
-    <div class="time-q-pv R6371">0</div>
+    <div class="time-q-pv R6396">0</div>
     <div class="tem-oil-sp R6415">0</div>
     <div class="tem-oil-pv D245">0</div>
     <div class="time-drain-sp R7023">0</div>
-    <div class="time-drain-pv R6373">0</div>
+    <div class="time-drain-pv R6398">0</div>
     <div class="agi-block"></div>
     <div class="agi-sp R6516">0</div>
     <div class="agi-pv D488">0</div>
@@ -384,7 +401,7 @@ font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', s
     <div class="chim-text">연속식 침탄로</div>
     <div class="oil-block"></div>
     <div class="time-sp-text">설정값</div>
-    <div class="time-pv-text">현재값</div>
+    <div class="time-pv-text">남은값</div>
     <div class="tem-sp-text">설정값</div>
     <div class="tem-pv-text">현재값</div>
     <div class="cp-sp-text2">설정값</div>
@@ -450,20 +467,15 @@ wiaFitStageResize();
 </script>
 <script>
 
-//전역변수
-var overviewInterval;
-
 //로드
 $(document).ready(function() {
-	overviewListView();
-	overviewInterval = setInterval("overviewListView()", 1000);
-
 	ccfAlarmFrameCheck();
 	setInterval(ccfAlarmFrameCheck, 2000);
 
 	$(".frame-1").css("cursor", "pointer").on("click", goToAlarmDetail);
 
 	pollFolderWordTags(2, 1000);
+	pollFolderDwordTags(2, 1000);
 
 	//공정데이터 - 공정시간(분) 행: 설정값+현재값 둘 다 쓰기 가능
 	var TIME_BOTH_NAMES = [
@@ -564,6 +576,73 @@ function renderTongTag($el, val){
 	}
 }
 
+//CP 설정값/현재값은 PLC에 2워드짜리 IEEE754 float(32비트 실수)로 저장되어 있음(실측 확인:
+//R6466/R6467=1.00, R6470/R6471=0.85, R6474/R6475=0.80) - 1워드 정수로는 절대 못 읽으므로
+//dw_folders_tags(더블워드 태그)에 등록해서 /api/admin/dwtags로 따로 폴링 + 비트 재해석한다
+function isCpTag(name){
+	return /^cp-(chim|diff|crack)-(sp|pv)(-\d+)?$/.test(name);
+}
+//middle-value-1/2 설정값/현재값은 raw가 실제값*100으로 들어옴(태그 수정 확인됨) - 소숫점 2자리로 환산해서 표시/입력
+var MIDDLE_SCALE = 100;
+function isMiddleValueTag(name){
+	return /^middle-value-[12]-(sp|pv)$/.test(name);
+}
+//32비트 정수(워드 2개를 이어붙인 값) -> IEEE754 float로 비트 재해석
+function int32ToFloat32(n){
+	var buf = new ArrayBuffer(4);
+	new Int32Array(buf)[0] = n | 0;
+	return new Float32Array(buf)[0];
+}
+//실수 -> [저워드, 고워드] (PLC에 쓸 때 2워드로 쪼갬)
+function float32ToWords(f){
+	var buf = new ArrayBuffer(4);
+	new Float32Array(buf)[0] = f;
+	var u16 = new Uint16Array(buf);
+	return [u16[0], u16[1]];
+}
+//주소 문자열(R6466, D334 등)의 다음 워드 주소 (고워드 주소 = 저워드 주소 + 1)
+function nextWordAddress(addr){
+	var m = /^([A-Za-z]+)(\d+)$/.exec(addr);
+	if (!m) return null;
+	return m[1] + (Number(m[2]) + 1);
+}
+//CP 태그(더블워드/float) 전용 쓰기 - 저워드/고워드 두 번 나눠서 쓴다
+function writeCpFloat(name, addr, realVal){
+	var words = float32ToWords(Number(realVal));
+	var highAddr = nextWordAddress(addr);
+	markRecentWrite(name, Number(realVal));
+	writeByAddress(addr, words[0], name);
+	writeByAddress(highAddr, words[1], name);
+}
+//CP 태그(더블워드/float) 전용 폴링 - folderId: 2 = 연속운용현황 CP 설정값/현재값
+function pollFolderDwordTags(folderId, intervalMs){
+	function tick(){
+		$.ajax({
+			url: "http://localhost:5050/api/admin/dwtags?folderId=" + folderId,
+			type: "get",
+			dataType: "json",
+			timeout: 4000
+		}).done(function(result){
+			if(!result || !result.tags) return;
+			result.tags.forEach(function(tag){
+				if(!tag.name || tag.value == null) return;
+				renderCpFloatValue(tag.name, int32ToFloat32(tag.value));
+			});
+		}).always(function(){
+			setTimeout(tick, intervalMs);
+		});
+	}
+	tick();
+}
+function renderCpFloatValue(name, floatVal){
+	var $el = $("." + name);
+	if ($el.find("input.inline-edit-input").length) return;
+	if (isStaleAfterWrite(name, floatVal)) return;
+	$el.text(floatVal.toFixed(3));
+	$el.css("display", "").css("text-align", "center");
+	if (name.indexOf("pv") === -1) $el.css("color", "#FF0000");
+}
+
 //클릭하면 그 자리에서 바로 수정(인라인) 가능하게 만들고, 엔터 시 PLC에 즉시 쓴다
 //주소는 각 요소의 두번째 class(태그 주소)에서 그대로 읽어온다 (예: class="time-pre-sp R7000")
 function wireInlineEditable(names){
@@ -594,8 +673,16 @@ function wireInlineEditable(names){
 						$box.text(curVal);
 						return;
 					}
-					markRecentWrite(name, Number(newVal));
-					writeByAddress(addr, Number(newVal), name);
+					if (isCpTag(name)) {
+						writeCpFloat(name, addr, Number(newVal));
+					} else if (isMiddleValueTag(name)) {
+						var rawVal = Math.round(Number(newVal) * MIDDLE_SCALE);
+						markRecentWrite(name, rawVal);
+						writeByAddress(addr, rawVal, name);
+					} else {
+						markRecentWrite(name, Number(newVal));
+						writeByAddress(addr, Number(newVal), name);
+					}
 					$box.text(newVal);
 				} else {
 					$box.text(curVal);
@@ -722,35 +809,6 @@ function goToAlarmDetail() {
 	} catch (e) {}
 }
 
-//OPC값 알람 조회
-function overviewListView(){
-	$.ajax({
-		url:"/DHT/overviewCcf/view",
-		type:"post",
-		dataType:"json",
-		success:function(result){
-			var data = result.multiValues;
-
-            for(let key in data){
-            	for(let keys in data[key]){
-            		var d = data[key];
-
-					if(d[keys].action == "v"){
-						v(keys, d[keys].value);
-					}else if(d[keys].action == "c"){
-						c(keys, d[keys].value);
-					}else if(d[keys].action == "b"){
-						b(keys, d[keys].value);
-					}else if(d[keys].action == "value"){
-						value(keys, d[keys].value);
-					}
-
-            	}
-            }
-		}
-	});
-}
-
 function v(keys, value){
 //	$("."+keys).text(value);
 
@@ -791,7 +849,7 @@ function value(keys, value){
 	var $el = $("."+keys);
 	if ($el.find("input.inline-edit-input").length) return; //편집 중이면 폴링 갱신 건너뜀
 	if (isStaleAfterWrite(keys, value)) return; //방금 쓴 값인데 서버 캐시가 아직 안 따라왔으면 건너뜀
-	$el.text(value);
+	$el.text(isMiddleValueTag(keys) ? (Number(value) / MIDDLE_SCALE).toFixed(2) : value);
 	$el.css("display","");
 	$el.css("text-align","center");
 

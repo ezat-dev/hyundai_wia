@@ -80,9 +80,9 @@ font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', s
     <div class="door-green-5 X0290"></div>
     <div class="door-yellow-5 X0291"></div>
     <div class="door-green-6 X0292"></div>
-    <div class="door-yellow-6 X0290"></div>
-    <div class="door-green-7 X02C0"></div>
-    <div class="door-yellow-7 X02C1"></div>
+    <div class="door-yellow-6 X0293"></div>
+    <div class="door-green-7 X02C1"></div>
+    <div class="door-yellow-7 X02C0"></div>
     <div class="door-green-8 X02C5"></div>
     <div class="door-yellow-8 X02C6"></div>
     <div class="door-green-3 X0260"></div>
@@ -201,43 +201,56 @@ font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', s
     <div class="con-off-6"></div>
     <div class="con-on-6 X029C"></div>
     <img class="moter-red-1" src="/DHT/image/overview_1_gt2/moter-red-190.png" />
-    <img class="moter-green-1" src="/DHT/image/overview_1_gt2/moter-green-190.png" />
+    <img class="moter-green-1 Y03E2" src="/DHT/image/overview_1_gt2/moter-green-190.png" />
+    <img class="moter-green-1-2 Y03E3" src="/DHT/image/overview_1_gt2/moter-green-190.png" />
     <img class="moter-red-2" src="/DHT/image/overview_1_gt2/moter-red-191.png" />
-    <img class="moter-green-2" src="/DHT/image/overview_1_gt2/moter-green-191.png" />
+    <img class="moter-green-2 Y03E6" src="/DHT/image/overview_1_gt2/moter-green-191.png" />
+    <img class="moter-green-2-2 Y03E7" src="/DHT/image/overview_1_gt2/moter-green-191.png" />
     <img class="moter-red-3" src="/DHT/image/overview_1_gt2/moter-red-192.png" />
-    <img class="moter-green-3" src="/DHT/image/overview_1_gt2/moter-green-192.png" />
+    <img class="moter-green-3 Y03EA" src="/DHT/image/overview_1_gt2/moter-green-192.png" />
+    <img class="moter-green-3-2 Y03EB" src="/DHT/image/overview_1_gt2/moter-green-192.png" />
     <img class="moter-red-4" src="/DHT/image/overview_1_gt2/moter-red-193.png" />
-    <img class="moter-green-4" src="/DHT/image/overview_1_gt2/moter-green-193.png" />
+    <img class="moter-green-4 Y03EC" src="/DHT/image/overview_1_gt2/moter-green-193.png" />
+    <img class="moter-green-4-2 Y03ED" src="/DHT/image/overview_1_gt2/moter-green-193.png" />
     <img class="moter-red-5" src="/DHT/image/overview_1_gt2/moter-red-194.png" />
-    <img class="moter-green-5" src="/DHT/image/overview_1_gt2/moter-green-194.png" />
+    <img class="moter-green-5 Y03B0" src="/DHT/image/overview_1_gt2/moter-green-194.png" />
+    <img class="moter-green-5-2 Y03B1" src="/DHT/image/overview_1_gt2/moter-green-194.png" />
     <img class="moter-red-6" src="/DHT/image/overview_1_gt2/moter-red-195.png" />
-    <img class="moter-green-6" src="/DHT/image/overview_1_gt2/moter-green-195.png" />
+    <img class="moter-green-6 Y03F0" src="/DHT/image/overview_1_gt2/moter-green-195.png" />
+    <img class="moter-green-6-2 Y03F1" src="/DHT/image/overview_1_gt2/moter-green-195.png" />
     <img class="moter-red-7" src="/DHT/image/overview_1_gt2/moter-red-196.png" />
-    <img class="moter-green-7" src="/DHT/image/overview_1_gt2/moter-green-196.png" />
+    <img class="moter-green-7 Y03B4" src="/DHT/image/overview_1_gt2/moter-green-196.png" />
+    <img class="moter-green-7-2 Y03B5" src="/DHT/image/overview_1_gt2/moter-green-196.png" />
     <img class="moter-red-8" src="/DHT/image/overview_1_gt2/moter-red-197.png" />
-    <img class="moter-green-8" src="/DHT/image/overview_1_gt2/moter-green-197.png" />
+    <img class="moter-green-8 Y03B8" src="/DHT/image/overview_1_gt2/moter-green-197.png" />
+    <img class="moter-green-8-2 Y03B9" src="/DHT/image/overview_1_gt2/moter-green-197.png" />
     <img class="moter-red-9" src="/DHT/image/overview_1_gt2/moter-red-198.png" />
-    <img class="moter-green-9" src="/DHT/image/overview_1_gt2/moter-green-198.png" />
+    <img class="moter-green-9 Y03F2" src="/DHT/image/overview_1_gt2/moter-green-198.png" />
+    <img class="moter-green-9-2 Y03F3" src="/DHT/image/overview_1_gt2/moter-green-198.png" />
     <img class="moter-red-10" src="/DHT/image/overview_1_gt2/moter-red-199.png" />
-    <img class="moter-green-10" src="/DHT/image/overview_1_gt2/moter-green-199.png" />
+    <img class="moter-green-10 Y03BC" src="/DHT/image/overview_1_gt2/moter-green-199.png" />
+    <img class="moter-green-10-2 Y03BD" src="/DHT/image/overview_1_gt2/moter-green-199.png" />
     <img class="moter-red-11" src="/DHT/image/overview_1_gt2/moter-red-1910.png" />
-    <img class="moter-green-11" src="/DHT/image/overview_1_gt2/moter-green-1910.png" />
+    <img class="moter-green-11 Y03C0" src="/DHT/image/overview_1_gt2/moter-green-1910.png" />
+    <img class="moter-green-11-2 Y03C1" src="/DHT/image/overview_1_gt2/moter-green-1910.png" />
     <img class="moter-red-12" src="/DHT/image/overview_1_gt2/moter-red-1911.png" />
-    <img class="moter-green-12" src="/DHT/image/overview_1_gt2/moter-green-1911.png" />
+    <img class="moter-green-12 Y03F4" src="/DHT/image/overview_1_gt2/moter-green-1911.png" />
+    <img class="moter-green-12-2 Y03F5" src="/DHT/image/overview_1_gt2/moter-green-1911.png" />
     <img class="moter-red-13" src="/DHT/image/overview_1_gt2/moter-red-1912.png" />
-    <img class="moter-green-13" src="/DHT/image/overview_1_gt2/moter-green-1912.png" />
+    <img class="moter-green-13 Y03C4" src="/DHT/image/overview_1_gt2/moter-green-1912.png" />
+    <img class="moter-green-13-2 Y03C4" src="/DHT/image/overview_1_gt2/moter-green-1912.png" />
     <img class="moter-red-14" src="/DHT/image/overview_1_gt2/moter-red-1913.png" />
-    <img class="moter-green-14" src="/DHT/image/overview_1_gt2/moter-green-1913.png" />
+    <img class="moter-green-14 Y03F6" src="/DHT/image/overview_1_gt2/moter-green-1913.png" />
+    <img class="moter-green-14-2 Y03F7" src="/DHT/image/overview_1_gt2/moter-green-1913.png" />
     <img class="moter-red-15" src="/DHT/image/overview_1_gt2/moter-red-1914.png" />
-    <img class="moter-green-15" src="/DHT/image/overview_1_gt2/moter-green-1914.png" />
+    <img class="moter-green-15 Y03C8" src="/DHT/image/overview_1_gt2/moter-green-1914.png" />
+    <img class="moter-green-15-2 Y03C9" src="/DHT/image/overview_1_gt2/moter-green-1914.png" />
     <img class="moter-red-16" src="/DHT/image/overview_1_gt2/moter-red-1915.png" />
-    <img class="moter-green-16" src="/DHT/image/overview_1_gt2/moter-green-1915.png" />
-    
+    <img class="moter-green-16 Y03FA" src="/DHT/image/overview_1_gt2/moter-green-1915.png" /> 
+    <img class="moter-green-16-2 Y03FB" src="/DHT/image/overview_1_gt2/moter-green-1915.png" /> 
     <img class="moter-red-17" src="/DHT/image/overview_1_gt2/moter-red-1916.png" />
-    <img class="moter-green-17" src="/DHT/image/overview_1_gt2/moter-green-1916.png" />
-    
-    <img class="moter-red-18" src="/DHT/image/overview_1_gt2/moter-red-1917.png" />
-    <img class="moter-green-18" src="/DHT/image/overview_1_gt2/moter-green-1917.png" />
+    <img class="moter-green-17 Y03FC" src="/DHT/image/overview_1_gt2/moter-green-1916.png" />
+    <img class="moter-green-17-2 Y03FD" src="/DHT/image/overview_1_gt2/moter-green-1916.png" />
     <img class="elevator-1 X02C2" src="/DHT/image/overview_1_gt2/elevator-10.png" />
     <img class="elevator-3 X02C3" src="/DHT/image/overview_1_gt2/elevator-30.png" />
     <img class="pen-trans-1 Y03A8" src="/DHT/image/overview_1_gt2/pen-trans-20.png" />
@@ -267,34 +280,34 @@ font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', s
     <div class="oil-cool-text-2">유조 냉각펌프 2번</div>
     <div class="pq-door-text">PQ 문</div>
     <div class="pq-lifter-text">PQ 리프터</div> -->
-    <div class="tong-1 R212">1</div>
-    <div class="tong-2 R222">2</div>
-    <div class="tong-3 R232">3</div>
-    <div class="tong-4 R242">4</div>
-    <div class="tong-5 R252">5</div>
-    <div class="tong-6 R262">6</div>
-    <div class="tong-7 R272">7</div>
-    <div class="tong-8 R282">8</div>
-    <div class="tong-9 R292">9</div>
-    <div class="tong-10 R302">10</div>
-    <div class="tong-11 R312">11</div>
-    <div class="tong-12 R322">12</div>
-    <div class="tong-13 R332">13</div>
-    <div class="tong-14 R342">14</div>
-    <div class="tong-15 R352">15</div>
-    <div class="tong-16 R362">16</div>
-    <div class="tong-17 R372">17</div>
-    <div class="tong-18 R382">18</div>
-    <div class="tong-19 R392">19</div>
-    <div class="tong-20 R402">20</div>
-    <div class="tong-21 R412">21</div>
-    <div class="tong-22 R422">22</div>
-    <div class="tong-23 R432">23</div>
-    <div class="tong-24 R442">24</div>
-    <div class="tong-25 R452">25</div>
-    <div class="tong-26 R462">26</div>
-    <div class="tong-27 R472">26</div>
-    <div class="tong-28 R482">27</div>
+    <div class="tong-1 R4126">1</div>
+    <div class="tong-2 R4226">2</div>
+    <div class="tong-3 R4326">3</div>
+    <div class="tong-4 R4426">4</div>
+    <div class="tong-5 R4826">5</div>
+    <div class="tong-6 R4926">6</div>
+    <div class="tong-7 R1026">7</div>
+    <div class="tong-8 R1126">8</div>
+    <div class="tong-9 R1226">9</div>
+    <div class="tong-10 R1326">10</div>
+    <div class="tong-11 R1426">11</div>
+    <div class="tong-12 R1526">12</div>
+    <div class="tong-13 R1626">13</div>
+    <div class="tong-14 R1726">14</div>
+    <div class="tong-15 R1826">15</div>
+    <div class="tong-16 R1926">16</div>
+    <div class="tong-17 R2026">17</div>
+    <div class="tong-18 R2426">18</div>
+    <div class="tong-19 R2526">19</div>
+    <div class="tong-20 R2626">20</div>
+    <div class="tong-21 R2726">21</div>
+    <div class="tong-22 R2826">22</div>
+    <div class="tong-23 R2926">23</div>
+    <div class="tong-24 R3226">24</div>
+    <div class="tong-25 R3326">25</div>
+    <div class="tong-26 R3426">26</div>
+    <div class="tong-27 R3526">26</div>
+    <div class="tong-28 R3626">27</div>
 
 
     <div class="sensor-1 X0202"></div>
@@ -371,9 +384,11 @@ font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', s
         <col style="width:61px" /><col style="width:61px" /><col style="width:61px" /><col style="width:61px" /><col style="width:61px" /><col style="width:61px" /><col style="width:61px" />
         <col style="width:61px" /><col style="width:61px" /><col style="width:61px" /><col style="width:61px" /><col style="width:61px" /><col style="width:61px" /><col style="width:61px" />
         <col style="width:61px" /><col style="width:61px" /><col style="width:61px" /><col style="width:61px" /><col style="width:61px" /><col style="width:61px" />
+        <col style="width:61px" />
       </colgroup>
       <tr>
         <td class="pro-data-text-box pro-data-text">처리품 데이터</td>
+        <td class="pro-data-0 pro-data-text-0">0</td>
         <td class="pro-data-1 pro-data-text-1">1</td>
         <td class="pro-data-2 pro-data-text-2">2</td>
         <td class="pro-data-3 pro-data-text-3">3</td>
@@ -404,42 +419,42 @@ font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', s
       </tr>
       <tr>
         <td class="cycle-text-box cycle-text">사이클 번호</td>
-        <td class="cycle-1 R4121">0</td><td class="cycle-2 R4221">0</td><td class="cycle-3 R4321">0</td><td class="cycle-4 R4421">0</td><td class="cycle-5 R4821">0</td><td class="cycle-6 R4921">0</td>
+        <td class="cycle-0 R4021">0</td><td class="cycle-1 R4121">0</td><td class="cycle-2 R4221">0</td><td class="cycle-3 R4321">0</td><td class="cycle-4 R4421">0</td><td class="cycle-5 R4821">0</td><td class="cycle-6 R4921">0</td>
         <td class="cycle-7 R1021">0</td><td class="cycle-8 R1021">0</td><td class="cycle-9 R1221">0</td><td class="cycle-10 R1321">0</td><td class="cycle-11 R1421">0</td><td class="cycle-12 R1521">0</td><td class="cycle-13 R1621">0</td>
         <td class="cycle-14 R1721">0</td><td class="cycle-15 R1821">0</td><td class="cycle-16 R1921">0</td><td class="cycle-17 R2021">0</td><td class="cycle-18 R2421">0</td><td class="cycle-19 R2521">0</td><td class="cycle-20 R2621">0</td>
         <td class="cycle-21 R2721">0</td><td class="cycle-22 R2821">0</td><td class="cycle-23 R2921">0</td><td class="cycle-24 R3221">0</td><td class="cycle-25 R3321">0</td><td class="cycle-26 R3421">0</td><td class="cycle-27 R3621">0</td>
       </tr>
       <tr>
-        <td class="pro-onoff-text-box pro-onoff-text">처리품 유/무</td>
-        <td class="pro-onoff-1 R4128">0</td><td class="pro-onoff-2 R4228">0</td><td class="pro-onoff-3 R4328">0</td><td class="pro-onoff-4 R4428">0</td><td class="pro-onoff-5 R4828">0</td><td class="pro-onoff-6 R4928">0</td>
+        <td class="pro-onoff-text-box pro-onoff-text">제품 유/무</td>
+        <td class="pro-onoff-0 R4028">0</td><td class="pro-onoff-1 R4128">0</td><td class="pro-onoff-2 R4228">0</td><td class="pro-onoff-3 R4328">0</td><td class="pro-onoff-4 R4428">0</td><td class="pro-onoff-5 R4828">0</td><td class="pro-onoff-6 R4928">0</td>
         <td class="pro-onoff-7 R1028">0</td><td class="pro-onoff-8 R1128">0</td><td class="pro-onoff-9 R1228">0</td><td class="pro-onoff-10 R1328">0</td><td class="pro-onoff-11 R1428">0</td><td class="pro-onoff-12 R1528">0</td><td class="pro-onoff-13 R1628">0</td>
         <td class="pro-onoff-14 R1728">0</td><td class="pro-onoff-15 R1828">0</td><td class="pro-onoff-16 R1928">0</td><td class="pro-onoff-17 R2028">0</td><td class="pro-onoff-18 R2428">0</td><td class="pro-onoff-19 R2528">0</td><td class="pro-onoff-20 R2628">0</td>
         <td class="pro-onoff-21 R2728">0</td><td class="pro-onoff-22 R2828">0</td><td class="pro-onoff-23 R2928">0</td><td class="pro-onoff-24 R3228">0</td><td class="pro-onoff-25 R3328">0</td><td class="pro-onoff-26 R3428">0</td><td class="pro-onoff-27 R3628">0</td>
       </tr>
       <tr>
         <td class="pro-number-text-box pro-number-text">제품 번호</td>
-        <td class="pro-number-1 R4193">0</td><td class="pro-number-2 R4293">0</td><td class="pro-number-3 R4393">0</td><td class="pro-number-4 R4493">0</td><td class="pro-number-5 R4893">0</td><td class="pro-number-6 R4993">0</td>
+        <td class="pro-number-0 R4093">0</td><td class="pro-number-1 R4193">0</td><td class="pro-number-2 R4293">0</td><td class="pro-number-3 R4393">0</td><td class="pro-number-4 R4493">0</td><td class="pro-number-5 R4893">0</td><td class="pro-number-6 R4993">0</td>
         <td class="pro-number-7 R1093">0</td><td class="pro-number-8 R1193">0</td><td class="pro-number-9 R1293">0</td><td class="pro-number-10 R1393">0</td><td class="pro-number-11 R1493">0</td><td class="pro-number-12 R1593">0</td><td class="pro-number-13 R1693">0</td>
         <td class="pro-number-14 R1793">0</td><td class="pro-number-15 R1893">0</td><td class="pro-number-16 R1993">0</td><td class="pro-number-17 R2093">0</td><td class="pro-number-18 R2493">0</td><td class="pro-number-19 R2593">0</td><td class="pro-number-20 R2693">0</td>
         <td class="pro-number-21 R2793">0</td><td class="pro-number-22 R2893">0</td><td class="pro-number-23 R2993">0</td><td class="pro-number-24 R3293">0</td><td class="pro-number-25 R3393">0</td><td class="pro-number-26 R3493">0</td><td class="pro-number-27 R3693">0</td>
       </tr>
       <tr>
-        <td class="line-text-box line-text">출구라인 선택</td>
-        <td class="line-1 R4192">0</td><td class="line-2 R4292">0</td><td class="line-3 R4392">0</td><td class="line-4 R4492">0</td><td class="line-5 R4892">0</td><td class="line-6 R4992">0</td>
+        <td class="line-text-box line-text">출구방식 선택</td>
+        <td class="line-0 R4092">0</td><td class="line-1 R4192">0</td><td class="line-2 R4292">0</td><td class="line-3 R4392">0</td><td class="line-4 R4492">0</td><td class="line-5 R4892">0</td><td class="line-6 R4992">0</td>
         <td class="line-7 R4992">0</td><td class="line-8 R1192">0</td><td class="line-9 R1292">0</td><td class="line-10 R1392">0</td><td class="line-11 R1492">0</td><td class="line-12 R1592">0</td><td class="line-13 R1692">0</td>
         <td class="line-14 R1792">0</td><td class="line-15 R1892">0</td><td class="line-16 R1992">0</td><td class="line-17 R2092">0</td><td class="line-18 R2492">0</td><td class="line-19 R2592">0</td><td class="line-20 R2692">0</td>
         <td class="line-21 R2792">0</td><td class="line-22 R2892">0</td><td class="line-23 R2992">0</td><td class="line-24 R3292">0</td><td class="line-25 R3392">0</td><td class="line-26 R3492">0</td><td class="line-27 R3692">0</td>
       </tr>
       <tr>
-        <td class="cool-text-box cool-text">예비</td>
-        <td class="cool-1 R204">0</td><td class="cool-2 R214">0</td><td class="cool-3 R224">0</td><td class="cool-4 R234">0</td><td class="cool-5 R244">0</td><td class="cool-6 R254">0</td>
+        <td class="cool-text-box cool-text">냉각방식 선택</td>
+        <td class="cool-0 R4026">0</td><td class="cool-1 R204">0</td><td class="cool-2 R214">0</td><td class="cool-3 R224">0</td><td class="cool-4 R234">0</td><td class="cool-5 R244">0</td><td class="cool-6 R254">0</td>
         <td class="cool-7 R264">0</td><td class="cool-8 R274">0</td><td class="cool-9 R284">0</td><td class="cool-10 R294">0</td><td class="cool-11 R304">0</td><td class="cool-12 R314">0</td><td class="cool-13 R324">0</td>
         <td class="cool-14 R334">0</td><td class="cool-15 R344">0</td><td class="cool-16 R354">0</td><td class="cool-17 R364">0</td><td class="cool-18 R374">0</td><td class="cool-19 R384">0</td><td class="cool-20 R394">0</td>
         <td class="cool-21 R404">0</td><td class="cool-22 R414">0</td><td class="cool-23 R424">0</td><td class="cool-24 R434">0</td><td class="cool-25 R444">0</td><td class="cool-26 R454">0</td><td class="cool-27 R424">0</td>
       </tr>
       <tr>
         <td class="q-time-text-box q-time-text">소입 시간</td>
-        <td class="q-time-1 R4167">0</td><td class="q-time-2 R4267">0</td><td class="q-time-3 R4367">0</td><td class="q-time-4 R4467">0</td><td class="q-time-5 R4867">0</td><td class="q-time-6 R4967">0</td>
+        <td class="q-time-0 R4067">0</td><td class="q-time-1 R4167">0</td><td class="q-time-2 R4267">0</td><td class="q-time-3 R4367">0</td><td class="q-time-4 R4467">0</td><td class="q-time-5 R4867">0</td><td class="q-time-6 R4967">0</td>
         <td class="q-time-7 R1067">0</td><td class="q-time-8 R1167">0</td><td class="q-time-9 R1267">0</td><td class="q-time-10 R1367">0</td><td class="q-time-11 R1467">0</td><td class="q-time-12 R1567">0</td><td class="q-time-13 R1667">0</td>
         <td class="q-time-14 R1767">0</td><td class="q-time-15 R1867">0</td><td class="q-time-16 R1967">0</td><td class="q-time-17 R2067">0</td><td class="q-time-18 R2467">0</td><td class="q-time-19 R2567">0</td><td class="q-time-20 R2667">0</td>
         <td class="q-time-21 R2767">0</td><td class="q-time-22 R2867">0</td><td class="q-time-23 R2967">0</td><td class="q-time-24 R3267">0</td><td class="q-time-25 R3367">0</td><td class="q-time-26 R3467">0</td><td class="q-time-27 R3667">0</td>
@@ -450,21 +465,15 @@ font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', s
 
 <script>
 
-//전역변수
-var overviewInterval;
-
 //로드
 $(document).ready(function() {
-	overviewListView();
-	overviewInterval = setInterval("overviewListView()", 2000);
-
 	pollFolderWordTags(4, 1000);
 
 	//처리품데이터 하단 표(27x6) 전체 셀을 클릭->수정->엔터 시 PLC 쓰기 가능하게
 	var PD_TABLE_PREFIXES = ["cycle","pro-onoff","pro-number","line","cool","q-time"];
 	var PD_WRITABLE_NAMES = [];
 	PD_TABLE_PREFIXES.forEach(function(prefix){
-		for (var i = 1; i <= 27; i++) PD_WRITABLE_NAMES.push(prefix + "-" + i);
+		for (var i = 0; i <= 27; i++) PD_WRITABLE_NAMES.push(prefix + "-" + i);
 	});
 	wireInlineEditable(PD_WRITABLE_NAMES);
 
@@ -665,35 +674,6 @@ function pollFolderWordTags(folderId, intervalMs){
 }
 
 //이벤트
-
-//OPC값 알람 조회
-function overviewListView(){
-	$.ajax({
-		url:"/DHT/overviewDataCcf/view",
-		type:"post",
-		dataType:"json",
-		success:function(result){				
-			var data = result.multiValues;
-			
-          for(let key in data){
-          	for(let keys in data[key]){
-          		var d = data[key];
-
-					if(d[keys].action == "v"){
-						v(keys, d[keys].value);
-					}else if(d[keys].action == "c"){
-						c(keys, d[keys].value);
-					}else if(d[keys].action == "b"){
-						b(keys, d[keys].value);
-					}else if(d[keys].action == "value"){
-						value(keys, d[keys].value);
-					}
-
-          	}                    	
-          }
-		}
-	});
-}
 
 function v(keys, value){
 //	$("."+keys).text(value);

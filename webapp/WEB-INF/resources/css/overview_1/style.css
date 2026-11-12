@@ -1,4 +1,4 @@
-﻿.group-3,
+.group-3,
 .group-3 * {
   box-sizing: border-box;
 }
@@ -1225,7 +1225,7 @@
   top: 425px;
   object-fit: cover;
 }
-.moter-green-1 {
+.moter-green-1, .moter-green-1-2 {
   width: 28px;
   height: 20px;
   position: absolute;
@@ -1249,7 +1249,7 @@
   top: 425px;
   object-fit: cover;
 }
-.moter-green-2 {
+.moter-green-2, .moter-green-2-2 {
   width: 28px;
   height: 20px;
   position: absolute;
@@ -1273,7 +1273,7 @@
   top: 426px;
   object-fit: cover;
 }
-.moter-green-3 {
+.moter-green-3, .moter-green-3-2 {
   width: 28px;
   height: 20px;
   position: absolute;
@@ -1297,7 +1297,7 @@
   top: 426px;
   object-fit: cover;
 }
-.moter-green-4 {
+.moter-green-4, .moter-green-4-2 {
   width: 28px;
   height: 20px;
   position: absolute;
@@ -1321,7 +1321,7 @@
   top: 426px;
   object-fit: cover;
 }
-.moter-green-5 {
+.moter-green-5, .moter-green-5-2 {
   width: 28px;
   height: 20px;
   position: absolute;
@@ -1345,7 +1345,7 @@
   top: 427px;
   object-fit: cover;
 }
-.moter-green-6 {
+.moter-green-6, .moter-green-6-2 {
   width: 29px;
   height: 20px;
   position: absolute;
@@ -1369,7 +1369,7 @@
   top: 423px;
   object-fit: cover;
 }
-.moter-green-7 {
+.moter-green-7, .moter-green-7-2 {
   width: 28px;
   height: 20px;
   position: absolute;
@@ -1393,7 +1393,7 @@
   top: 414px;
   object-fit: cover;
 }
-.moter-green-8 {
+.moter-green-8, .moter-green-8-2 {
   width: 29px;
   height: 19px;
   position: absolute;
@@ -1417,7 +1417,7 @@
   top: 431px;
   object-fit: cover;
 }
-.moter-green-9 {
+.moter-green-9, .moter-green-9-2 {
   width: 29px;
   height: 19px;
   position: absolute;
@@ -1441,7 +1441,7 @@
   top: 414px;
   object-fit: cover;
 }
-.moter-green-10 {
+.moter-green-10, .moter-green-10-2 {
   width: 29px;
   height: 19px;
   position: absolute;
@@ -1465,7 +1465,7 @@
   top: 414px;
   object-fit: cover;
 }
-.moter-green-11 {
+.moter-green-11, .moter-green-11-2 {
   width: 29px;
   height: 19px;
   position: absolute;
@@ -1489,7 +1489,7 @@
   top: 414px;
   object-fit: cover;
 }
-.moter-green-12 {
+.moter-green-12, .moter-green-12-2 {
   width: 29px;
   height: 19px;
   position: absolute;
@@ -1513,7 +1513,7 @@
   top: 414px;
   object-fit: cover;
 }
-.moter-green-13 {
+.moter-green-13, .moter-green-13-2 {
   width: 29px;
   height: 19px;
   position: absolute;
@@ -1537,7 +1537,7 @@
   top: 414px;
   object-fit: cover;
 }
-.moter-green-14 {
+.moter-green-14, .moter-green-14-2 {
   width: 29px;
   height: 19px;
   position: absolute;
@@ -1561,7 +1561,7 @@
   top: 414px;
   object-fit: cover;
 }
-.moter-green-15 {
+.moter-green-15, .moter-green-15-2 {
   width: 29px;
   height: 19px;
   position: absolute;
@@ -1585,7 +1585,7 @@
   top: 414px;
   object-fit: cover;
 }
-.moter-green-16 {
+.moter-green-16, .moter-green-16-2 {
   width: 29px;
   height: 19px;
   position: absolute;
@@ -1609,7 +1609,7 @@
   top: 286px;
   object-fit: cover;
 }
-.moter-green-17 {
+.moter-green-17, .moter-green-17-2 {
   width: 29px;
   height: 19px;
   position: absolute;
@@ -4355,7 +4355,7 @@
   transform: rotate(-90deg) scale(1, 1);
   object-fit: cover;
 }
-.moter-green-1 {
+.moter-green-1, .moter-green-1-2 {
   width: 45.7px;
   height: 33.1px;
   position: absolute;
@@ -4456,7 +4456,7 @@
   transform: rotate(-90deg) scale(1, 1);
   object-fit: cover;
 }
-.moter-green-2 {
+.moter-green-2, .moter-green-2-2 {
   width: 45.7px;
   height: 33.1px;
   position: absolute;
@@ -4537,7 +4537,7 @@
   object-fit: cover;
   aspect-ratio: 60/67;
 }
-.moter-green-3 {
+.moter-green-3, .moter-green-3-2 {
   width: 45.7px;
   height: 33.1px;
   position: absolute;
@@ -4606,7 +4606,7 @@
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
 }
-.moter-green-4 {
+.moter-green-4, .moter-green-4-2 {
   width: 45.7px;
   height: 33.1px;
   position: absolute;
@@ -4778,7 +4778,7 @@
   transform-origin: 0 0;
   transform: rotate(0deg) scale(-1, 1);
 }
-.moter-green-5 {
+.moter-green-5, .moter-green-5-2 {
   width: 45.7px;
   height: 33.1px;
   position: absolute;
@@ -4899,7 +4899,7 @@
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
 }
-.moter-green-6 {
+.moter-green-6, .moter-green-6-2 {
   width: 45.7px;
   height: 33.1px;
   position: absolute;
@@ -5033,7 +5033,7 @@
   top: 256.7px;
   object-fit: cover;
 }
-.moter-green-7 {
+.moter-green-7, .moter-green-7-2 {
   width: 45.7px;
   height: 33.1px;
   position: absolute;
@@ -5143,7 +5143,7 @@
   transform: rotate(-90deg) scale(1, 1);
   object-fit: cover;
 }
-.moter-green-8 {
+.moter-green-8, .moter-green-8-2 {
   width: 45.7px;
   height: 33.1px;
   position: absolute;
@@ -5203,7 +5203,7 @@
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
 }
-.moter-green-9 {
+.moter-green-9, .moter-green-9-2 {
   width: 45.7px;
   height: 33.1px;
   position: absolute;
@@ -5318,7 +5318,7 @@
   transform-origin: 0 0;
   transform: rotate(0deg) scale(-1, 1);
 }
-.moter-green-10 {
+.moter-green-10, .moter-green-10-2 {
   width: 45.7px;
   height: 33.1px;
   position: absolute;
@@ -5409,7 +5409,7 @@
   transform: rotate(-90deg) scale(1, 1);
   object-fit: cover;
 }
-.moter-green-11 {
+.moter-green-11, .moter-green-11-2 {
   width: 45.7px;
   height: 33.1px;
   position: absolute;
@@ -5520,7 +5520,7 @@
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
 }
-.moter-green-12 {
+.moter-green-12, .moter-green-12-2 {
   width: 45.7px;
   height: 33.1px;
   position: absolute;
@@ -5644,7 +5644,7 @@
   transform-origin: 0 0;
   transform: rotate(0deg) scale(-1, 1);
 }
-.moter-green-13 {
+.moter-green-13, .moter-green-13-2 {
   width: 45.7px;
   height: 33.1px;
   position: absolute;
@@ -5736,7 +5736,7 @@
   left: 1464.8px;
   top: 281.9px;
 }
-.moter-green-14 {
+.moter-green-14, .moter-green-14-2 {
   width: 45.7px;
   height: 33.1px;
   position: absolute;
@@ -5810,7 +5810,7 @@
   transform: rotate(-90deg) scale(1, 1);
   object-fit: cover;
 }
-.moter-green-15 {
+.moter-green-15, .moter-green-15-2 {
   width: 45.7px;
   height: 33.1px;
   position: absolute;
@@ -5968,7 +5968,7 @@
   left: 1580.2px;
   top: 260.2px;
 }
-.moter-green-16 {
+.moter-green-16, .moter-green-16-2 {
   width: 45.7px;
   height: 33.1px;
   position: absolute;
@@ -6024,7 +6024,7 @@
   transform: rotate(-90deg) scale(1, 1);
   object-fit: cover;
 }
-.moter-green-17 {
+.moter-green-17, .moter-green-17-2 {
   width: 45.7px;
   height: 33.1px;
   position: absolute;

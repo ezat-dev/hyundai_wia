@@ -138,14 +138,8 @@ letter-spacing: .2px;
 </div>
 <script>
 
-//전역변수
-var productCycleCcfInterval;
-
 //로드
 $(document).ready(function() {
-	productCycleCcfView();
-	productCycleCcfInterval = setInterval("productCycleCcfView()", 1000);
-
 	pollFolderWordTags(6, 1000);
 
 	//처리품싸이클 표(전부 설정값) 전체 셀을 클릭->수정->엔터 시 PLC 쓰기 가능하게
@@ -195,33 +189,18 @@ function pollFolderWordTags(folderId, intervalMs){
 	tick();
 }
 
-//OPC값 알람 조회
-function productCycleCcfView(){
-	$.ajax({
-		url:"/DHT/productCycleCcf/view",
-		type:"post",
-		dataType:"json",
-		success:function(result){				
-		var data = result.multiValues;
-			
-          for(let key in data){
-          	for(let keys in data[key]){
-          		var d = data[key];
-					if(d[keys].action == "value"){
-						value(keys, d[keys].value);
-					}
-          	}                    	
-          }
-		}
-	});
+//속도제어 싸이클 데이터 - 침탄존/확산존은 raw가 실제값*100으로 들어옴(계측기 스펙) - 소숫점 2자리로 환산해서 표시/입력
+var SPEED_SCALE = 100;
+function isSpeedCycleTag(name){
+	return /^(chim|diff)-\d+$/.test(name);
 }
-
 
 function value(keys, value){
 	var $el = $("."+keys);
 	if ($el.find("input.inline-edit-input").length) return; //편집 중이면 폴링 갱신 건너뜀
 	if (isStaleAfterWrite(keys, value)) return; //방금 쓴 값인데 서버 캐시가 아직 안 따라왔으면 건너뜀
-	$el.text(value);
+	var displayVal = isSpeedCycleTag(keys) ? (Number(value) / SPEED_SCALE).toFixed(2) : value;
+	$el.text(displayVal);
 }
 
 //쓰기 직후 서버(.NET) 읽기 캐시가 아직 옛값을 들고 있는 동안(최대 3초) 폴링이 덮어쓰지 않게 막는다
@@ -267,8 +246,9 @@ function wireInlineEditable(names, addrMap){
 						$box.text(curVal);
 						return;
 					}
-					markRecentWrite(name, Number(newVal));
-					writeByAddress(addr, Number(newVal), name);
+					var rawVal = isSpeedCycleTag(name) ? Math.round(Number(newVal) * SPEED_SCALE) : Number(newVal);
+					markRecentWrite(name, rawVal);
+					writeByAddress(addr, rawVal, name);
 					$box.text(newVal);
 				} else {
 					$box.text(curVal);
