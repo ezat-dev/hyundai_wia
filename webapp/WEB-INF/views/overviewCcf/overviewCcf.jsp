@@ -149,13 +149,13 @@ font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', s
     <div class="pre-port-cover-3"></div>
     <img class="pre-fire-3 Y02E4" src="/DHT/image/overview_1_gt2/pre-fire-32.png" />
     <img class="pre-blue-fire-3 X0234" src="/DHT/image/overview_1_gt2/pre-blue-fire-42.png" />
-    <img class="pre-fire-4 Y024C" src="/DHT/image/overview_1_gt2/pre-fire-30.png" />
-    <img class="pre-blue-fire-4 X0230" src="/DHT/image/overview_1_gt2/pre-blue-fire-40.png" />
+    <img class="pre-fire-4 X0230" src="/DHT/image/overview_1_gt2/pre-fire-30.png" />
+    <!-- <img class="pre-blue-fire-4 X0230" src="/DHT/image/overview_1_gt2/pre-blue-fire-40.png" /> -->
     <img class="long-fire-1 Y0282" src="/DHT/image/overview_1_1/long-fire-20.png" />
     <img class="pre-blue-fire-6 X0272" src="/DHT/image/overview_1_gt2/pre-blue-fire-40.png" />
     <img class="long-fire-2 Y02E2" src="/DHT/image/overview_1_1/long-fire-20.png" />
     <img class="pre-blue-fire-7 X0273" src="/DHT/image/overview_1_gt2/pre-blue-fire-40.png" />
-    <img class="pre-fire-5 Y024D" src="/DHT/image/overview_1_gt2/pre-fire-30.png" />
+    <img class="pre-fire-5 X0231" src="/DHT/image/overview_1_gt2/pre-fire-30.png" />
     <img class="pre-blue-fire-8 X0273" src="/DHT/image/overview_1_gt2/pre-blue-fire-40.png" />
     <img class="lamp-red-1" src="/DHT/image/overview_1_gt2/lamp-red-10.png" />
     <img class="lamp-green-1 Y03A0" src="/DHT/image/overview_1_gt2/lamp-green-10.png" />

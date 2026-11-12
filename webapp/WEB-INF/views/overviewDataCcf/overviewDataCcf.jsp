@@ -94,16 +94,16 @@ font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', s
     <img class="pre-fire-1 Y0284" src="/DHT/image/overview_1_gt2/pre-fire-31.png" />
     <img class="pre-fire-2 X0273" src="/DHT/image/overview_1_gt2/pre-fire-30.png" />
     <img class="pre-fire-3 Y02E4" src="/DHT/image/overview_1_gt2/pre-fire-32.png" />
-    <img class="pre-fire-4 Y024C" src="/DHT/image/overview_1_gt2/pre-fire-30.png" />
-    <img class="pre-fire-5 Y024D" src="/DHT/image/overview_1_gt2/pre-fire-30.png" />
+    <img class="pre-fire-4 X0230" src="/DHT/image/overview_1_gt2/pre-fire-30.png" />
+    <img class="pre-fire-5 X0231" src="/DHT/image/overview_1_gt2/pre-fire-30.png" />
     <div class="pre-port-box-1"></div>
     <div class="pre-port-cover-1"></div>
-    
+
     <img class="pre-blue-fire-1 X0232" src="/DHT/image/overview_1_gt2/pre-blue-fire-41.png" />
     <img class="pre-blue-fire-2 X0233" src="/DHT/image/overview_1_gt2/pre-blue-fire-41.png" />
     <img class="pre-blue-fire-3 X0234" src="/DHT/image/overview_1_gt2/pre-blue-fire-41.png" />
-    <img class="pre-blue-fire-4 X0230" src="/DHT/image/overview_1_gt2/pre-blue-fire-41.png" />
-    <img class="pre-blue-fire-5 X0231" src="/DHT/image/overview_1_gt2/pre-blue-fire-41.png" />
+    <!-- <img class="pre-blue-fire-4 X0230" src="/DHT/image/overview_1_gt2/pre-blue-fire-41.png" /> -->
+    <!-- <img class="pre-blue-fire-5 X0231" src="/DHT/image/overview_1_gt2/pre-blue-fire-41.png" /> -->
     <img class="pre-blue-fire-6 X0272" src="/DHT/image/overview_1_gt2/pre-blue-fire-41.png" />
     <img class="pre-blue-fire-7 X0273" src="/DHT/image/overview_1_gt2/pre-blue-fire-41.png" />
     <img class="pre-blue-fire-8 X0273" src="/DHT/image/overview_1_gt2/pre-blue-fire-41.png" />

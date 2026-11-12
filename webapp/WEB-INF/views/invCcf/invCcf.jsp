@@ -345,8 +345,17 @@ function pollFolderWordTags(folderId, intervalMs){
 	tick();
 }
 
-function value(keys, value){
-	$("."+keys).text(value);
+//raw가 실제값*100(현재값 Hz, 출력값 A)/ *10(출력값 V)으로 들어옴(인버터 스펙) - 소숫점으로 환산해서 표시
+function value(keys, val){
+	var displayVal;
+	if (/-pv(-\d+)?$/.test(keys) || /-out-a(-\d+)?$/.test(keys)) {
+		displayVal = (Number(val) / 100).toFixed(2);
+	} else if (/-out-v(-\d+)?$/.test(keys)) {
+		displayVal = (Number(val) / 10).toFixed(1);
+	} else {
+		displayVal = val;
+	}
+	$("."+keys).text(displayVal);
 }
 
 </script>
